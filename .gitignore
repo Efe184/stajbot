@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.pdf
+data/profil.md
+data/imports/
+.pytest_cache/
+data/paragraphs/
+data/portfolyo/
+*.pdf
+data/cache/
