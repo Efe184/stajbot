@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Şirketler — {{ app_name }}{% endblock %}
+{% block content %}
+<h2>Şirketler <small class="muted">({{ total }})</small></h2>
+<form method="get" action="/sirketler" class="filters">
+  <div class="grid">
+    <input type="search" name="q" value="{{ filters.q }}" placeholder="Ara: ad, alan adı, sektör, not">
+    <select name="city"><option value="">Tüm şehirler</option>{% for c in cities %}<option value="{{ c }}" {% if c == filters.city %}selected{% endif %}>{{ c }}</option>{% endfor %}</select>
+    <select name="status"><option value="">Tüm durumlar</option>{% for st in AppStatus %}<option value="{{ st.value }}" {% if st.value == filters.status %}selected{% endif %}>{{ APP_STATUS_LABELS[st] }}</option>{% endfor %}</select>
+    <select name="review"><option value="">İnceleme (hepsi)</option>{% for r in ReviewStatus %}<option value="{{ r.value }}" {% if r.value == filters.review %}selected{% endif %}>{{ REVIEW_LABELS[r] }}</option>{% endfor %}</select>
+  </div>
+  <div class="grid">
+    <select name="size"><option value="">Büyüklük (hepsi)</option>{% for s in SizeBucket %}<option value="{{ s.value }}" {% if s.value == filters.size %}selected{% endif %}>{{ SIZE_LABELS[s] }}</option>{% endfor %}</select>
+    <select name="source"><option value="">Kaynak (hepsi)</option>{% for s in sources %}<option value="{{ s }}" {% if s == filters.source %}selected{% endif %}>{{ s }}</option>{% endfor %}</select>
+    <input type="number" name="min_score" min="0" max="100" value="{{ filters.min_score }}" placeholder="En az puan">
+    <select name="sort">
+      {% for k, label in [("score","Puana göre"),("name","Ada göre"),("updated","Son güncelleme"),("created","Eklenme"),("city","Şehre göre")] %}
+      <option value="{{ k }}" {% if k == filters.sort %}selected{% endif %}>{{ label }}</option>{% endfor %}
+    </select>
+    <div class="actions"><button type="submit">Filtrele</button> <a role="button" class="secondary outline" href="/sirketler">Sıfırla</a></div>
+  </div>
+</form>
+<p class="small"><a href="/sirketler.csv?{{ params|urlencode }}">CSV olarak indir</a> (filtreler uygulanır)</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Puan</th><th>Şirket</th><th>Şehir</th><th>Sektör</th><th>E-posta</th><th>İnceleme</th><th>Durum</th><th>Kaynak</th><th>Güncelleme</th></tr></thead>
+  <tbody>
+  {% for c in companies %}
+    <tr>
+      <td class="num"><span class="badge score s{{ (c.score // 20) }}">{{ c.score }}</span></td>
+      <td><a href="/sirketler/{{ c.id }}">{{ c.name }}</a>
+        {% if c.is_arge_center %}<span class="tag">Ar-Ge</span>{% endif %}{% if c.is_teknopark %}<span class="tag">Teknopark</span>{% endif %}{% if c.school_protocol %}<span class="tag">Okul</span>{% endif %}{% if c.blacklisted %}<span class="tag bad">Kara liste</span>{% endif %}
+        {% if c.website|href %}<br><a class="small muted" href="{{ c.website|href }}" target="_blank" rel="noopener">{{ c.domain or c.website }}</a>{% endif %}</td>
+      <td>{{ c.city or "-" }}</td>
+      <td>{{ c.sector or "-" }}</td>
+      <td>{% if c.primary_contact %}<span title="{{ KIND_LABELS[c.primary_contact.kind] }}">{{ c.primary_contact.email }}</span>{% else %}<span class="muted">yok</span>{% endif %}</td>
+      <td>{{ REVIEW_LABELS[c.review_status] }}</td>
+      <td>{{ APP_STATUS_LABELS[c.status] }}</td>
+      <td class="small">{{ c.source_names|join(", ") }}</td>
+      <td class="small muted nowrap">{{ c.updated_at|date }}</td>
+    </tr>
+  {% else %}
+    <tr><td colspan="9" class="muted">Kayıt yok.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% if pages > 1 %}
+<nav class="pager">
+  {% if page > 1 %}<a href="/sirketler?{{ params|urlencode }}&page={{ page - 1 }}">&larr; Önceki</a>{% endif %}
+  <span>Sayfa {{ page }} / {{ pages }}</span>
+  {% if page < pages %}<a href="/sirketler?{{ params|urlencode }}&page={{ page + 1 }}">Sonraki &rarr;</a>{% endif %}
+</nav>
+{% endif %}
+{% endblock %}

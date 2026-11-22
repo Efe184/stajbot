@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}İstatistik — {{ app_name }}{% endblock %}
+{% block content %}
+<h2>İstatistik</h2>
+{% macro table(rows, title) %}
+<article>
+  <h4>{{ title }}</h4>
+  <table class="compact">
+    <thead><tr><th>{{ title }}</th><th class="num">Şirket</th><th class="num">Gönderilen</th><th class="num">Cevap</th><th class="num">Olumlu</th><th class="num">Cevap oranı</th></tr></thead>
+    <tbody>
+    {% for r in rows %}
+      <tr><td>{{ r.key }}</td><td class="num">{{ r.total }}</td><td class="num">{{ r.sent }}</td><td class="num">{{ r.replied }}</td><td class="num">{{ r.positive }}</td><td class="num">{% if r.reply_rate is not none %}{{ "%.0f"|format(r.reply_rate) }}%{% else %}-{% endif %}</td></tr>
+    {% else %}<tr><td colspan="6" class="muted">Veri yok.</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</article>
+{% endmacro %}
+<div class="grid">
+  <article>
+    <h4>Durum dağılımı</h4>
+    <table class="compact"><tbody>{% for st, n in by_status.items() if n %}<tr><td>{{ APP_STATUS_LABELS[st] }}</td><td class="num">{{ n }}</td></tr>{% else %}<tr><td class="muted">Veri yok.</td></tr>{% endfor %}</tbody></table>
+  </article>
+  <article>
+    <h4>Mailler</h4>
+    <table class="compact"><tbody>{% for st, n in mails.items() %}<tr><td>{{ MAIL_LABELS[st] }}</td><td class="num">{{ n }}</td></tr>{% endfor %}</tbody></table>
+  </article>
+</div>
+{{ table(by_source, "Kaynak") }}
+{{ table(by_city, "Şehir") }}
+{{ table(by_sector, "Sektör") }}
+{% endblock %}

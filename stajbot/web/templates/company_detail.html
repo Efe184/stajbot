@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+{% block title %}{{ c.name }} — {{ app_name }}{% endblock %}
+{% block content %}
+<p class="small"><a href="/sirketler">&larr; Şirketler</a></p>
+<hgroup>
+  <h2>{{ c.name }} <span class="badge score s{{ (c.score // 20) }}">{{ c.score }}</span>{% if c.blacklisted %} <span class="tag bad">Kara liste</span>{% endif %}</h2>
+  <p>{{ c.city or "şehir yok" }}{% if c.district %} / {{ c.district }}{% endif %} · {{ c.sector or "sektör bilinmiyor" }} · {{ SIZE_LABELS[c.size_bucket] }}{% if c.employee_count %} (~{{ c.employee_count }} çalışan){% endif %} · Takip kodu <code>{{ c.tracking_code }}</code></p>
+</hgroup>
+
+<div class="grid">
+  <article>
+    <h4>Kart</h4>
+    <table class="compact kv">
+      <tr><th>Durum</th><td><strong>{{ APP_STATUS_LABELS[c.status] }}</strong></td></tr>
+      <tr><th>İnceleme</th><td>{{ REVIEW_LABELS[c.review_status] }}
+        <form method="post" action="/sirketler/{{ c.id }}/inceleme" class="inline">
+          <button name="action" value="approve" class="small">Onayla</button>
+          <button name="action" value="later" class="small secondary">Sonra</button>
+          <button name="action" value="reject" class="small contrast">Reddet</button>
+        </form></td></tr>
+      <tr><th>Web</th><td>{% if c.website|href %}<a href="{{ c.website|href }}" target="_blank" rel="noopener">{{ c.website }}</a>{% else %}{{ c.website or "-" }}{% endif %}</td></tr>
+      <tr><th>Alan adı</th><td>{{ c.domain or "-" }}</td></tr>
+      <tr><th>Telefon</th><td>{{ c.phone or "-" }}</td></tr>
+      <tr><th>Adres</th><td>{{ c.address or "-" }}</td></tr>
+      <tr><th>LinkedIn</th><td>{% if c.linkedin_url|href %}<a href="{{ c.linkedin_url|href }}" target="_blank" rel="noopener">{{ c.linkedin_url }}</a>{% else %}{{ c.linkedin_url or "-" }}{% endif %}</td></tr>
+      <tr><th>Kariyer</th><td>{% if c.career_url|href %}<a href="{{ c.career_url|href }}" target="_blank" rel="noopener">{{ c.career_url }}</a>{% else %}{{ c.career_url or "-" }}{% endif %}{% if c.has_internship_posting %} <span class="tag ok">staj ilanı</span>{% endif %}</td></tr>
+      <tr><th>Bayraklar</th><td>{% if c.is_arge_center %}<span class="tag">Ar-Ge merkezi</span>{% endif %}{% if c.is_teknopark %}<span class="tag">Teknopark{% if c.teknopark_name %}: {{ c.teknopark_name }}{% endif %}</span>{% endif %}{% if c.school_protocol %}<span class="tag">Okul protokolü</span>{% endif %}{% if not (c.is_arge_center or c.is_teknopark or c.school_protocol) %}-{% endif %}</td></tr>
+      <tr><th>Etiketler</th><td>{{ c.tags|join(", ") if c.tags else "-" }}</td></tr>
+      <tr><th>Teknolojiler</th><td>{% for t in c.tech_stack %}<span class="tag tech">{{ t }}</span>{% else %}-{% endfor %}</td></tr>
+      <tr><th>Açıklama</th><td class="small">{{ c.description or "-" }}</td></tr>
+      <tr><th>Öncelik</th><td>{{ c.priority }} / 5</td></tr>
+      <tr><th>Zenginleştirme</th><td>{{ c.enriched_at|dt }}</td></tr>
+      <tr><th>Son temas / hatırlatma</th><td>{{ c.last_contact_at|dt }} / {{ c.next_followup_at|date }}</td></tr>
+      <tr><th>Ara</th><td class="small">
+        <a href="https://www.linkedin.com/search/results/companies/?keywords={{ c.name|urlencode }}" target="_blank" rel="noopener">LinkedIn'de ara</a> ·
+        <a href="https://www.google.com/search?q={{ (c.name ~ ' ' ~ (c.city or ''))|urlencode }}" target="_blank" rel="noopener">Google'da ara</a> ·
+        <a href="https://www.google.com/search?q={{ (c.name ~ ' staj')|urlencode }}" target="_blank" rel="noopener">staj ilanı ara</a></td></tr>
+    </table>
+    <details><summary>Puan açıklaması</summary><ul class="small">{% for line in explanation %}<li>{{ line }}</li>{% endfor %}</ul></details>
+    <div class="actions">
+      <form method="post" action="/sirketler/{{ c.id }}/zenginlestir" class="inline"><button class="small secondary" title="Web sitesini tara (birkaç saniye)">Zenginleştir</button></form>
+      <form method="post" action="/sirketler/{{ c.id }}/puanla" class="inline"><button class="small secondary">Puanı yenile</button></form>
+      <form method="post" action="/sirketler/{{ c.id }}/taslak" class="inline"><label class="inline small"><input type="checkbox" name="use_llm" value="true" {% if settings.llm_configured %}checked{% endif %}> LLM</label><button class="small">Mail taslağı üret</button></form>
+      <form method="post" action="/sirketler/{{ c.id }}/karaliste" class="inline" onsubmit="return confirm('Bu şirkete bir daha mail gitmez. Emin misiniz?')">
+        <input type="hidden" name="flag" value="{{ 'false' if c.blacklisted else 'true' }}"><button class="small contrast outline">{{ "Kara listeden çıkar" if c.blacklisted else "Kara liste" }}</button></form>
+    </div>
+  </article>
+
+  <article>
+    <h4>Durum değiştir</h4>
+    <form method="post" action="/sirketler/{{ c.id }}/durum">
+      <select name="status">{% for st in statuses %}<option value="{{ st.value }}" {% if st == c.status %}selected{% endif %}>{{ APP_STATUS_LABELS[st] }}</option>{% endfor %}</select>
+      <input type="text" name="note" placeholder="Not (ör. 'telefonla görüştük, 12 Mart mülakat')">
+      <button class="small">Kaydet</button>
+      <p class="small muted">Elle her geçiş serbesttir; telefon / mülakat / sunum / teklif aşamalarını buradan işaretleyin. Sistem akışı dışındaki geçişlerde uyarı gösterilir ve işlem zaman çizelgesine kullanıcı işlemi olarak yazılır.</p>
+    </form>
+    <h4>Not ekle</h4>
+    <form method="post" action="/sirketler/{{ c.id }}/not">
+      <textarea name="body" rows="2" placeholder="Not"></textarea><button class="small">Ekle</button>
+    </form>
+    <h4>Kişiler</h4>
+    <table class="compact">
+      <tbody>
+      {% for k in c.contacts %}
+        <tr>
+          <td>{% if k.is_primary %}<strong title="birincil">★</strong>{% endif %} {{ k.email }}</td>
+          <td class="small">{{ KIND_LABELS[k.kind] }}{% if k.name %} · {{ k.name }}{% endif %}{% if k.role %} ({{ k.role }}){% endif %}<br><span class="muted">{{ k.source }}</span></td>
+          <td class="nowrap">
+            {% if not k.is_primary %}<form method="post" action="/sirketler/{{ c.id }}/kisi/{{ k.id }}/birincil" class="inline"><button class="small secondary outline">Birincil</button></form>{% endif %}
+            <form method="post" action="/sirketler/{{ c.id }}/kisi/{{ k.id }}/sil" class="inline"><button class="small contrast outline">Sil</button></form>
+          </td>
+        </tr>
+      {% else %}<tr><td colspan="3" class="muted">E-posta yok. Zenginleştir ya da elle ekle.</td></tr>{% endfor %}
+      </tbody>
+    </table>
+    <form method="post" action="/sirketler/{{ c.id }}/kisi" class="grid">
+      <input type="email" name="email" placeholder="e-posta" required>
+      <input type="text" name="name" placeholder="ad (isteğe bağlı)">
+      <select name="kind"><option value="">tür (otomatik)</option>{% for kd in kinds %}<option value="{{ kd.value }}">{{ KIND_LABELS[kd] }}</option>{% endfor %}</select>
+      <label class="inline small"><input type="checkbox" name="make_primary" value="true"> birincil</label>
+      <button class="small">Kişi ekle</button>
+    </form>
+  </article>
+</div>
+
+<article>
+  <h4>Alanları düzenle</h4>
+  <form method="post" action="/sirketler/{{ c.id }}/alanlar">
+    <div class="grid">
+      <label>Web sitesi<input type="text" name="website" value="{{ c.website or '' }}"></label>
+      <label>Çalışan sayısı<input type="number" name="employee_count" min="0" value="{{ c.employee_count or '' }}"></label>
+      <label>Sektör<input type="text" name="sector" value="{{ c.sector or '' }}"></label>
+      <label>Öncelik (1-5)<input type="number" name="priority" min="1" max="5" value="{{ c.priority }}"></label>
+    </div>
+    <div class="grid">
+      <label>LinkedIn<input type="text" name="linkedin_url" value="{{ c.linkedin_url or '' }}"></label>
+      <label>Kariyer sayfası<input type="text" name="career_url" value="{{ c.career_url or '' }}"></label>
+    </div>
+    <div class="grid">
+      <label class="inline"><input type="checkbox" name="school_protocol" value="true" {% if c.school_protocol %}checked{% endif %}> Okul protokolü</label>
+      <label class="inline"><input type="checkbox" name="is_arge_center" value="true" {% if c.is_arge_center %}checked{% endif %}> Ar-Ge merkezi</label>
+      <label class="inline"><input type="checkbox" name="is_teknopark" value="true" {% if c.is_teknopark %}checked{% endif %}> Teknopark</label>
+      <label class="inline"><input type="checkbox" name="has_internship_posting" value="true" {% if c.has_internship_posting %}checked{% endif %}> Staj ilanı var</label>
+    </div>
+    <label>Notlar<textarea name="notes" rows="2">{{ c.notes or '' }}</textarea></label>
+    <button class="small">Kaydet</button>
+  </form>
+</article>
+
+<div class="grid">
+  <article>
+    <h4>Kaynaklar</h4>
+    {% for s in c.sources %}
+      <details><summary><strong>{{ s.source }}</strong> <span class="muted small">{{ s.collected_at|dt }}</span>{% if s.source_url|href %} · <a href="{{ s.source_url|href }}" target="_blank" rel="noopener" class="small">kaynak</a>{% endif %}</summary><pre class="small">{{ s.raw|tojson(indent=1) }}</pre></details>
+    {% else %}<p class="muted">Kaynak kaydı yok.</p>{% endfor %}
+  </article>
+  <article>
+    <h4>Mailler</h4>
+    {% for m in c.emails %}
+      <details>
+        <summary>{{ "⇦" if m.direction.value == "inbound" else "⇨" }} <strong>{{ MAIL_LABELS[m.status] }}</strong> {{ m.subject or "(konu yok)" }} <span class="muted small">{{ (m.sent_at or m.received_at or m.created_at)|dt }}</span>{% if m.direction.value == "inbound" %} · tahmin: {{ SENTIMENT_LABELS[m.sentiment] }}{% endif %}</summary>
+        <p class="small muted">{{ m.from_addr or "" }} → {{ m.to_addr or "" }}</p>
+        <pre class="mailbody">{{ m.body_text or "" }}</pre>
+        {% if m.status.value in ("draft","approved") %}<a href="/mailler?tab={{ m.status.value }}&company={{ c.id }}" class="small">Maillerde aç</a>{% endif %}
+      </details>
+    {% else %}<p class="muted">Mail yok.</p>{% endfor %}
+  </article>
+</div>
+
+<article>
+  <h4>Zaman çizelgesi</h4>
+  <table class="compact">
+    <tbody>
+    {% for e in c.events %}
+      <tr>
+        <td class="muted nowrap small">{{ e.occurred_at|dt }}</td>
+        <td class="small">{{ EVENT_TYPE_LABELS.get(e.type, e.type.value) }}</td>
+        <td>{{ e.title }}{% if e.body %}<br><span class="small muted">{{ e.body[:600] }}</span>{% endif %}</td>
+        <td class="small muted">{{ ACTOR_LABELS.get(e.created_by, e.created_by.value) }}</td>
+      </tr>
+    {% else %}<tr><td class="muted">Henüz olay yok.</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</article>
+{% endblock %}

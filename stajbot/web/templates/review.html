@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}İnceleme — {{ app_name }}{% endblock %}
+{% block content %}
+<h2>İnceleme kuyruğu <small class="muted" id="review-count">({{ total }} bekleyen)</small></h2>
+<form method="get" action="/inceleme" class="grid filters">
+  <select name="city"><option value="">Tüm şehirler</option>{% for c in cities %}<option value="{{ c }}" {% if c == city %}selected{% endif %}>{{ c }}</option>{% endfor %}</select>
+  <label class="inline"><input type="checkbox" name="only_email" value="true" {% if only_email %}checked{% endif %}> yalnızca e-postası olanlar</label>
+  <button class="small">Filtrele</button>
+</form>
+<p class="small muted">Onayla: şirket e-postası varsa "Hazır" olur ve mail taslağı üretilebilir. Reddet: kapanır. Sonra: kuyruktan çıkar, sonra bakarsınız.</p>
+<div class="cards">
+{% for c in companies %}
+  <article class="card" id="card-{{ c.id }}">
+    <header>
+      <span class="badge score s{{ (c.score // 20) }}">{{ c.score }}</span>
+      <a href="/sirketler/{{ c.id }}"><strong>{{ c.name }}</strong></a>
+      <span class="muted">{{ c.city or "-" }}{% if c.district %} / {{ c.district }}{% endif %}</span>
+    </header>
+    <p class="small">
+      {{ c.sector or "sektör bilinmiyor" }} · {{ SIZE_LABELS[c.size_bucket] }} · kaynak: {{ c.source_names|join(", ") or "-" }}
+      {% if c.is_arge_center %}<span class="tag">Ar-Ge</span>{% endif %}{% if c.is_teknopark %}<span class="tag">Teknopark</span>{% endif %}{% if c.school_protocol %}<span class="tag">Okul</span>{% endif %}{% if c.has_internship_posting %}<span class="tag ok">staj ilanı</span>{% endif %}
+    </p>
+    <p class="small">{% if c.website|href %}<a href="{{ c.website|href }}" target="_blank" rel="noopener">{{ c.domain or c.website }}</a> · {% endif %}
+      {% if c.primary_contact %}{{ c.primary_contact.email }} ({{ KIND_LABELS[c.primary_contact.kind] }}){% else %}<span class="muted">e-posta yok</span>{% endif %}
+      {% if c.tech_stack %} · {{ c.tech_stack[:6]|join(", ") }}{% endif %}</p>
+    {% if c.description %}<p class="small muted">{{ c.description[:220] }}</p>{% endif %}
+    <footer class="actions">
+      <button hx-post="/inceleme/{{ c.id }}/onayla" hx-target="#card-{{ c.id }}" hx-swap="outerHTML">Onayla</button>
+      <button class="secondary" hx-post="/inceleme/{{ c.id }}/sonra" hx-target="#card-{{ c.id }}" hx-swap="outerHTML">Sonra</button>
+      <button class="contrast" hx-post="/inceleme/{{ c.id }}/reddet" hx-target="#card-{{ c.id }}" hx-swap="outerHTML">Reddet</button>
+    </footer>
+  </article>
+{% else %}
+  <article><p class="muted">Bekleyen şirket yok. Yeni şirket toplamak için <code>python -m stajbot collect</code>.</p></article>
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Pano — {{ app_name }}{% endblock %}
+{% block content %}
+<h2>Pano</h2>
+<div class="grid tiles">
+  <article><small>Şirket</small><h3>{{ total }}</h3><a href="/sirketler">liste</a></article>
+  <article><small>Bekleyen onay</small><h3>{{ pending_review }}</h3><a href="/inceleme">inceleme kuyruğu</a></article>
+  <article><small>Taslak / onaylı mail</small><h3>{{ drafts }} / {{ approved }}</h3><a href="/mailler">mailler</a></article>
+  <article><small>Bugün gönderilen</small><h3>{{ sent_today }}</h3><span class="muted">limit {{ settings.daily_send_limit }}</span></article>
+  <article><small>Sahipsiz gelen mail</small><h3>{{ unmatched }}</h3><a href="/gelen?tab=unmatched">bağla</a></article>
+  <article><small>Cevap oranı</small><h3>{% if reply_rate is not none %}{{ "%.0f"|format(reply_rate) }}%{% else %}-{% endif %}</h3><span class="muted">{{ replied_like }} / {{ sent_like }}</span></article>
+</div>
+
+<div class="grid">
+  <article>
+    <h4>Durumlar</h4>
+    <table class="compact">
+      <tbody>
+      {% for st, n in by_status.items() if n %}
+        <tr><td><a href="/sirketler?status={{ st.value }}">{{ APP_STATUS_LABELS[st] }}</a></td><td class="num">{{ n }}</td></tr>
+      {% else %}
+        <tr><td class="muted">Henüz şirket yok. Önce <code>python -m stajbot collect</code> ya da <code>import-csv</code> çalıştırın.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </article>
+  <article>
+    <h4>Yaklaşan hatırlatmalar (3 gün)</h4>
+    {% if upcoming %}
+    <ul>
+      {% for c in upcoming %}<li><a href="/sirketler/{{ c.id }}">{{ c.name }}</a> <span class="muted">{{ c.next_followup_at|date }}</span></li>{% endfor %}
+    </ul>
+    <p class="small muted">Hatırlatma taslakları için: <code>python -m stajbot followups</code></p>
+    {% else %}<p class="muted">Yok.</p>{% endif %}
+  </article>
+</div>
+
+<article>
+  <h4>Son hareketler</h4>
+  {% if recent_events %}
+  <table class="compact">
+    <tbody>
+    {% for e in recent_events %}
+      <tr>
+        <td class="muted nowrap">{{ e.occurred_at|dt }}</td>
+        <td><a href="/sirketler/{{ e.company_id }}">{{ e.company.name if e.company else e.company_id }}</a></td>
+        <td>{{ e.title }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% else %}<p class="muted">Henüz hareket yok.</p>{% endif %}
+</article>
+{% endblock %}

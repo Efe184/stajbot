@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Ayarlar — {{ app_name }}{% endblock %}
+{% block content %}
+<h2>Ayarlar</h2>
+<div class="grid">
+  <article>
+    <h4>Durum</h4>
+    <ul class="small">
+      <li>E-posta (SMTP/IMAP): {% if mail_ok %}<span class="tag ok">hazır</span>{% else %}<span class="tag bad">MAIL_USER / MAIL_PASSWORD eksik</span>{% endif %} · mod <strong>{{ settings.mail_mode }}</strong></li>
+      <li>LLM (Anthropic): {% if llm_ok %}<span class="tag ok">anahtar var</span> ({{ settings.llm_model }}){% else %}<span class="tag">anahtar yok — şablon paragrafı kullanılır</span>{% endif %}</li>
+      <li>Google Places: {% if places_ok %}<span class="tag ok">anahtar var</span>{% else %}<span class="tag">anahtar yok — kaynak atlanır</span>{% endif %}</li>
+      <li>Ekler: {% if attachments %}{{ attachments|join(", ") }}{% else %}<span class="muted">yok (data/cv.pdf ekleyin)</span>{% endif %}</li>
+    </ul>
+    <p class="small muted">Ayarlar <code>.env</code> dosyasından okunur ve burada salt okunurdur; gizli değerler maskelidir. Değiştirmek için <code>.env</code> dosyasını düzenleyip komutu / sunucuyu yeniden başlatın.</p>
+    {% for title, rows in groups %}
+    <details {% if loop.first %}open{% endif %}><summary>{{ title }}</summary>
+      <table class="compact kv">{% for k, v in rows %}<tr><th>{{ k|upper }}</th><td><code>{{ v }}</code></td></tr>{% endfor %}</table>
+    </details>
+    {% endfor %}
+  </article>
+  <article>
+    <h4>Profil (<code>{{ profile_path }}</code>)</h4>
+    {% if not profile_exists %}<p class="small">Profil dosyası yok. Aşağıdaki örnek yüklendi; düzenleyip kaydedin. LLM paragrafı ve puanlamadaki teknoloji eşleşmesi bu metni kullanır.</p>{% endif %}
+    <form method="post" action="/ayarlar/profil">
+      <textarea name="text" rows="28">{{ profile or example }}</textarea>
+      <button>Profili kaydet</button>
+    </form>
+  </article>
+</div>
+{% endblock %}

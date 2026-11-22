@@ -1,0 +1,34 @@
+<article class="card mail" id="mail-{{ m.id }}">
+  <header>
+    <strong>{% if m.company %}<a href="/sirketler/{{ m.company.id }}">{{ m.company.name }}</a>{% else %}(şirket yok){% endif %}</strong>
+    <span class="tag">{{ MAIL_LABELS[m.status] }}</span>{% if m.template_name %}<span class="tag tech">{{ m.template_name }}</span>{% endif %}{% if m.llm_paragraph %}<span class="tag ok">LLM</span>{% endif %}
+    <span class="muted small">→ {{ m.to_addr }} · {{ (m.sent_at or m.created_at)|dt }}{% if m.message_id %} · {{ m.message_id }}{% endif %}</span>
+    {% if msg %}<span class="flash inline">{{ msg }}</span>{% endif %}
+  </header>
+  {% if m.error %}<p class="bad small">Hata: {{ m.error }}</p>{% endif %}
+  {% if m.status.value in ("draft", "approved") %}
+  <form method="post" action="/mailler/{{ m.id }}/duzenle" hx-post="/mailler/{{ m.id }}/duzenle" hx-target="#mail-{{ m.id }}" hx-swap="outerHTML">
+    <input type="text" name="subject" value="{{ m.subject or '' }}">
+    <textarea name="body_text" rows="14">{{ m.body_text or '' }}</textarea>
+    <div class="actions">
+      <button class="small secondary">Kaydet</button>
+      {% if m.status.value == "draft" %}
+        <button class="small" formaction="/mailler/{{ m.id }}/onayla" hx-post="/mailler/{{ m.id }}/onayla" hx-target="#mail-{{ m.id }}" hx-swap="outerHTML">Onayla</button>
+        <button class="small secondary outline" formaction="/mailler/{{ m.id }}/yeniden-uret" hx-post="/mailler/{{ m.id }}/yeniden-uret" hx-target="#mail-{{ m.id }}" hx-swap="outerHTML" title="Şablon + LLM ile yeniden üret (düzenlemeleriniz silinir)">Paragrafı yeniden üret</button>
+      {% else %}
+        <button class="small secondary outline" formaction="/mailler/{{ m.id }}/geri-al" hx-post="/mailler/{{ m.id }}/geri-al" hx-target="#mail-{{ m.id }}" hx-swap="outerHTML">Taslağa döndür</button>
+      {% endif %}
+      <button class="small contrast outline" formaction="/mailler/{{ m.id }}/sil" hx-post="/mailler/{{ m.id }}/sil" hx-target="#mail-{{ m.id }}" hx-swap="outerHTML" hx-confirm="Taslak silinsin mi?">Sil</button>
+    </div>
+  </form>
+  {% else %}
+  <p><strong>{{ m.subject }}</strong></p>
+  <pre class="mailbody">{{ m.body_text or '' }}</pre>
+  {% if m.status.value == "failed" %}
+  <div class="actions">
+    <form method="post" action="/mailler/{{ m.id }}/geri-al" class="inline"><button class="small secondary outline">Taslağa döndür</button></form>
+    <form method="post" action="/mailler/{{ m.id }}/sil" class="inline"><button class="small contrast outline">Sil</button></form>
+  </div>
+  {% endif %}
+  {% endif %}
+</article>

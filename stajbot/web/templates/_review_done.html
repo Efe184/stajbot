@@ -1,0 +1,4 @@
+<article class="card done" id="card-{{ c.id }}">
+  <span class="muted"><a href="/sirketler/{{ c.id }}">{{ c.name }}</a>: <strong>{{ msg }}</strong> — {{ APP_STATUS_LABELS[c.status] }}</span>
+</article>
+{% if pending is defined %}<small class="muted" id="review-count" hx-swap-oob="true">({{ pending }} bekleyen)</small>{% endif %}

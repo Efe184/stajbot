@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Mailler — {{ app_name }}{% endblock %}
+{% block content %}
+<h2>Mailler</h2>
+<nav class="tabs">
+  <ul>
+    {% for t, label in [("draft","Taslaklar"),("approved","Onaylananlar"),("sent","Gönderilenler"),("failed","Hatalı")] %}
+    <li><a href="/mailler?tab={{ t }}{% if company %}&company={{ company }}{% endif %}" {% if t == tab %}aria-current="page"{% endif %}>{{ label }} ({{ counts[t] }})</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+<article class="small">
+  <strong>Hazır şirket:</strong> {{ ready_count }} (taslak için <code>python -m stajbot compose --all-ready</code> ya da şirket sayfasından "Mail taslağı üret")
+  · mod: <strong>{{ settings.mail_mode }}</strong>, günlük limit {{ settings.daily_send_limit }}, pencere {{ settings.send_window }}
+  <form method="post" action="/mailler/gonder" class="inline" hx-post="/mailler/gonder" hx-target="#send-notice" hx-swap="innerHTML">
+    <select name="dry_run" class="small" aria-label="Gönderim türü">
+      <option value="true" selected>Prova (gönderilmez, yalnızca rapor)</option>
+      <option value="false">Gerçek gönderim</option>
+    </select>
+    <label class="inline"><input type="checkbox" name="force" value="true"> saat kontrolünü aş</label>
+    <button class="small" {% if counts.approved == 0 %}disabled{% endif %}>Gönderimi başlat ({{ counts.approved }})</button>
+  </form>
+  <div id="send-notice">
+    {% if last_report %}<p class="muted">Son gönderim{% if last_report.dry_run %} (prova){% endif %}: {% if last_report.error %}hata: {{ last_report.error }}{% else %}gönderilen {{ last_report.sent }}, atlanan {{ last_report.skipped }}, hatalı {{ last_report.failed }}{% if last_report.reason %} — {{ last_report.reason }}{% endif %}{% if last_report.errors %}<br><span class="bad small">{{ last_report.errors|join(" · ") }}</span>{% endif %}{% endif %}</p>{% endif %}
+  </div>
+</article>
+<div class="cards">
+{% for m in messages %}
+  {% include "_mail_card.html" %}
+{% else %}
+  <article><p class="muted">Bu sekmede mesaj yok.</p></article>
+{% endfor %}
+</div>
+{% endblock %}

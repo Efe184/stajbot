@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Gelen kutusu — {{ app_name }}{% endblock %}
+{% block content %}
+<h2>Gelen kutusu</h2>
+<nav class="tabs">
+  <ul>
+    <li><a href="/gelen?tab=matched" {% if tab == "matched" %}aria-current="page"{% endif %}>Eşleşen ({{ counts.matched }})</a></li>
+    <li><a href="/gelen?tab=unmatched" {% if tab == "unmatched" %}aria-current="page"{% endif %}>Sahipsiz ({{ counts.unmatched }})</a></li>
+  </ul>
+  <form method="post" action="/gelen/oku" class="inline"><button class="small" {% if not mail_ok %}disabled title="MAIL_USER / MAIL_PASSWORD gerekli"{% endif %}>Gelen kutusunu oku (IMAP)</button></form>
+</nav>
+{% if not mail_ok %}<p class="small muted">IMAP için .env içinde MAIL_USER ve MAIL_PASSWORD (Gmail uygulama şifresi) gerekir. Komut satırı: <code>python -m stajbot inbox</code></p>{% endif %}
+<div class="cards">
+{% for m in messages %}
+  <article class="card">
+    <header>
+      <strong>{{ m.from_addr or "?" }}</strong> · {{ m.subject or "(konu yok)" }} <span class="muted small">{{ m.received_at|dt }}</span>
+      {% if m.company %} → <a href="/sirketler/{{ m.company.id }}">{{ m.company.name }}</a> <span class="tag">{{ MATCH_LABELS[m.matched_by] }}</span>{% endif %}
+      <span class="tag {% if m.sentiment.value == 'positive' %}ok{% elif m.sentiment.value == 'negative' %}bad{% endif %}">tahmin: {{ SENTIMENT_LABELS[m.sentiment] }}</span>
+    </header>
+    <pre class="mailbody">{{ (m.body_text or "")[:3000] }}</pre>
+    <footer class="actions">
+      {% if m.company %}
+      <form method="post" action="/gelen/{{ m.id }}/duygu" class="inline">
+        <select name="sentiment">{% for s in sentiments %}<option value="{{ s.value }}" {% if s == m.sentiment %}selected{% endif %}>{{ SENTIMENT_LABELS[s] }}</option>{% endfor %}</select>
+        <label class="inline small"><input type="checkbox" name="apply_status" value="true"> şirket durumunu da güncelle</label>
+        <button class="small secondary">Onayla</button>
+      </form>
+      {% else %}
+      <form method="post" action="/gelen/{{ m.id }}/bagla" class="inline">
+        <select name="company_id" required><option value="">Şirket seç…</option>{% for c in companies %}<option value="{{ c.id }}">{{ c.name }} ({{ c.city or "-" }})</option>{% endfor %}</select>
+        <button class="small">Bağla</button>
+      </form>
+      {% endif %}
+    </footer>
+  </article>
+{% else %}
+  <article><p class="muted">Mesaj yok.</p></article>
+{% endfor %}
+</div>
+{% if tab == "unmatched" %}
+<form method="get" action="/gelen" class="inline small"><input type="hidden" name="tab" value="unmatched"><input type="search" name="q" value="{{ q }}" placeholder="Şirket listesini daralt"><button class="small secondary">Ara</button></form>
+{% endif %}
+{% endblock %}

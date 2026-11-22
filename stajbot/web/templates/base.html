@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ app_name }}{% endblock %}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css">
+  <script src="https://unpkg.com/htmx.org@2.0.4/dist/htmx.min.js" defer></script>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<nav class="container">
+  <ul><li><strong><a href="/" class="brand">StajBot</a></strong></li></ul>
+  <ul>
+    <li><a href="/sirketler">Şirketler</a></li>
+    <li><a href="/inceleme">İnceleme</a></li>
+    <li><a href="/mailler">Mailler</a></li>
+    <li><a href="/gelen">Gelen</a></li>
+    <li><a href="/istatistik">İstatistik</a></li>
+    <li><a href="/ayarlar">Ayarlar</a></li>
+  </ul>
+</nav>
+<main class="container">
+  {% if flash %}<article class="flash" role="status">{{ flash }}</article>{% endif %}
+  {% block content %}{% endblock %}
+</main>
+<footer class="container muted small">StajBot v{{ version }} — mail modu: <strong>{{ settings.mail_mode }}</strong>{% if not settings.mail_configured %} · MAIL_USER tanımlı değil{% endif %}</footer>
+</body>
+</html>
