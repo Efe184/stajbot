@@ -1,0 +1,19 @@
+Sayın {{ contact_name or "İnsan Kaynakları Yetkilisi" }},
+
+Ben {{ settings.user_full_name }}, {% if settings.user_school %}{{ settings.user_school }} {% endif %}{{ settings.user_department }} {{ settings.user_class }} öğrencisiyim. {{ settings.internship_term }} döneminde{% if term_dates %} ({{ term_dates }}){% endif %} İşyeri Mesleki Eğitim kapsamında uzun dönem ve yüz yüze staj yapmak üzere {{ short_name }} bünyesinde değerlendirilmek istiyorum.
+
+{% if why_paragraph %}{{ why_paragraph }}{% else %}Savunma ve havacılık alanında yürütülen projelerin gerektirdiği güvenilirlik, disiplin ve mühendislik titizliği beni bu alana yönlendiren temel etkenler. {{ short_name | gen }} bu alandaki çalışmalarına yazılım tarafında katkı sunmak ve uzun soluklu bir staj ile gerçek sistem geliştirme süreçlerini yerinde öğrenmek istiyorum.{% endif %}
+
+{% if techs %}{{ techs | listele }} gibi teknolojilerle projeler geliştirdim{% else %}Eğitimim boyunca yazılım geliştirme projelerinde yer aldım{% endif %}{% if projects %}; {{ projects | listele }} bu çalışmalardan bazılarıdır{% endif %}. Gömülü ve gerçek zamanlı sistemler, algoritma tasarımı ve veri işleme konularına ilgi duyuyorum; dokümantasyona, test disiplinine ve belirlenen süreçlere uymaya özen gösteririm. T.C. vatandaşıyım; gerekli güvenlik soruşturması ve gizlilik süreçlerine uyum sağlamaya hazırım.
+
+İşyeri Mesleki Eğitim, dönem boyunca okul yerine iş yerinde geçirilen tam zamanlı bir uygulama dönemidir; bu süre içinde haftanın iş günlerinde yüz yüze çalışabilirim. Sigorta ve protokol işlemleri okulum tarafından yürütülmektedir; gerekli belgeleri ve transkriptimi talep etmeniz hâlinde hemen iletebilirim.
+
+{% if has_attachment %}Özgeçmişim ektedir.{% else %}Özgeçmişimi ve ek belgelerimi talep etmeniz hâlinde iletebilirim.{% endif %} Uygun görmeniz hâlinde görüşme için müsaitim. İlginiz için teşekkür ederim.
+
+Saygılarımla,
+{{ settings.user_full_name }}
+{% if settings.user_school %}{{ settings.user_school }} – {% endif %}{{ settings.user_department }}
+{% if settings.user_phone %}Tel: {{ settings.user_phone }}
+{% endif %}{% if settings.mail_user %}E-posta: {{ settings.mail_user }}
+{% endif %}
+Referans: {{ tracking_code }}

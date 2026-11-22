@@ -1,0 +1,15 @@
+Sayın {{ contact_name or "İnsan Kaynakları Yetkilisi" }},
+
+{% if first_sent_at %}{{ first_sent_at }} tarihinde{% else %}Kısa süre önce{% endif %} {{ settings.internship_term }} dönemi için {{ short_name }} bünyesinde uzun dönem (İşyeri Mesleki Eğitim) staj başvurumu iletmiştim. Yoğunluğunuzun farkındayım; başvurumun hâlâ değerlendirmeye açık olduğunu hatırlatmak için yazıyorum.
+
+{{ short_name | loc }} staj yapma isteğim devam ediyor. İhtiyaç duyulursa transkriptimi ve okulun protokol belgelerini gönderebilirim; kısa bir görüşme için her zaman müsaitim.
+
+{% if has_attachment %}Özgeçmişim bir kez daha ektedir. {% endif %}Zaman ayırdığınız için teşekkür ederim.
+
+Saygılarımla,
+{{ settings.user_full_name }}
+{% if settings.user_school %}{{ settings.user_school }} – {% endif %}{{ settings.user_department }}
+{% if settings.user_phone %}Tel: {{ settings.user_phone }}
+{% endif %}{% if settings.mail_user %}E-posta: {{ settings.mail_user }}
+{% endif %}
+Referans: {{ tracking_code }}

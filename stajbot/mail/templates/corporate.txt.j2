@@ -1,0 +1,19 @@
+Sayın {{ contact_name or "İnsan Kaynakları Yetkilisi" }},
+
+Ben {{ settings.user_full_name }}, {% if settings.user_school %}{{ settings.user_school }} {% endif %}{{ settings.user_department }} {{ settings.user_class }} öğrencisiyim. {{ settings.internship_term }} döneminde{% if term_dates %} ({{ term_dates }}){% endif %} İşyeri Mesleki Eğitim programı kapsamında uzun dönem ve yüz yüze staj yapma zorunluluğum bulunmaktadır. Bu dönemi {{ short_name }} bünyesinde geçirmek üzere başvurumu sunmak istiyorum.
+
+{% if why_paragraph %}{{ why_paragraph }}{% else %}{{ short_name | gen }} {% if company.is_arge_center %}Ar-Ge merkezi kimliği ve {% endif %}{% if company.sector %}{{ company.sector | lower }} alanındaki {% endif %}kurumsal ölçekli projeleri, mühendislik disiplinini ve ekip çalışmasını yerinde öğrenmem için ideal bir ortam sunuyor. Yapılandırılmış geliştirme süreçleri içinde sorumluluk alarak katkı sağlamayı hedefliyorum.{% endif %}
+
+{% if techs %}Eğitimim süresince {{ techs | listele }} gibi teknolojilerle projeler geliştirdim{% else %}Eğitimim süresince farklı yazılım geliştirme projelerinde yer aldım{% endif %}{% if projects %}; {{ projects | listele }} bu çalışmalardan bazılarıdır{% endif %}. Öğrenme hızım, planlı çalışma alışkanlığım ve ekip içi iletişim becerilerimle kurumunuza değer katacağıma inanıyorum; kurumsal süreçlere, dokümantasyona ve kalite standartlarına uyum sağlamaya hazırım.
+
+İşyeri Mesleki Eğitim, dönem boyunca okul yerine iş yerinde geçirilen tam zamanlı bir uygulama dönemidir; bu süre içinde haftanın iş günlerinde yüz yüze çalışabilirim. Sigorta ve protokol işlemleri okulum tarafından yürütülmektedir ve kurumunuza ek bir idari yük oluşturmaz; gerekli belgeleri ve transkriptimi talep edilmesi hâlinde hemen iletebilirim.
+
+{% if has_attachment %}Özgeçmişim ekte yer almaktadır.{% else %}Özgeçmişimi ve ek belgelerimi talep edilmesi hâlinde iletebilirim.{% endif %} Uygun görülmesi hâlinde bir görüşme için müsait olduğumu belirtmek isterim. İlginiz için teşekkür ederim.
+
+Saygılarımla,
+{{ settings.user_full_name }}
+{% if settings.user_school %}{{ settings.user_school }} – {% endif %}{{ settings.user_department }}
+{% if settings.user_phone %}Tel: {{ settings.user_phone }}
+{% endif %}{% if settings.mail_user %}E-posta: {{ settings.mail_user }}
+{% endif %}
+Referans: {{ tracking_code }}

@@ -1,0 +1,19 @@
+Merhaba {{ contact_name or (short_name ~ " ekibi") }},
+
+Ben {{ settings.user_full_name }}, {% if settings.user_school %}{{ settings.user_school }} {% endif %}{{ settings.user_department }} {{ settings.user_class }} öğrencisiyim. {{ settings.internship_term }} döneminde{% if term_dates %} ({{ term_dates }}){% endif %} İşyeri Mesleki Eğitim kapsamında uzun dönem, yüz yüze staj yapacağım ve bu dönemi {{ short_name }} bünyesindeki oyun geliştirme ekibinin bir parçası olarak geçirmek istiyorum.
+
+{% if why_paragraph %}{{ why_paragraph }}{% else %}Oyun geliştirme; grafik, fizik, oynanış tasarımı ve performans optimizasyonunu aynı anda düşünmeyi gerektiren, beni en çok heyecanlandıran alan. {{ short_name | gen }} oyun geliştirme alanındaki çalışmalarını ilgiyle takip ediyorum ve bu ekipte hem teknik hem de yaratıcı tarafta öğrenecek çok şeyim olduğunu düşünüyorum.{% endif %}
+
+{% if techs %}{{ techs | listele }} ile bireysel ve ekip projeleri geliştirdim{% else %}Eğitimim boyunca bireysel oyun prototipleri ve yazılım projeleri geliştirdim{% endif %}{% if projects %}; {{ projects | listele }} bunlardan birkaçı{% endif %}. Oyun motorları, gerçek zamanlı sistemler ve performans konularında çalışmaya hevesliyim; yeni bir aracı kısa sürede öğrenip ekibin iş akışına uyum sağlayabiliyorum.
+
+Uzun dönem staj bir dönem boyunca sürer; bu süre içinde haftanın iş günlerinde tam zamanlı ve yüz yüze çalışabilirim. Sigorta ve protokol işlemleri okulum tarafından yürütülür, size ek bir idari yük oluşturmaz; gerekli belgeleri ve transkriptimi istediğiniz anda iletebilirim.
+
+{% if has_attachment %}Özgeçmişim ekte; {% else %}Özgeçmişimi istediğinizde paylaşabilirim; {% endif %}portföyümü ve projelerimi kısa bir görüşmede memnuniyetle anlatırım. Zamanınız için teşekkürler.
+
+İyi çalışmalar,
+{{ settings.user_full_name }}
+{% if settings.user_school %}{{ settings.user_school }} – {% endif %}{{ settings.user_department }}
+{% if settings.user_phone %}Tel: {{ settings.user_phone }}
+{% endif %}{% if settings.mail_user %}E-posta: {{ settings.mail_user }}
+{% endif %}
+Referans: {{ tracking_code }}
