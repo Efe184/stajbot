@@ -1,0 +1,170 @@
+[
+ {
+  "id": 131,
+  "name": "Akıllı Şehir Teknolojileri",
+  "slug": "akilli-sehir-teknolojileri",
+  "count": 3
+ },
+ {
+  "id": 213,
+  "name": "Backend",
+  "slug": "backend",
+  "count": 1
+ },
+ {
+  "id": 202,
+  "name": "BANKACILIK",
+  "slug": "bankacilik",
+  "count": 1
+ },
+ {
+  "id": 204,
+  "name": "bankacılık",
+  "slug": "bankacilik-2",
+  "count": 0
+ },
+ {
+  "id": 133,
+  "name": "Bilişim Hizmetleri Yazılımları",
+  "slug": "bilisim-hizmetleri-yazilimlari",
+  "count": 22
+ },
+ {
+  "id": 137,
+  "name": "Coğrafi Bilgi Sistemleri",
+  "slug": "cografi-bilgi-sistemleri",
+  "count": 3
+ },
+ {
+  "id": 143,
+  "name": "Depo Yönetimi ve İzlenebilirlik",
+  "slug": "depo-yonetimi-ve-izlenebilirlik",
+  "count": 2
+ },
+ {
+  "id": 136,
+  "name": "Dijitalleşme Araçları",
+  "slug": "dijitallesme-araclari",
+  "count": 10
+ },
+ {
+  "id": 139,
+  "name": "E-Devlet Yazılımları",
+  "slug": "e-devlet-yazilimlari",
+  "count": 3
+ },
+ {
+  "id": 142,
+  "name": "Eğitim Yazılımları",
+  "slug": "egitim-yazilimlari",
+  "count": 2
+ },
+ {
+  "id": 132,
+  "name": "ERP &amp; PLM",
+  "slug": "erp-plm",
+  "count": 36
+ },
+ {
+  "id": 211,
+  "name": "Frontend",
+  "slug": "frontend",
+  "count": 1
+ },
+ {
+  "id": 199,
+  "name": "İnsan Kaynakları",
+  "slug": "insan-kaynaklari",
+  "count": 2
+ },
+ {
+  "id": 138,
+  "name": "İş Akışı ve Doküman Yönetimi",
+  "slug": "is-akisi-ve-dokuman-yonetimi",
+  "count": 3
+ },
+ {
+  "id": 144,
+  "name": "İş Zekası ve Analitik Çözümler",
+  "slug": "is-zekasi-ve-analitik-cozumler",
+  "count": 2
+ },
+ {
+  "id": 134,
+  "name": "Kritik / Yeni Teknolojiler",
+  "slug": "kritik-yeni-teknolojiler",
+  "count": 17
+ },
+ {
+  "id": 212,
+  "name": "Mobil",
+  "slug": "mobil",
+  "count": 1
+ },
+ {
+  "id": 147,
+  "name": "Oyun ve Eğlence Yazılımları",
+  "slug": "oyun-ve-eglence-yazilimlari",
+  "count": 1
+ },
+ {
+  "id": 146,
+  "name": "Platform Yazılımları",
+  "slug": "platform-yazilimlari",
+  "count": 2
+ },
+ {
+  "id": 128,
+  "name": "Sektörel Yazılım Şirketi",
+  "slug": "sektorel-yazilim-sirketi",
+  "count": 21
+ },
+ {
+  "id": 205,
+  "name": "Sektörel Yazılım Şirketi 86 Bankacılık",
+  "slug": "sektorel-yazilim-sirketi-86-bankacilik",
+  "count": 1
+ },
+ {
+  "id": 140,
+  "name": "Siber Güvenlik Yazılımları",
+  "slug": "siber-guvenlik-yazilimlari",
+  "count": 4
+ },
+ {
+  "id": 145,
+  "name": "Telekom Yazılımları",
+  "slug": "telekom-yazilimlari",
+  "count": 7
+ },
+ {
+  "id": 135,
+  "name": "Temel İş Uygulamaları",
+  "slug": "temel-is-uygulamalari",
+  "count": 15
+ },
+ {
+  "id": 203,
+  "name": "Tüm Sektörler",
+  "slug": "tum-sektorler",
+  "count": 1
+ },
+ {
+  "id": 141,
+  "name": "Üretim Yönetim Sistemleri - MES",
+  "slug": "uretim-yonetim-sistemleri-mes",
+  "count": 4
+ },
+ {
+  "id": 201,
+  "name": "Ürün ve Ekip Saha Yönetimi",
+  "slug": "urun-ve-ekip-saha-yonetimi",
+  "count": 1
+ },
+ {
+  "id": 148,
+  "name": "Videokonferans ve İşbirliği Çözümleri",
+  "slug": "videokonferans-ve-isbirligi-cozumleri",
+  "count": 1
+ }
+]

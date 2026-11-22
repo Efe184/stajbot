@@ -1,0 +1,494 @@
+[
+ {
+  "id": 47,
+  "name": "Adana",
+  "slug": "adana",
+  "count": 0
+ },
+ {
+  "id": 48,
+  "name": "Adıyaman",
+  "slug": "adiyaman",
+  "count": 0
+ },
+ {
+  "id": 49,
+  "name": "Afyonkarahisar",
+  "slug": "afyonkarahisar",
+  "count": 0
+ },
+ {
+  "id": 50,
+  "name": "Ağrı",
+  "slug": "agri",
+  "count": 0
+ },
+ {
+  "id": 114,
+  "name": "Aksaray",
+  "slug": "aksaray",
+  "count": 0
+ },
+ {
+  "id": 51,
+  "name": "Amasya",
+  "slug": "amasya",
+  "count": 0
+ },
+ {
+  "id": 52,
+  "name": "Ankara",
+  "slug": "ankara",
+  "count": 24
+ },
+ {
+  "id": 53,
+  "name": "Antalya",
+  "slug": "antalya",
+  "count": 1
+ },
+ {
+  "id": 121,
+  "name": "Ardahan",
+  "slug": "ardahan",
+  "count": 0
+ },
+ {
+  "id": 54,
+  "name": "Artvin",
+  "slug": "artvin",
+  "count": 0
+ },
+ {
+  "id": 55,
+  "name": "Aydın",
+  "slug": "aydin",
+  "count": 0
+ },
+ {
+  "id": 56,
+  "name": "Balıkesir",
+  "slug": "balikesir",
+  "count": 0
+ },
+ {
+  "id": 120,
+  "name": "Bartın",
+  "slug": "bartin",
+  "count": 0
+ },
+ {
+  "id": 118,
+  "name": "Batman",
+  "slug": "batman",
+  "count": 0
+ },
+ {
+  "id": 115,
+  "name": "Bayburt",
+  "slug": "bayburt",
+  "count": 0
+ },
+ {
+  "id": 57,
+  "name": "Bilecik",
+  "slug": "bilecik",
+  "count": 0
+ },
+ {
+  "id": 58,
+  "name": "Bingöl",
+  "slug": "bingol",
+  "count": 0
+ },
+ {
+  "id": 59,
+  "name": "Bitlis",
+  "slug": "bitlis",
+  "count": 0
+ },
+ {
+  "id": 60,
+  "name": "Bolu",
+  "slug": "bolu",
+  "count": 0
+ },
+ {
+  "id": 61,
+  "name": "Burdur",
+  "slug": "burdur",
+  "count": 0
+ },
+ {
+  "id": 62,
+  "name": "Bursa",
+  "slug": "bursa",
+  "count": 2
+ },
+ {
+  "id": 63,
+  "name": "Çanakkale",
+  "slug": "canakkale",
+  "count": 0
+ },
+ {
+  "id": 64,
+  "name": "Çankırı",
+  "slug": "cankiri",
+  "count": 0
+ },
+ {
+  "id": 65,
+  "name": "Çorum",
+  "slug": "corum",
+  "count": 0
+ },
+ {
+  "id": 66,
+  "name": "Denizli",
+  "slug": "denizli",
+  "count": 0
+ },
+ {
+  "id": 67,
+  "name": "Diyarbakır",
+  "slug": "diyarbakir",
+  "count": 0
+ },
+ {
+  "id": 127,
+  "name": "Düzce",
+  "slug": "duzce",
+  "count": 1
+ },
+ {
+  "id": 68,
+  "name": "Edirne",
+  "slug": "edirne",
+  "count": 0
+ },
+ {
+  "id": 69,
+  "name": "Elazığ",
+  "slug": "elazig",
+  "count": 0
+ },
+ {
+  "id": 70,
+  "name": "Erzincan",
+  "slug": "erzincan",
+  "count": 0
+ },
+ {
+  "id": 71,
+  "name": "Erzurum",
+  "slug": "erzurum",
+  "count": 0
+ },
+ {
+  "id": 72,
+  "name": "Eskişehir",
+  "slug": "eskisehir",
+  "count": 1
+ },
+ {
+  "id": 73,
+  "name": "Gaziantep",
+  "slug": "gaziantep",
+  "count": 0
+ },
+ {
+  "id": 210,
+  "name": "GEBZE",
+  "slug": "gebze",
+  "count": 1
+ },
+ {
+  "id": 74,
+  "name": "Giresun",
+  "slug": "giresun",
+  "count": 0
+ },
+ {
+  "id": 75,
+  "name": "Gümüşhane",
+  "slug": "gumushane",
+  "count": 0
+ },
+ {
+  "id": 76,
+  "name": "Hakkari",
+  "slug": "hakkari",
+  "count": 0
+ },
+ {
+  "id": 77,
+  "name": "Hatay",
+  "slug": "hatay",
+  "count": 0
+ },
+ {
+  "id": 122,
+  "name": "Iğdır",
+  "slug": "igdir",
+  "count": 0
+ },
+ {
+  "id": 78,
+  "name": "Isparta",
+  "slug": "isparta",
+  "count": 0
+ },
+ {
+  "id": 80,
+  "name": "İstanbul",
+  "slug": "istanbul",
+  "count": 123
+ },
+ {
+  "id": 81,
+  "name": "İzmir",
+  "slug": "izmir",
+  "count": 11
+ },
+ {
+  "id": 92,
+  "name": "Kahramanmaraş",
+  "slug": "kahramanmaras",
+  "count": 0
+ },
+ {
+  "id": 124,
+  "name": "Karabük",
+  "slug": "karabuk",
+  "count": 0
+ },
+ {
+  "id": 116,
+  "name": "Karaman",
+  "slug": "karaman",
+  "count": 0
+ },
+ {
+  "id": 82,
+  "name": "Kars",
+  "slug": "kars",
+  "count": 0
+ },
+ {
+  "id": 83,
+  "name": "Kastamonu",
+  "slug": "kastamonu",
+  "count": 0
+ },
+ {
+  "id": 84,
+  "name": "Kayseri",
+  "slug": "kayseri",
+  "count": 0
+ },
+ {
+  "id": 125,
+  "name": "Kilis",
+  "slug": "kilis",
+  "count": 0
+ },
+ {
+  "id": 117,
+  "name": "Kırıkkale",
+  "slug": "kirikkale",
+  "count": 0
+ },
+ {
+  "id": 85,
+  "name": "Kırklareli",
+  "slug": "kirklareli",
+  "count": 0
+ },
+ {
+  "id": 86,
+  "name": "Kırşehir",
+  "slug": "kirsehir",
+  "count": 0
+ },
+ {
+  "id": 87,
+  "name": "Kocaeli",
+  "slug": "kocaeli",
+  "count": 4
+ },
+ {
+  "id": 88,
+  "name": "Konya",
+  "slug": "konya",
+  "count": 0
+ },
+ {
+  "id": 89,
+  "name": "Kütahya",
+  "slug": "kutahya",
+  "count": 0
+ },
+ {
+  "id": 90,
+  "name": "Malatya",
+  "slug": "malatya",
+  "count": 0
+ },
+ {
+  "id": 91,
+  "name": "Manisa",
+  "slug": "manisa",
+  "count": 0
+ },
+ {
+  "id": 93,
+  "name": "Mardin",
+  "slug": "mardin",
+  "count": 0
+ },
+ {
+  "id": 79,
+  "name": "Mersin",
+  "slug": "mersin",
+  "count": 0
+ },
+ {
+  "id": 94,
+  "name": "Muğla",
+  "slug": "mugla",
+  "count": 0
+ },
+ {
+  "id": 95,
+  "name": "Muş",
+  "slug": "mus",
+  "count": 0
+ },
+ {
+  "id": 96,
+  "name": "Nevşehir",
+  "slug": "nevsehir",
+  "count": 0
+ },
+ {
+  "id": 97,
+  "name": "Niğde",
+  "slug": "nigde",
+  "count": 0
+ },
+ {
+  "id": 98,
+  "name": "Ordu",
+  "slug": "ordu",
+  "count": 0
+ },
+ {
+  "id": 126,
+  "name": "Osmaniye",
+  "slug": "osmaniye",
+  "count": 0
+ },
+ {
+  "id": 99,
+  "name": "Rize",
+  "slug": "rize",
+  "count": 0
+ },
+ {
+  "id": 100,
+  "name": "Sakarya",
+  "slug": "sakarya",
+  "count": 1
+ },
+ {
+  "id": 101,
+  "name": "Samsun",
+  "slug": "samsun",
+  "count": 0
+ },
+ {
+  "id": 109,
+  "name": "Şanlıurfa",
+  "slug": "sanliurfa",
+  "count": 0
+ },
+ {
+  "id": 102,
+  "name": "Siirt",
+  "slug": "siirt",
+  "count": 0
+ },
+ {
+  "id": 103,
+  "name": "Sinop",
+  "slug": "sinop",
+  "count": 0
+ },
+ {
+  "id": 104,
+  "name": "Sivas",
+  "slug": "sivas",
+  "count": 0
+ },
+ {
+  "id": 119,
+  "name": "Şırnak",
+  "slug": "sirnak",
+  "count": 0
+ },
+ {
+  "id": 105,
+  "name": "Tekirdağ",
+  "slug": "tekirdag",
+  "count": 0
+ },
+ {
+  "id": 106,
+  "name": "Tokat",
+  "slug": "tokat",
+  "count": 0
+ },
+ {
+  "id": 107,
+  "name": "Trabzon",
+  "slug": "trabzon",
+  "count": 0
+ },
+ {
+  "id": 108,
+  "name": "Tunceli",
+  "slug": "tunceli",
+  "count": 0
+ },
+ {
+  "id": 110,
+  "name": "Uşak",
+  "slug": "usak",
+  "count": 0
+ },
+ {
+  "id": 111,
+  "name": "Van",
+  "slug": "van",
+  "count": 0
+ },
+ {
+  "id": 123,
+  "name": "Yalova",
+  "slug": "yalova",
+  "count": 0
+ },
+ {
+  "id": 112,
+  "name": "Yozgat",
+  "slug": "yozgat",
+  "count": 0
+ },
+ {
+  "id": 113,
+  "name": "Zonguldak",
+  "slug": "zonguldak",
+  "count": 0
+ }
+]
