@@ -1,0 +1,3240 @@
+{
+ "categories": [
+  {
+   "id": 1,
+   "name": "Yazılım",
+   "icon": "code",
+   "description": "Yazılım geliştirme ve dijital çözümler"
+  },
+  {
+   "id": 2,
+   "name": "Bilgisayar ve İletişim Teknolojileri",
+   "icon": "computer",
+   "description": "Bilişim ve iletişim teknolojileri alanında faaliyet gösteren firmalar"
+  },
+  {
+   "id": 4,
+   "name": "Çevre",
+   "icon": "leaf",
+   "description": "Çevre teknolojileri ve sürdürülebilirlik çözümleri"
+  },
+  {
+   "id": 5,
+   "name": "Elektrik - Elektronik - Elektromekanik",
+   "icon": "brain-circuit",
+   "description": "Elektrik ve elektronik sistemler"
+  },
+  {
+   "id": 6,
+   "name": "Enerji",
+   "icon": "zap",
+   "description": "Enerji üretimi ve yönetimi çözümleri"
+  },
+  {
+   "id": 7,
+   "name": "Geri Dönüşüm",
+   "icon": "recycle",
+   "description": "Geri dönüşüm ve atık yönetimi"
+  },
+  {
+   "id": 8,
+   "name": "Gıda Sanayi",
+   "icon": "apple",
+   "description": "Gıda üretimi ve işleme teknolojileri"
+  },
+  {
+   "id": 9,
+   "name": "Hayvancılık",
+   "icon": "bird",
+   "description": "Hayvancılık ve veterinerlik teknolojileri"
+  },
+  {
+   "id": 10,
+   "name": "Hizmet",
+   "icon": "heart-handshake",
+   "description": "Profesyonel hizmetler"
+  },
+  {
+   "id": 11,
+   "name": "İklimlendirme",
+   "icon": "thermometer",
+   "description": "İklimlendirme sistemleri"
+  },
+  {
+   "id": 12,
+   "name": "İmalat Sanayi",
+   "icon": "factory",
+   "description": "Endüstriyel üretim ve imalat"
+  },
+  {
+   "id": 13,
+   "name": "İnşaat - Restorasyon - Şehir Planlama",
+   "icon": "building2",
+   "description": "İnşaat ve şehir planlama çözümleri"
+  },
+  {
+   "id": 14,
+   "name": "Kimya",
+   "icon": "flask",
+   "description": "Kimya endüstrisi ve araştırma"
+  },
+  {
+   "id": 15,
+   "name": "Makine ve Teçhizat İmalatı",
+   "icon": "wrench",
+   "description": "Endüstriyel makine ve ekipman üretimi"
+  },
+  {
+   "id": 16,
+   "name": "Medikal - Biyomedikal",
+   "icon": "stethoscope",
+   "description": "Tıbbi cihaz ve biyomedikal teknolojiler"
+  },
+  {
+   "id": 17,
+   "name": "Otomotiv Yan Sanayi",
+   "icon": "car",
+   "description": "Otomotiv parça ve sistemleri"
+  },
+  {
+   "id": 18,
+   "name": "Sağlık",
+   "icon": "heart",
+   "description": "Sağlık hizmetleri ve teknolojileri"
+  },
+  {
+   "id": 19,
+   "name": "Savunma Sanayi",
+   "icon": "shield",
+   "description": "Savunma teknolojileri ve sistemleri"
+  },
+  {
+   "id": 20,
+   "name": "Tarımsal Teknoloji",
+   "icon": "tractor",
+   "description": "Tarım teknolojileri ve inovasyonu"
+  }
+ ],
+ "companies": [
+  {
+   "id": 1,
+   "name": "1215 YAZILIM LİMİTED ŞİRKETİ",
+   "description": "1215 YAZILIM LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 2,
+   "name": "2M ARGE ELEKTRONİK BİLİŞİM OTOMASYON DANŞ.VE ELK.SİST.SAN.TİC.LTD.ŞTİ",
+   "description": "2M ARGE ELEKTRONİK BİLİŞİM OTOMASYON DANŞ.VE ELK.SİST.SAN.TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "mustafa.gunes@2melektronik.com",
+    "web": "http://www.2melektronik.com",
+    "urunler": "Medikal Kontrol Kartları, Vinç Kumanda Sistemleri, Tarım makinaları kontrol kartları, Otomasyon kontrol kartları, Mikro granül kontrol kartları, Otomatik filtre ters yıkama kontrol kartları, Konveyor kontrol kartları vb...",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 3,
+   "name": "3ARBOT BİLİŞİM TEKNOLOJİLERİ İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "3ARBOT BİLİŞİM TEKNOLOJİLERİ İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ahmettorus@hotmail.com",
+    "web": "http://www.3arbot.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 4,
+   "name": "7 TEPE BİLİŞİM SİSTEMLERİ TİC.LTD.ŞTİ",
+   "description": "7 TEPE BİLİŞİM SİSTEMLERİ TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "murat@7tepe.com.tr",
+    "web": "http://www.7tepe.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 5,
+   "name": "ACV İNOVASYON YAZILIM OTOMOTİV SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "ACV İNOVASYON YAZILIM OTOMOTİV SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 17,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 6,
+   "name": "AE YAZILIM TEKNOLOJİ LİMİTED ŞİRKETİ",
+   "description": "AE YAZILIM TEKNOLOJİ LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ahmet@aeyazilim.com",
+    "web": "http://www.aeyazilim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 7,
+   "name": "AHMET EMRE ODABAŞ",
+   "description": "AHMET EMRE ODABAŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 8,
+   "name": "AHMET KAYAPINAR",
+   "description": "AHMET KAYAPINAR",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "ahmet.kayapinar@ahikod.com",
+    "web": "http://www.ahikod.com",
+    "urunler": "WiFi, Ethernet, Bluetooth, LoRa, UWB ve benzeri protokollerde elektronik ürünlerimiz ve Ar-Ge'lerimiz mevcuttur.",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 9,
+   "name": "AHMET OZAN GAZİ",
+   "description": "AHMET OZAN GAZİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 10,
+   "name": "AIVISIONTECH ELEKTRONİK YAZILIM AŞ",
+   "description": "AIVISIONTECH ELEKTRONİK YAZILIM AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "aivisiontech@gmail.com",
+    "web": "http://www.aivisiontech.net",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 11,
+   "name": "AKIN YAZILIM BİLGİSAYAR İTHALAT İHRACAT SAN VE TİC.LTD.ŞTİ",
+   "description": "AKIN YAZILIM BİLGİSAYAR İTHALAT İHRACAT SAN VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 13,
+   "name": "ALİ BAKKALOĞLU",
+   "description": "ALİ BAKKALOĞLU",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "alibakkaloglu@inforcebt.com",
+    "web": "https://www.inforcebt.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 14,
+   "name": "ALTAY BİYOTEKNOLOJİ TOHUMCULUK ARGE VE DANIŞMANLIK HİZMETLERİ SAN. VE TİC. LTD. ŞTi",
+   "description": "ALTAY BİYOTEKNOLOJİ TOHUMCULUK ARGE VE DANIŞMANLIK HİZMETLERİ SAN. VE TİC. LTD. ŞTi",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 20,
+   "contact": {
+    "email": "altaytohum@gmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 16,
+   "name": "AMANOS TEKNOLOJİ SANAYİ VE TİCARET AŞ",
+   "description": "AMANOS TEKNOLOJİ SANAYİ VE TİCARET AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "bugra@skydome.io",
+    "web": "http://www.skydome.io",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 17,
+   "name": "AMP YAZILIM SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "AMP YAZILIM SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "farukg@ampyazilim.com.tr",
+    "web": "http://www.ampyazilim.com.tr",
+    "urunler": "AMP Kurumsal Hakediş ve Yaklaşık Maliyet, AMP Mal ve Hizmet Alımları, AMP Doğrudan Temin, AMP Birim Fİyat Otomasyonu, birimfiyat.net, hakedis.com ",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 18,
+   "name": "ANDTECH YAZILIM TEKNOLOJİLERİ LTD.ŞTİ",
+   "description": "ANDTECH YAZILIM TEKNOLOJİLERİ LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 19,
+   "name": "ANKA SAĞIM SİSTEMLERİ YAZ. HAY. TARIM ÜRN. TİC. SAN. LTD. ŞTİ.",
+   "description": "ANKA SAĞIM SİSTEMLERİ YAZ. HAY. TARIM ÜRN. TİC. SAN. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 20,
+   "contact": {
+    "email": "duranakkaya@ankasagim.com.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 20,
+   "name": "ARAS ORİJİNAL YAZILIM EĞİTİM PAZARLAMA LTD. ŞTİ.",
+   "description": "ARAS ORİJİNAL YAZILIM EĞİTİM PAZARLAMA LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://orijinalyayinlari.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 21,
+   "name": "ARBİOTEK ÇEVRE ÇÖZÜMLERİ ARAŞTIRMA GELİŞTİRME ÇEVRE LAB.İNŞ.SAN.VE TİC.LTD.ŞTİ.",
+   "description": "ARBİOTEK ÇEVRE ÇÖZÜMLERİ ARAŞTIRMA GELİŞTİRME ÇEVRE LAB.İNŞ.SAN.VE TİC.LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 7,
+   "contact": {
+    "email": "",
+    "web": "http://www.arbiotek.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 22,
+   "name": "ARMİYA BİLGİ TEKNOLOJİLERİ GÜVENLİK SİSTEMLERİ ELEKTRİK ELEKTRONİK LTD. ŞTİ.",
+   "description": "ARMİYA BİLGİ TEKNOLOJİLERİ GÜVENLİK SİSTEMLERİ ELEKTRİK ELEKTRONİK LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "https://armiya.com/iletisim/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 23,
+   "name": "ARVESİS ARGE YAZILIM ELEKTRİK ELEKTRONİK MÜHENDİSLİK SAN.VE TİC.LTD.ŞTİ.",
+   "description": "ARVESİS ARGE YAZILIM ELEKTRİK ELEKTRONİK MÜHENDİSLİK SAN.VE TİC.LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "arvesis@arvesis.com",
+    "web": "http://www.arvesis.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 24,
+   "name": "ARYOM YAZILIM YÜKSEK TEKNOLOJİ SİSTEMLERİ A.Ş.",
+   "description": "ARYOM YAZILIM YÜKSEK TEKNOLOJİ SİSTEMLERİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "serkan.soysal@aryom.com.tr",
+    "web": "http://www.aryomyazilim.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 25,
+   "name": "ASİSTMAN YAZILIM VE BİLGİ TEKNOLOJİLERİ LTD.ŞTİ.",
+   "description": "ASİSTMAN YAZILIM VE BİLGİ TEKNOLOJİLERİ LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@asistman.com",
+    "web": "http://www.asistman.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 26,
+   "name": "ATİKER YAZILIM VERİ İŞLEM A.Ş.",
+   "description": "ATİKER YAZILIM VERİ İŞLEM A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "https://www.atikeryazilim.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 27,
+   "name": "ATLANASYA YÖNETİM DANIŞMANLIK SAN. TİC. LTD. ŞTİ.",
+   "description": "ATLANASYA YÖNETİM DANIŞMANLIK SAN. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.atlanasya.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": ""
+   }
+  },
+  {
+   "id": 28,
+   "name": "ATLANTİS LABS YAZILIM VE DANIŞMANLIK HİZM. LTD. ŞTİ.",
+   "description": "ATLANTİS LABS YAZILIM VE DANIŞMANLIK HİZM. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 21,
+   "contact": {
+    "email": "aliyilmaz@theatlantislabs.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 29,
+   "name": "ATMOSWARE TEKNOLOJİ EĞİTİM VE DANIŞMANLIK ANONİM ŞİRKETİ",
+   "description": "ATMOSWARE TEKNOLOJİ EĞİTİM VE DANIŞMANLIK ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "concact@atmosware.com.tr",
+    "web": "http://https://www.atmosware.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 30,
+   "name": "ATO TEKNOLOJİ BİLİŞİM OTOMOTİV TARIM HAYVANCILIK SAN.TİC LTD.ŞTİ",
+   "description": "ATO TEKNOLOJİ BİLİŞİM OTOMOTİV TARIM HAYVANCILIK SAN.TİC LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ato@atomedya.com.tr",
+    "web": "https://atoteknoloji.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 31,
+   "name": "AVİCERNA BİYOTEKNOLOJİ ANONİM ŞİRKETİ",
+   "description": "AVİCERNA BİYOTEKNOLOJİ ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 18,
+   "contact": {
+    "email": "avicernaina@gmail.com",
+    "web": "http://avicerna.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 32,
+   "name": "AVRASYA ARAŞTIRMA GELİŞTİRME BİLİM VE TEKNOLOJİ MERKEZİ LİMİTED ŞİRKETİ",
+   "description": "AVRASYA ARAŞTIRMA GELİŞTİRME BİLİM VE TEKNOLOJİ MERKEZİ LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 20,
+   "contact": {
+    "email": "",
+    "web": "http://www.akuatikbiyotek.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 33,
+   "name": "AYBEL YAZILIM LİMİTED ŞİRKETİ",
+   "description": "AYBEL YAZILIM LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "bilgi@aybelsoft.com",
+    "web": "https://www.aybelsoft.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 34,
+   "name": "AYHAN DÜNDAR",
+   "description": "AYHAN DÜNDAR",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 35,
+   "name": "AYOSİS BİLG. TEK. EĞİT. DANIŞ. VE GID. SAN.VE TİC.LTD.ŞTİ.",
+   "description": "AYOSİS BİLG. TEK. EĞİT. DANIŞ. VE GID. SAN.VE TİC.LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "bilgi@ayosis.com.tr",
+    "web": "https://www.ayosis.com.tr/Iletisim",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 36,
+   "name": "AYYILDIZSOFT YAZILIM REKLAM İÇ VE DIŞ TİCARET LİMİTED ŞİRKETİ",
+   "description": "AYYILDIZSOFT YAZILIM REKLAM İÇ VE DIŞ TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "lutfikara.ce@gmail.com",
+    "web": "https://ayyildizsoft.com.tr/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 37,
+   "name": "B12 İNTERAKTİF BİLİŞİM ANONİM ŞİRKETİ",
+   "description": "B12 İNTERAKTİF BİLİŞİM ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 40,
+   "name": "BAYRAM AKDEMİR",
+   "description": "BAYRAM AKDEMİR",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "bakdemir@ktun.edu.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 41,
+   "name": "BELYA TURİZM İNŞAAT ENERJİ BİLİŞİM SAN. VE TİC. A.Ş.",
+   "description": "BELYA TURİZM İNŞAAT ENERJİ BİLİŞİM SAN. VE TİC. A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@belya.gen.tr",
+    "web": "https://www.belya.com.tr/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 42,
+   "name": "BERAT ANIK",
+   "description": "BERAT ANIK",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 43,
+   "name": "BEZİRHANE KOZMETİK VE BİTKİSEL SAĞLIK ÜRÜNLERİ SAN.TİC.LTD.ŞTİ",
+   "description": "BEZİRHANE KOZMETİK VE BİTKİSEL SAĞLIK ÜRÜNLERİ SAN.TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 21,
+   "contact": {
+    "email": "mbezirci@selcuk.edu.tr",
+    "web": "https://www.bezirhane.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 44,
+   "name": "BİLGEVERİ YAZILIM LTD. ŞTİ.",
+   "description": "BİLGEVERİ YAZILIM LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "oguzhanaytar@hotmail.com",
+    "web": "http://www.bilgeveri.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 45,
+   "name": "BİLSATEK YAZILIM VE TEKNOLOJİ AŞ",
+   "description": "BİLSATEK YAZILIM VE TEKNOLOJİ AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "seckin@cognipeer.com",
+    "web": "http://www.cognipeer.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 46,
+   "name": "BİOSOFT ENDÜSTRİ YAZILIM A. Ş.",
+   "description": "BİOSOFT ENDÜSTRİ YAZILIM A. Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "muhammet@gecitteknoloji.com.tr",
+    "web": "http://www.gecitteknoloji.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": ""
+   }
+  },
+  {
+   "id": 47,
+   "name": "BİOTC BİLİM İLAÇ KİMYA MAKİNA SAN.TİC.LTD.ŞTİ. ",
+   "description": "BİOTC BİLİM İLAÇ KİMYA MAKİNA SAN.TİC.LTD.ŞTİ. ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 8,
+   "contact": {
+    "email": "tahacagatayimac@hotmail.com",
+    "web": "https://biotc.com.tr/contact/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 48,
+   "name": "BİYOTEK ARGE BİYOTEKNOLOJİ MAKİNE KİMYA GIDA SAN.VE TİC.LTD.ŞTİ",
+   "description": "BİYOTEK ARGE BİYOTEKNOLOJİ MAKİNE KİMYA GIDA SAN.VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 8,
+   "contact": {
+    "email": "biyotekarge@gmail.com",
+    "web": "https://www.lifebact.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 49,
+   "name": "BLC İLETİŞİM VE GÜVENLİK SİSTEMLERİ LTD. ŞTİ.",
+   "description": "BLC İLETİŞİM VE GÜVENLİK SİSTEMLERİ LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "mbalci@blc-css.com",
+    "web": "http://https://www.blc-css.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 50,
+   "name": "BNA SENTEX KİMYA SANAYİ TİCARET LİMİTED ŞİRKETİ",
+   "description": "BNA SENTEX KİMYA SANAYİ TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 14,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 51,
+   "name": "BTM ARGE İLETİŞİM BİLİŞİM TEKNOLOJİLERİ EĞİTİM VE DANIŞMANLIK SAN. VE TİC. LTD. ŞTİ.",
+   "description": "BTM ARGE İLETİŞİM BİLİŞİM TEKNOLOJİLERİ EĞİTİM VE DANIŞMANLIK SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "",
+    "web": "http://www.btmbilisim.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 52,
+   "name": "BULUTENERJİ ÖLÇÜM SİSTEMLERİ SAN. TİC. LTD. ŞTİ.",
+   "description": "BULUTENERJİ ÖLÇÜM SİSTEMLERİ SAN. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "mustafa@ilerisoy.com.tr",
+    "web": "http://www.bulutenerji.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 53,
+   "name": "CENGİZ ÇELİK",
+   "description": "CENGİZ ÇELİK",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 54,
+   "name": "CHİP COMPUTER BİLİŞİM AŞ",
+   "description": "CHİP COMPUTER BİLİŞİM AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "muhasebe@chipcomputer.com",
+    "web": "http://www.chipcomputer.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 55,
+   "name": "CODİNNO BİLİŞİM VE İNOVASYON A. Ş.",
+   "description": "CODİNNO BİLİŞİM VE İNOVASYON A. Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "hakanyilmazedu@gmail.com",
+    "web": "http://www.codinno.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 56,
+   "name": "CONVERGE BİLİŞİM VE TEKNOLOJİ HİZMETLERİ TİC.LTD.ŞTİ",
+   "description": "CONVERGE BİLİŞİM VE TEKNOLOJİ HİZMETLERİ TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ersin.buyuktas@convergesoft.net",
+    "web": "http://www.convergesoft.net",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 57,
+   "name": "COREDINAT TEKNOLOJİ AŞ",
+   "description": "COREDINAT TEKNOLOJİ AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ihsan@coredinat.com",
+    "web": "http://www.coredinat.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 58,
+   "name": "CREART TEKNOLOJİ A. Ş. ",
+   "description": "CREART TEKNOLOJİ A. Ş. ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "huseyin.aydin@creart.com",
+    "web": "http://creart.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 59,
+   "name": "D1 BİLGİSAYAR YAZILIM YÖN.VE DANŞ.HİZM.TİC.LTD.ŞTİ",
+   "description": "D1 BİLGİSAYAR YAZILIM YÖN.VE DANŞ.HİZM.TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "onder.ekerim@d1-tech.com",
+    "web": "http://www.d1-tech.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 60,
+   "name": "DEMA RÖLE SANAYİ VE TİCARET ANONİM ŞİRKETİ",
+   "description": "DEMA RÖLE SANAYİ VE TİCARET ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 6,
+   "contact": {
+    "email": "emrahu@dataseed.com.tr",
+    "web": "http://www.dataseed.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 61,
+   "name": "DEV360 YAZILIM A.Ş.",
+   "description": "DEV360 YAZILIM A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "info@demarole.com.tr",
+    "web": "http://https://demarole.com.tr/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 62,
+   "name": "DEVA YAZILIM BİLGİSAYAR OTOMASYON SAĞLIK DANIŞMANLIK SAN.VE TİC. LTD.ŞTİ.",
+   "description": "DEVA YAZILIM BİLGİSAYAR OTOMASYON SAĞLIK DANIŞMANLIK SAN.VE TİC. LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "adem.cinar@devbase.com.tr",
+    "web": "http://devbase.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 63,
+   "name": "DİJİMO BİLİŞİM TEKNOLOJİLERİ AR GE YAZILIM MÜH.SAĞ.KÜLT.EĞT.SNT.ORG.SAN VE TİC.LTD.ŞTİ",
+   "description": "DİJİMO BİLİŞİM TEKNOLOJİLERİ AR GE YAZILIM MÜH.SAĞ.KÜLT.EĞT.SNT.ORG.SAN VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@devayazilim.com",
+    "web": "http://www.devayazilim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 64,
+   "name": "DİJİSTEP TEKNOLOJİ A.Ş.",
+   "description": "DİJİSTEP TEKNOLOJİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "dijimokonya@gmail.com",
+    "web": "http://www.terapivitrini.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 65,
+   "name": "DOKTOR POLAT GERİ İLERİ DÖNÜŞÜM VE BİO TEKNOLOJİ SAN. TİC. LTD. ŞTİ.",
+   "description": "DOKTOR POLAT GERİ İLERİ DÖNÜŞÜM VE BİO TEKNOLOJİ SAN. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 7,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 66,
+   "name": "DRC MÜHENDİSLİK ENERJİ ÖLÇÜM SİSTEMLERİ SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "DRC MÜHENDİSLİK ENERJİ ÖLÇÜM SİSTEMLERİ SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 6,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 68,
+   "name": "DUYGU İLKE YILDIRIM SAĞLIK HİZM. VE TİC. LTD. ŞTİ.",
+   "description": "DUYGU İLKE YILDIRIM SAĞLIK HİZM. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 18,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 69,
+   "name": "E PROJECT PROJE VE DAN. HİZM. LTD. ŞTİ.",
+   "description": "E PROJECT PROJE VE DAN. HİZM. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://eproject.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 70,
+   "name": "EKOKOD KAYNAK YÖNETİMİ YAZ. DAN. VE TEKNOLOJİ LTD. ŞTİ.",
+   "description": "EKOKOD KAYNAK YÖNETİMİ YAZ. DAN. VE TEKNOLOJİ LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.ekokod.com",
+    "urunler": "EKO-RM Enerji ve Kaynak Yönetimi Yazılımı",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 71,
+   "name": "EKSPRES ELEKTRONİK EĞT. ÖĞRT. GD. SAN. VE. TİC. LTD. ŞTİ.",
+   "description": "EKSPRES ELEKTRONİK EĞT. ÖĞRT. GD. SAN. VE. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "muhasebe@expresbilgisayar.com",
+    "web": "http://www.expresbilgisayar.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 72,
+   "name": "EKVK YAZILIM ANONİM SIRKETİ",
+   "description": "EKVK YAZILIM ANONİM SIRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "",
+    "web": "http://www.e-kvk.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 73,
+   "name": "EL CAPITAN YAZILIM TEKNOLOJİLERİ SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "EL CAPITAN YAZILIM TEKNOLOJİLERİ SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "elcapitanyazilim@gmail.com",
+    "web": "http://elcapitan.games/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 74,
+   "name": "ELİF SERA OTOMASYON SAN.VE TİC.LTD.ŞTİ",
+   "description": "ELİF SERA OTOMASYON SAN.VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ofis@elifsera.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 75,
+   "name": "ENOCA BİLGİ TEKNOLOJİLERİ VE DAN. LTD.ŞTİ.",
+   "description": "ENOCA BİLGİ TEKNOLOJİLERİ VE DAN. LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "teknopark@enoca.com",
+    "web": "http://https://www.enoca.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 76,
+   "name": "ERDEREN YAZILIM HİZMETLERİ AŞ",
+   "description": "ERDEREN YAZILIM HİZMETLERİ AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "safa.emre@erderen.com",
+    "web": "http://www.erderen.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 77,
+   "name": "ERENTİR SAĞLIK ÇÖZÜMLERİ AŞ",
+   "description": "ERENTİR SAĞLIK ÇÖZÜMLERİ AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "turkaykolus@hotmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 78,
+   "name": "ERHAN USTA",
+   "description": "ERHAN USTA",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 15,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 79,
+   "name": "F4 YAZILIM DANIŞAMANLIK HİZM.LTD.ŞTİ",
+   "description": "F4 YAZILIM DANIŞAMANLIK HİZM.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "hakan.kurt@f4yazilim.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 80,
+   "name": "FARMAPARK AR-GE BİYOTEKNOLOJİ MAK. KİM. GI. SAN. VE TİC. LTD. ŞTİ.",
+   "description": "FARMAPARK AR-GE BİYOTEKNOLOJİ MAK. KİM. GI. SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 21,
+   "contact": {
+    "email": "",
+    "web": "http://www.farmapark.com.tr",
+    "urunler": "Starter kültür,  enzim, bakteri, metabolit, aktif etken madde, karetoinit, aroma.",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 82,
+   "name": "FATİH YANARDAĞ",
+   "description": "FATİH YANARDAĞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@webperon.com",
+    "web": "http://www.webperon.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 84,
+   "name": "FECRİN TEKNOLOJİ VE İNOVASYON LİMİTED ŞİRKETİ",
+   "description": "FECRİN TEKNOLOJİ VE İNOVASYON LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "usalman@fecrin.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 88,
+   "name": "FOTON İLERİ GÖRÜNTÜLEME SİSTEMLERİ AŞ",
+   "description": "FOTON İLERİ GÖRÜNTÜLEME SİSTEMLERİ AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 15,
+   "contact": {
+    "email": "sancay.kirik@msspektral.com",
+    "web": "https://fotons.tech/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 89,
+   "name": "FRİGOCARE SOĞUTMA ISITMA CİHAZLARI SAN. VE TİC. LTD. ŞTİ.",
+   "description": "FRİGOCARE SOĞUTMA ISITMA CİHAZLARI SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 11,
+   "contact": {
+    "email": "info@frigocare.com.tr",
+    "web": "http://www.frigocare.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 90,
+   "name": "FURKAN ŞENHARPUTLU",
+   "description": "FURKAN ŞENHARPUTLU",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 91,
+   "name": "GELENGİ YAZILIM TEKNOLOJİ A.Ş.",
+   "description": "GELENGİ YAZILIM TEKNOLOJİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.gelengitech.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 92,
+   "name": "GENETİK HASTALIKLARI ARAŞTIRMA VE TEDAVİ DERNEĞİ İKTİSADİ İŞLETMESİ",
+   "description": "GENETİK HASTALIKLARI ARAŞTIRMA VE TEDAVİ DERNEĞİ İKTİSADİ İŞLETMESİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 18,
+   "contact": {
+    "email": "",
+    "web": "http://WWW.RTSGD.ORG",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 93,
+   "name": "GENOMEDTX BİYOTEKNOLOJİ ARAŞTIRMA GELİŞTİRME SAN.VE TİC.LTD.ŞTİ",
+   "description": "GENOMEDTX BİYOTEKNOLOJİ ARAŞTIRMA GELİŞTİRME SAN.VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 18,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 94,
+   "name": "GHİNOVATİF YAZILIM EGİTİM DANISMANLIK VE TICARET LTD ŞTİ",
+   "description": "GHİNOVATİF YAZILIM EGİTİM DANISMANLIK VE TICARET LTD ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "bilgi@ghinovatif.com.tr",
+    "web": "http://https://www.ghinovatif.com.tr/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 95,
+   "name": "GORA YAZILIM ELEKTRONİK BİLİŞİM SAN. TİC. LTD. ŞTİ.",
+   "description": "GORA YAZILIM ELEKTRONİK BİLİŞİM SAN. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.gorayazilim.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 96,
+   "name": "GÖKHAN AŞKIN",
+   "description": "GÖKHAN AŞKIN",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 97,
+   "name": "GRAFENBİOTECH NANO TEKNOLOJİ MÜHENDİSLİK SANAYİ VE TİCARET LTD. ŞTİ.",
+   "description": "GRAFENBİOTECH NANO TEKNOLOJİ MÜHENDİSLİK SANAYİ VE TİCARET LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 14,
+   "contact": {
+    "email": "grafenbiotech@gmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 98,
+   "name": "HAKAN ÇİÇEK",
+   "description": "HAKAN ÇİÇEK",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 99,
+   "name": "HAKAN KILIÇASLAN",
+   "description": "HAKAN KILIÇASLAN",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 100,
+   "name": "HANSOFT YAZILIM BİLİŞİM SANAYİ TİCARET ANONİM ŞİRKETİ",
+   "description": "HANSOFT YAZILIM BİLİŞİM SANAYİ TİCARET ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "bilgi@hansoftyazilim.com",
+    "web": "http://www.hansoftyazilim.com",
+    "urunler": "Hansoft Hukuk Yönetim Programı",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 101,
+   "name": "HAREZM TEKNOLOJİ A.Ş.",
+   "description": "HAREZM TEKNOLOJİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ilkerkaan@ipcioglu.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 102,
+   "name": "HASAN ALİ AKYÜREK",
+   "description": "HASAN ALİ AKYÜREK",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 103,
+   "name": "HATİCE GÜLCAN",
+   "description": "HATİCE GÜLCAN",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.gunyaz.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 104,
+   "name": "HAYRULLAH ŞAHİN",
+   "description": "HAYRULLAH ŞAHİN",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 105,
+   "name": "HOOKEY TEKNOLOJİ YAZILIM LİMİTED ŞİRKETİ",
+   "description": "HOOKEY TEKNOLOJİ YAZILIM LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "hookeygames@gmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 106,
+   "name": "HUN BİYOTEKNOLOJİ SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "HUN BİYOTEKNOLOJİ SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 20,
+   "contact": {
+    "email": "",
+    "web": "http://www.hunbiyoteknoloji.com",
+    "urunler": "TALAY SIVI DENİZ YOSUNU, AGATA SIVI AMİNOASİT, SIHA SIVI HUMİK ASİT, MICROKARBON ORGANOMİNERAL SIVI GÜBRE, TALAY ORGANOMİNERAL SIVI GÜBRE",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 108,
+   "name": "IND YAZILIM BİLİŞİM TEKNOLOJİLERİ SANAYİ VE TİCARET A.Ş.",
+   "description": "IND YAZILIM BİLİŞİM TEKNOLOJİLERİ SANAYİ VE TİCARET A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "muhasebe@indbilisim.com.tr",
+    "web": "http://www.indbilisim.com.tr",
+    "urunler": "Bilgi yönetim sistemi yazılımı, İdari işler ve abonelikler yönetim yazılımı, Coğrafi bilgi sistemi yazılımı, İş süreçleri yönetim yazılımları, Akıllı şehir yazılımı, Talep yönetim sistemi yazılımı, Kalite kontrol yönetim yazılımı, E-imar süreç yönetimi",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 109,
+   "name": "IŞIKSOFT YAZILIM A. Ş.",
+   "description": "IŞIKSOFT YAZILIM A. Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@isiksoft.com",
+    "web": "https://www.isiksoft.com.tr/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 110,
+   "name": "İKONİK TEKNOLOJİ ANONİM ŞİRKETİ ",
+   "description": "İKONİK TEKNOLOJİ ANONİM ŞİRKETİ ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.coredinat.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 112,
+   "name": "İNTELEY YAZILIM DANIŞMANLIK SERVİS SAN. A.Ş.",
+   "description": "İNTELEY YAZILIM DANIŞMANLIK SERVİS SAN. A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "unal.yigit@inteley.com.tr",
+    "web": "http://www.inteley.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 113,
+   "name": "KAMİL ÜNLÜ",
+   "description": "KAMİL ÜNLÜ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "arge@diyaval.com",
+    "web": "http://diyaval.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 114,
+   "name": "KARALAR ROBOTİK TEKNOLOJİ A.Ş.",
+   "description": "KARALAR ROBOTİK TEKNOLOJİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@karalararge.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 115,
+   "name": "KARANSU ENERJİ PLAS. MAK. ISIT. SOĞ. SAN. ve TİC. LTD. ŞTİ.",
+   "description": "KARANSU ENERJİ PLAS. MAK. ISIT. SOĞ. SAN. ve TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 6,
+   "contact": {
+    "email": "info@karansu.com",
+    "web": "http://www.karansu.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 116,
+   "name": "KATALİZ ENDÜSTRİYEL TASARIM ARAŞTIRMA GELİŞTİRME DANIŞMANLIK ÜRETİM SANAYİ VE TİCARET LTD. ŞTİ.",
+   "description": "KATALİZ ENDÜSTRİYEL TASARIM ARAŞTIRMA GELİŞTİRME DANIŞMANLIK ÜRETİM SANAYİ VE TİCARET LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 17,
+   "contact": {
+    "email": "info@kataliz.com.tr",
+    "web": "https://www.kataliz.com.tr/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 118,
+   "name": "KONEL ELEKTRONİK A.Ş",
+   "description": "KONEL ELEKTRONİK A.Ş",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "",
+    "web": "http://www.konelsan.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 119,
+   "name": "KONYATEKNOKENT TEKNOLOJİ TRANSFER OFİSİ LTD.ŞTİ",
+   "description": "KONYATEKNOKENT TEKNOLOJİ TRANSFER OFİSİ LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 120,
+   "name": "LASTGUARD BİLİŞİM TEKNOLOJİLERİ VE DANIŞMANLIK LTD. ŞTİ.",
+   "description": "LASTGUARD BİLİŞİM TEKNOLOJİLERİ VE DANIŞMANLIK LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@lastguardsecurity.com",
+    "web": "http://lastguardsecurity.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 121,
+   "name": "MARDUK FİNANSAL DANIŞMANLIK LTD. ŞTİ.",
+   "description": "MARDUK FİNANSAL DANIŞMANLIK LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 122,
+   "name": "MARİA ÖCAL",
+   "description": "MARİA ÖCAL",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 123,
+   "name": "MARTEF ELEKTRONİK SAN. VE TİC. LTD. ŞTİ.",
+   "description": "MARTEF ELEKTRONİK SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "info@martef.com",
+    "web": "http://www.martef.com",
+    "urunler": "LoRaWAN Ürünleri",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 124,
+   "name": "MASAL GAMES OYUN YAZILIM VE TEKNOLOJİ A.Ş.",
+   "description": "MASAL GAMES OYUN YAZILIM VE TEKNOLOJİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "admin@masalgames.com",
+    "web": "http://https://masalgames.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": ""
+   }
+  },
+  {
+   "id": 125,
+   "name": "MC TEK BİLG. MÜH. ARAŞ. GEL. PROJE DANŞ. HİZM. TEL. VE ÜRET. PAZ. İÇ VE DIŞ TİC. LTD. ŞTİ.",
+   "description": "MC TEK BİLG. MÜH. ARAŞ. GEL. PROJE DANŞ. HİZM. TEL. VE ÜRET. PAZ. İÇ VE DIŞ TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "mustafa@mctek.com.tr",
+    "web": "http://www.mctek.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 126,
+   "name": "MEHMET AKIŞ",
+   "description": "MEHMET AKIŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 15,
+   "contact": {
+    "email": "mehmetakis.proje@gmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 127,
+   "name": "MEHMET EMİN ARGUN",
+   "description": "MEHMET EMİN ARGUN",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 7,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 128,
+   "name": "MELASOFT BİLİŞİM TEKNOLOJİLERİ SAN.İÇ VE DIŞ TİC.LTD.ŞTİ",
+   "description": "MELASOFT BİLİŞİM TEKNOLOJİLERİ SAN.İÇ VE DIŞ TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "info@melasoft.com",
+    "web": "http://www.melasoft.com",
+    "urunler": "SAP E-Fatura, SAP E-Arşiv, SAP e-Defter, SAP E-irsaliye, Peppol , e-Cüzdan Yazılım",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 129,
+   "name": "MENAR BİLGİ SERVİS VE DANIŞMANLIK HİZMETLERİ LİMİTED ŞİRKETİ",
+   "description": "MENAR BİLGİ SERVİS VE DANIŞMANLIK HİZMETLERİ LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@menarge.com.tr",
+    "web": "http://https://menarge.com.tr/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 130,
+   "name": "MERGEN BİLİM VE AR GE AŞ",
+   "description": "MERGEN BİLİM VE AR GE AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 14,
+   "contact": {
+    "email": "tahacagatayimac@hotmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 131,
+   "name": "MESUT GÖÇER",
+   "description": "MESUT GÖÇER",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 21,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 132,
+   "name": "META MİZAÇ EĞİTİM DANIŞMANLIK LİMİTED ŞİRKETİ",
+   "description": "META MİZAÇ EĞİTİM DANIŞMANLIK LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.mizacegitim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 133,
+   "name": "MİLİGRAM HAYVAN BESLEME VE YAZILIM TEKNOLOJİLERİ ARAŞTIRMA GELİŞTİRME SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "MİLİGRAM HAYVAN BESLEME VE YAZILIM TEKNOLOJİLERİ ARAŞTIRMA GELİŞTİRME SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 9,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 134,
+   "name": "MİNDWORK TEKNOLOJİ SANAYİ VE TİCARET LTD. ŞTİ.",
+   "description": "MİNDWORK TEKNOLOJİ SANAYİ VE TİCARET LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ibrahim.atilgan@mindwork-it.com",
+    "web": "http://mindwork-it.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 135,
+   "name": "MODDAS YAZILIM LTD. ŞTİ",
+   "description": "MODDAS YAZILIM LTD. ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "fatos.kardas@moddas.com.tr",
+    "web": "http://moddas.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 136,
+   "name": "MORASİSTEM BİLGİ TEKNOLOJİLERİ SAN.VE TİC.LTD.ŞTİ.",
+   "description": "MORASİSTEM BİLGİ TEKNOLOJİLERİ SAN.VE TİC.LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "",
+    "web": "http://www.morasistem.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 137,
+   "name": "MS SPEKTRAL SAVUNMA SANAYİ AŞ",
+   "description": "MS SPEKTRAL SAVUNMA SANAYİ AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 19,
+   "contact": {
+    "email": "info@msspektral.com",
+    "web": "http://www.msspektral.com",
+    "urunler": "Güvenlik- TITAN-X Sabit Gantry Tipi X-Ray Tır ve Konteyner Tarama Sistemi - PHANTOM-X Mobil X-Ray Araç ve Konteyner Tarama Sistemi - NOMAD-X Mobil X-Ray Araç Tarama Sistemi - HYBRID-X Backscatter Transmission X-Ray Tarama Sistemi",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 138,
+   "name": "MUHAMMED ARSLAN",
+   "description": "MUHAMMED ARSLAN",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "marslan@mascoun.com",
+    "web": "http://www.mascoun.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 139,
+   "name": "MUHAMMED EMİN TONTUL",
+   "description": "MUHAMMED EMİN TONTUL",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@lime.com.tr",
+    "web": "http://lime.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 140,
+   "name": "MUHAMMED İBRAHİM TOP",
+   "description": "MUHAMMED İBRAHİM TOP",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "tr@workeb.com",
+    "web": "http://workeb.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 141,
+   "name": "MUHAMMET SERVİ",
+   "description": "MUHAMMET SERVİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 21,
+   "contact": {
+    "email": "muhammetservi@ktun.edu.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 142,
+   "name": "MUHARREM HİLMİ AKSOY",
+   "description": "MUHARREM HİLMİ AKSOY",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 6,
+   "contact": {
+    "email": "mhaksoy@ktun.edu.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 143,
+   "name": "MURAT KUTAY ÖZDEMİR",
+   "description": "MURAT KUTAY ÖZDEMİR",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "kutay@raporzen.com.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 144,
+   "name": "MUSA TINKIR",
+   "description": "MUSA TINKIR",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 145,
+   "name": "MUSTAFA PEKCANDANOĞLU",
+   "description": "MUSTAFA PEKCANDANOĞLU",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://www.cvsepeti.org",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 146,
+   "name": "MUZAFFER ALİ TOKMAK ",
+   "description": "MUZAFFER ALİ TOKMAK ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 147,
+   "name": "NBE DANIŞMANLIK LTD.ŞTİ",
+   "description": "NBE DANIŞMANLIK LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "samet@nbedanismanlik.com",
+    "web": "http://nbedanismanlik.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 149,
+   "name": "NOX BIOTECH TEŞHİS LABORATUVARI VE AŞI İLAÇ BİYOLOJİK MADDE ÜRETİM ARGE MERKEZİ SAN.TİC.LTD.ŞTİ",
+   "description": "NOX BIOTECH TEŞHİS LABORATUVARI VE AŞI İLAÇ BİYOLOJİK MADDE ÜRETİM ARGE MERKEZİ SAN.TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 18,
+   "contact": {
+    "email": "",
+    "web": "http://www.noxbiotech.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 543 472 88 48",
+    "address": ""
+   }
+  },
+  {
+   "id": 150,
+   "name": "NSS YAZILIM BİLİŞİM İNOVASYON SAN. TİC. LTD. ŞTİ.",
+   "description": "NSS YAZILIM BİLİŞİM İNOVASYON SAN. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@nssyazilim.com",
+    "web": "http://www.nssyazilim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 151,
+   "name": "NURULLAH YAYLA",
+   "description": "NURULLAH YAYLA",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "muhasebe@yaylasoft.com",
+    "web": "http://www.yaylasoft.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 152,
+   "name": "OBECA YAZILIM EĞİTİM ORGANİZASYON VE KART ÜRETİM SANAYİ TİCARET LİMİTED ŞİRKETİ",
+   "description": "OBECA YAZILIM EĞİTİM ORGANİZASYON VE KART ÜRETİM SANAYİ TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ouymaz@ktun.edu.tr",
+    "web": "http://synamos.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 153,
+   "name": "OĞUZHAN UYMAZ",
+   "description": "OĞUZHAN UYMAZ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 154,
+   "name": "OHMİCX MÜHENDİSLİK DANIŞMANLIK SAN VE TİC LTD ŞTİ",
+   "description": "OHMİCX MÜHENDİSLİK DANIŞMANLIK SAN VE TİC LTD ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 155,
+   "name": "OKAPİ YAZILIM SAN. VE TİC.LTD.ŞTİ",
+   "description": "OKAPİ YAZILIM SAN. VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 156,
+   "name": "OKULBOX BİLİŞİM TEKNOLOJİLERİ LTD. ŞTİ.",
+   "description": "OKULBOX BİLİŞİM TEKNOLOJİLERİ LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "bilgi@entegreyazilim.com.tr",
+    "web": "http://www.entegreyazilim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 157,
+   "name": "ON2 ELEKTRONİK GIDA TANITIM REKLAM DIŞ TİCARET LTD.ŞTİ.",
+   "description": "ON2 ELEKTRONİK GIDA TANITIM REKLAM DIŞ TİCARET LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "finans@opakyazilim.com",
+    "web": "http://https://www.opakyazilim.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 158,
+   "name": "OPK YAZILIM DANIŞMANLIK A.Ş.",
+   "description": "OPK YAZILIM DANIŞMANLIK A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "muhasebe@opkyazilim.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 159,
+   "name": "OTEK YAZILIM BİLİŞİM ÇÖZÜMLERİ A.Ş.",
+   "description": "OTEK YAZILIM BİLİŞİM ÇÖZÜMLERİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@otekyazilim.com",
+    "web": "http://https://www.otekyazilim.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 160,
+   "name": "OZDOCS TEKNOLOJİ TİCARET VE LTD. ŞTİ.",
+   "description": "OZDOCS TEKNOLOJİ TİCARET VE LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@ozdocstech.com",
+    "web": "http://www.ozdocstech.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 161,
+   "name": "ÖCAL ELMAS",
+   "description": "ÖCAL ELMAS",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 18,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 162,
+   "name": "ÖMER ZİLELİ",
+   "description": "ÖMER ZİLELİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "zileli@enetle.net",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 163,
+   "name": "ÖRNEK OTOMASYON MAKİNALARI ROBOT SİSTEMLERİ TARIM HAYVANCILIK VE DANIŞMANLIK SAN.TİC.LTD.ŞTİ",
+   "description": "ÖRNEK OTOMASYON MAKİNALARI ROBOT SİSTEMLERİ TARIM HAYVANCILIK VE DANIŞMANLIK SAN.TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 20,
+   "contact": {
+    "email": "nevzat@ornekotomasyon.com",
+    "web": "http://www.ornekotomasyon.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 164,
+   "name": "PARALI GİYİM SAN.VE TİC.LTD.ŞTİ",
+   "description": "PARALI GİYİM SAN.VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 21,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 165,
+   "name": "PİGA YAZILIM LİMİTED ŞİRKETİ",
+   "description": "PİGA YAZILIM LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@pigasoft.com",
+    "web": "https://pigasoft.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 166,
+   "name": "PİN YAZILIM REKLAM DAN. İÇ VE DIŞ TİC. LTD. ŞTİ.",
+   "description": "PİN YAZILIM REKLAM DAN. İÇ VE DIŞ TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 167,
+   "name": "PİRİTECH ELEKTRİKLİ ARAÇ VE OTOMASYON SİSTEMLERİ SAN. TİC. LTD. ŞTİ.",
+   "description": "PİRİTECH ELEKTRİKLİ ARAÇ VE OTOMASYON SİSTEMLERİ SAN. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "info@piritechnology.com",
+    "web": "http://www.piritechnology.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 168,
+   "name": "POLDY İNSAN KAYNAKLARI YAZILIM DANIŞMANLIK VE PAZARLAMA TİCARET A.Ş.",
+   "description": "POLDY İNSAN KAYNAKLARI YAZILIM DANIŞMANLIK VE PAZARLAMA TİCARET A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "poldy@poldy.com.tr",
+    "web": "http://www.poldy.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 169,
+   "name": "POLEN YAZILIM HİZMETLERİ VE DANIŞMANLIK - MEMDUH DURMAZ",
+   "description": "POLEN YAZILIM HİZMETLERİ VE DANIŞMANLIK - MEMDUH DURMAZ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "memduh.durmaz@gmail.com",
+    "web": "http://vioyazilim.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 170,
+   "name": "PRATİKALL TEKNOLOJİ AŞ",
+   "description": "PRATİKALL TEKNOLOJİ AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 171,
+   "name": "PRODER YAZILIM İLETİŞİM SİSTEMLERİ TİC.A.Ş.",
+   "description": "PRODER YAZILIM İLETİŞİM SİSTEMLERİ TİC.A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "info@proder.com.tr",
+    "web": "http://www..proder.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 172,
+   "name": "QRYAZILIM BİLGİ TEKNOLOJİ MAKİNA SAN.TİC.LTD.ŞTİ",
+   "description": "QRYAZILIM BİLGİ TEKNOLOJİ MAKİNA SAN.TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "zerasoft@gmail.com",
+    "web": "http://www.zerasoft.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 173,
+   "name": "RAST ARGE YAZILIM MÜHENDİSLİK DANIŞMANLIK SANAYİ VE TİCARET ANONİM ŞİRKETİ",
+   "description": "RAST ARGE YAZILIM MÜHENDİSLİK DANIŞMANLIK SANAYİ VE TİCARET ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@rastteknoloji.com",
+    "web": "https://rastteknoloji.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 174,
+   "name": "RASYONEL HİZMET TAAH.İNŞ.VE HAYV.LTD.ŞTİ",
+   "description": "RASYONEL HİZMET TAAH.İNŞ.VE HAYV.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "teknokampusresmi@gmail.com",
+    "web": "http://www.teknokampus.net",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 175,
+   "name": "REFİK UYANÖZ",
+   "description": "REFİK UYANÖZ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 20,
+   "contact": {
+    "email": "refik.uyanoz@gmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 176,
+   "name": "RETOUCH MARKT YAZILIM EĞİTİM DANIŞMANLIK FOTOĞRAFÇILIK SANAYİ TİCARET LİMİTED ŞİRKETİ",
+   "description": "RETOUCH MARKT YAZILIM EĞİTİM DANIŞMANLIK FOTOĞRAFÇILIK SANAYİ TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@retouchmarket.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 177,
+   "name": "ROOTRONİC MÜHENDİSLİK ANONİM ŞİRKETİ",
+   "description": "ROOTRONİC MÜHENDİSLİK ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 17,
+   "contact": {
+    "email": "ahmet@rootronic.com",
+    "web": "http://www.rootronic.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 178,
+   "name": "RÜSTEM AKINCIK",
+   "description": "RÜSTEM AKINCIK",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "r.akincikk@gmail.com",
+    "web": "http://www.karhostech.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 179,
+   "name": "SALİH YILMAZ",
+   "description": "SALİH YILMAZ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "salih.yilmaz@ozu.edu.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 180,
+   "name": "SAPORTECH TEKNOLOJİ HİZMETLERİ A.Ş",
+   "description": "SAPORTECH TEKNOLOJİ HİZMETLERİ A.Ş",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "faydin@outlook.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 181,
+   "name": "SEMİ OKUMUŞ",
+   "description": "SEMİ OKUMUŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "alpaslan.kumas@nelsus.com.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 182,
+   "name": "SENİOVR YAZ. TİC. LTD. ŞTİ.",
+   "description": "SENİOVR YAZ. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "mkafes@erbakan.edu.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 183,
+   "name": "SENTİUS TEKNOLOJİ YAZILIM SANAYİ TİC.LTD.ŞTİ",
+   "description": "SENTİUS TEKNOLOJİ YAZILIM SANAYİ TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "http://https://www.sentius.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 184,
+   "name": "SENTOS YAZILIM TEKNOLOJİLERİ A.Ş",
+   "description": "SENTOS YAZILIM TEKNOLOJİLERİ A.Ş",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@sentos.com.tr",
+    "web": "http://www.sentos.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 185,
+   "name": "SERHAT YAYLA",
+   "description": "SERHAT YAYLA",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 186,
+   "name": "SEROCON AR-GE BİYOTEKNOLOJİ SAĞLIK KİMYA SAN TİC A.Ş",
+   "description": "SEROCON AR-GE BİYOTEKNOLOJİ SAĞLIK KİMYA SAN TİC A.Ş",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 18,
+   "contact": {
+    "email": "",
+    "web": "http://www.serocon.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 187,
+   "name": "SKYLOG YAZILIM SAN.TİC.AŞ",
+   "description": "SKYLOG YAZILIM SAN.TİC.AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 188,
+   "name": "SMARTBİT BİLİŞİM YAZILIM VE DANIŞMANLIK TİCARET LİMİTED ŞİRKETİ",
+   "description": "SMARTBİT BİLİŞİM YAZILIM VE DANIŞMANLIK TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "skylog@vioyazilim.com.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 189,
+   "name": "SOFTALIVE BİLİŞİM HİZ. SAN. TİC. A.Ş.",
+   "description": "SOFTALIVE BİLİŞİM HİZ. SAN. TİC. A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "",
+    "web": "http://www.smartbit.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 190,
+   "name": "SONSUZ ENERJİ MÜHENDİSLİK VE MÜŞAVİRLİK AŞ",
+   "description": "SONSUZ ENERJİ MÜHENDİSLİK VE MÜŞAVİRLİK AŞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 6,
+   "contact": {
+    "email": "finance@ommasign.com",
+    "web": "http://www.ommasign.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 191,
+   "name": "SONUÇ ERBAŞ MUSTAFA MURAT ÖZLER ",
+   "description": "SONUÇ ERBAŞ MUSTAFA MURAT ÖZLER ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "sonuc@sonsuzenerji.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 192,
+   "name": "SYSTEMATİC OTOMASYON ELEKTRİK ELEKTRONİK SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "SYSTEMATİC OTOMASYON ELEKTRİK ELEKTRONİK SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 17,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 194,
+   "name": "TALHA ÖZDEN",
+   "description": "TALHA ÖZDEN",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "destek@tahvilyazilim.com",
+    "web": "http://www.tahvilyazilim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 195,
+   "name": "TEKLİF BİLİŞİM HİZMETLERİ PETROL DIŞ TİCARET OTOM. SAN. VE TİC. LTD. ŞTİ.",
+   "description": "TEKLİF BİLİŞİM HİZMETLERİ PETROL DIŞ TİCARET OTOM. SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 196,
+   "name": "TELİX ELEKTRONİK OTOMASYON SAN. TİC. LTD.ŞTİ.",
+   "description": "TELİX ELEKTRONİK OTOMASYON SAN. TİC. LTD.ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "finans@sifiraracal.com",
+    "web": "http://www.sifiraracal.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 197,
+   "name": "TERRABİT TEKNOLOJİ HİZMETLERİ LTD ŞTİ",
+   "description": "TERRABİT TEKNOLOJİ HİZMETLERİ LTD ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@telix.com.tr",
+    "web": "http://www.telix.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 198,
+   "name": "THE WHITE YAZILIM VE BİLİŞİM A.Ş.",
+   "description": "THE WHITE YAZILIM VE BİLİŞİM A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 199,
+   "name": "TURANLAB MEDİKAL VE LABORATUVAR ÜRÜNLERİ İTHALAT İHRACAT A. Ş.",
+   "description": "TURANLAB MEDİKAL VE LABORATUVAR ÜRÜNLERİ İTHALAT İHRACAT A. Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 21,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 200,
+   "name": "TURKTEK TEKNOLOJİ GELİŞTİRME VE TRANSFERİ MERKEZİ LTD. ŞTİ. ",
+   "description": "TURKTEK TEKNOLOJİ GELİŞTİRME VE TRANSFERİ MERKEZİ LTD. ŞTİ. ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "ibrahim.m@turktekteknoloji.com.tr",
+    "web": "http://www.turktekteknoloji.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 201,
+   "name": "TURQUOISE RESTORASYON SAN. VE TİC. LTD. ŞTİ.",
+   "description": "TURQUOISE RESTORASYON SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 13,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 202,
+   "name": "TÜRKAV AR-GE MÜH. MAK. EĞİTİM VE DANIŞMANLIK TİC. LTD. ŞTİ. ",
+   "description": "TÜRKAV AR-GE MÜH. MAK. EĞİTİM VE DANIŞMANLIK TİC. LTD. ŞTİ. ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 12,
+   "contact": {
+    "email": "",
+    "web": "http://turkav.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 203,
+   "name": "TWİN UP TEKNOLOJİ SAN.TİC.LTD.ŞTİ",
+   "description": "TWİN UP TEKNOLOJİ SAN.TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "fatli@teklifbilisim.com",
+    "web": "http://https://teklifbilisim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 204,
+   "name": "UTILITEK BİLGİ TEKNOLOJİLERİ A.Ş.",
+   "description": "UTILITEK BİLGİ TEKNOLOJİLERİ A.Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "osman.sak@utilitek.com.tr",
+    "web": "http://www.utilitek.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 205,
+   "name": "VAGALTECH BİYOTEKNOLOJİ ANALİZ ÜRETİM EĞİTİM VE DANIŞMANLIK TİC.LTD.ŞTİ",
+   "description": "VAGALTECH BİYOTEKNOLOJİ ANALİZ ÜRETİM EĞİTİM VE DANIŞMANLIK TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 9,
+   "contact": {
+    "email": "vagaltech.s@gmail.com",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 206,
+   "name": "VAULT BİLİŞİM SİSTEMLERİ LİMİTED ŞİRKETİ",
+   "description": "VAULT BİLİŞİM SİSTEMLERİ LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "info@konsisbilisim.com",
+    "web": "http://www.konsisiblisim.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 207,
+   "name": "VBT YAZILIM ANONİM ŞİRKETİ",
+   "description": "VBT YAZILIM ANONİM ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "tayfun.yurdagul@vbt.com.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 208,
+   "name": "VERD ARGE YAZILIM DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "description": "VERD ARGE YAZILIM DANIŞMANLIK SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 2,
+   "contact": {
+    "email": "akkusaytekin@hotmail.com",
+    "web": "http://www.verd.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 209,
+   "name": "VERİBEL YAZ. SAN. TİC. LTD. ŞTİ.",
+   "description": "VERİBEL YAZ. SAN. TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@veribel.com.tr",
+    "web": "http://www.veribel.com.tr",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 211,
+   "name": "YEDEKON MAKİNA VE YEDEK PARÇA İÇ VE DIŞ TİCARET A. Ş.",
+   "description": "YEDEKON MAKİNA VE YEDEK PARÇA İÇ VE DIŞ TİCARET A. Ş.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "yedekon3442@gmail.com",
+    "web": "http://www.yedekon.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 212,
+   "name": "YUMAK İNOVASYON YAZILIM OTOMATİV SAN. VE TİC. LTD. ŞTİ.",
+   "description": "YUMAK İNOVASYON YAZILIM OTOMATİV SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 17,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 213,
+   "name": "YUNUS DEREBAĞ",
+   "description": "YUNUS DEREBAĞ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 17,
+   "contact": {
+    "email": "",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 214,
+   "name": "YUSUF ERHAN ARI - ZİRVE MEDYA - TİCİCARD DİJİTAL KARTVİZİT",
+   "description": "Reklam Ajansı",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@zirvemedya.com",
+    "web": "https://www.zirvemedya.com",
+    "urunler": "Dijital Kartvizit",
+    "hizmetler": "360 Derce Tam Reklam Ajansı",
+    "phone": "+90 332 230 00 14",
+    "address": "Ferhuniye Mh. Kocatepe Sk. 23/5 Selçuklu KONYA"
+   }
+  },
+  {
+   "id": 215,
+   "name": "YÜCE PİŞKİNSÜT ",
+   "description": "YÜCE PİŞKİNSÜT ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "info@ycp.com.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 216,
+   "name": "ZEKİ KÜÇÜKBARDAKÇI - PLANTUM YAZILIM",
+   "description": "ZEKİ KÜÇÜKBARDAKÇI - PLANTUM YAZILIM",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 1,
+   "contact": {
+    "email": "sonayt@minerva.com.tr",
+    "web": "",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 217,
+   "name": "ZENOPİX TEKNOLOJİ SAN.VE TİC.LTD.ŞTİ",
+   "description": "ZENOPİX TEKNOLOJİ SAN.VE TİC.LTD.ŞTİ",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 5,
+   "contact": {
+    "email": "",
+    "web": "http://www.ikonel.com",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 218,
+   "name": "ZFB DIŞ TİCARET OTOMOTİV OTO KİRALAMA İNŞAAT PETROL SAN. VE TİC. LTD. ŞTİ.",
+   "description": "ZFB DIŞ TİCARET OTOMOTİV OTO KİRALAMA İNŞAAT PETROL SAN. VE TİC. LTD. ŞTİ.",
+   "logo": "yukleme/sayfalar/teknokentlogo.jpg",
+   "category": 17,
+   "contact": {
+    "email": "fuat.kaya@zfbmobilite.com",
+    "web": "https://www.zfbmobilite.com/",
+    "urunler": "",
+    "hizmetler": "",
+    "phone": "+90 332 262 02 02",
+    "address": "Akademi Mah. Gürbulut Sok. No:67 Selçuklu/Konya"
+   }
+  },
+  {
+   "id": 220,
+   "name": "CYBER ADS REKLAM AJANSI VE YAZILIM TİC. LTD. ŞTİ.",
+   "description": "Capitol Reklam Ajansı Ticaret Limited Şirketi, dijital pazarlama, reklam yönetimi, kurumsal iletişim, marka danışmanlığı, sosyal medya yönetimi ve yazılım geliştirme alanlarında faaliyet göstermek amacıyla kurulmuştur.\r\n",
+   "logo": "",
+   "category": 1,
+   "contact": {
+    "email": "capitolreklam@gmail.com",
+    "web": "-",
+    "urunler": ".",
+    "hizmetler": ".",
+    "phone": "-",
+    "address": "Akademi mah. Gürbulut Sok. No:67"
+   }
+  },
+  {
+   "id": 221,
+   "name": "NESİMİ KESEN",
+   "description": "-",
+   "logo": "",
+   "category": 2,
+   "contact": {
+    "email": "nesimi@turfanmotor.com",
+    "web": "-",
+    "urunler": "-",
+    "hizmetler": "-",
+    "phone": "-",
+    "address": "Akademi mah. Gürbulut Sok. No:67"
+   }
+  },
+  {
+   "id": 222,
+   "name": "NEVA İNOVATİF TEKNOLOJİ VE YAZILIM HİZMETLERİ LİMİTED ŞİRKETİ",
+   "description": "2008 yılında Selçuk Üniversitesi Teknokent'te kurulan Neva Mühendislik; kartlı geçiş sistemi, toplu taşıma kart sistemi, kampüs kart otomasyonu ve HMI ekran çözümleri geliştirmektedir. Konya merkezli firmamız, 100'den fazla kurumsal referansıyla belediyeler, üniversiteler ve kamu kurumlarına hizmet vermektedir. Akıllı ulaşım sistemlerinden açık alan güvenlik çözümlerine, PACS medikal görüntüleme sistemlerinden akıllı Durak uygulamalarına kadar geniş bir yelpazede yenilikçi, yerli ve milli projeler üretmekteyiz.Belediyeler, üniversiteler ve kamu kurumlarına; kartlı geçiş, akıllı toplu ulaşım, açık alan güvenliği ve endüstriyel otomasyon alanlarında yerli ve özgün teknolojik çözümler üretmek. Fiber optik algılamadan yapay zeka destekli güvenlik sistemlerine, RTU donanımından merkezi yönetim platformlarına kadar geliştirdiğimiz her üründe güvenilirliği, sürdürülebilirliği ve kullanıcı odaklı tasarımı esas alarak Türkiye'nin dijital dönüşümüne katkı sağlamak. Akıllı şehir, güvenli ulaşım ve çevresel izleme çözümlerinde Türkiye'nin öncü yerli teknoloji firması olmak. Yapay zeka destekli aktif güvenlik sistemlerinden otonom dron platformlarına, akıllı durak uygulamalarından kampüs kart altyapılarına kadar geliştirdiğimiz çözümlerle; daha güvenli, daha bağlantılı ve daha akıllı kentlerin inşasına öncülük etmek.\r\n",
+   "logo": "",
+   "category": 1,
+   "contact": {
+    "email": "aozkan80@gmail.com",
+    "web": "-",
+    "urunler": "-",
+    "hizmetler": "-",
+    "phone": "-",
+    "address": "Akademi mah. Gürbulut Sok. No:67"
+   }
+  },
+  {
+   "id": 223,
+   "name": "ORDE ENERJİ İKLİMLENDİRME MÜHENDİSLİK ISITMA SOĞUTMA İNŞAAT SAN. VE TİC. LTD. ŞTİ.",
+   "description": "Orden enerji iklimlendirme sistemlerinde inovatif çözümler sunan 2012 yılında kurulmuş bir firmadır. Genellikle mühendislik alanında hizmet vermekte olup endüstriyel soğutma ve buhar proseslerinin kurulumu bakımı ve onarımı gibi pek çok alanda hizmet vermektedir.\r\n",
+   "logo": "",
+   "category": 6,
+   "contact": {
+    "email": "demirpolat@selcuk.edu.tr",
+    "web": "-",
+    "urunler": "-",
+    "hizmetler": "-",
+    "phone": "-",
+    "address": "Akademi mah. Gürbulut Sok. No:67"
+   }
+  },
+  {
+   "id": 224,
+   "name": "EGE ERGEN",
+   "description": "-",
+   "logo": "",
+   "category": 2,
+   "contact": {
+    "email": "egeergen2006@gmail.com",
+    "web": "-",
+    "urunler": "-",
+    "hizmetler": "-",
+    "phone": "-",
+    "address": "Akademi mah. Gürbulut Sok. No:67"
+   }
+  },
+  {
+   "id": 225,
+   "name": "METİN BATUHAN ÖZÜCAN",
+   "description": "-",
+   "logo": "",
+   "category": 2,
+   "contact": {
+    "email": "business@wondeon.com",
+    "web": "-",
+    "urunler": "-",
+    "hizmetler": "-",
+    "phone": "-",
+    "address": "Akademi mah. Gürbulut Sok. No:67"
+   }
+  }
+ ]
+}

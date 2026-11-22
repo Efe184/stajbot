@@ -1,0 +1,375 @@
+# Teknopark / Teknokent firma rehberleri — TeknoparkCollector yapılandırması.
+#
+# Her kayıt bir teknoparkı tanımlar. Alanlar:
+#   slug, name, city          : kimlik; city hedef şehirlerden biri (enums.TARGET_CITIES)
+#   kind                      : html | json | inline_json | js_unsupported
+#   list_url                  : liste (veya indeks) sayfası / JSON uç noktası
+#   pagination                : none | page_param:<param> | path_template:<url {n}> | next_link:<css>
+#   page_start, page_step     : page_param / path_template için 2. sayfanın numarası ve artış (vars. 2 / 1)
+#   page_size                 : sayfa başına beklenen kayıt; daha azı gelirse son sayfa sayılır
+#   sub_links                 : list_url bir indeks ise, alt liste sayfalarının bağlantı seçicisi
+#   sub_links_pattern         : alt bağlantı href'lerini süzen düzenli ifade
+#   sub_link_field            : alt bağlantı metninin yazılacağı alan (sector | building)
+#   sub_pagination            : alt sayfaların sayfalama kuralı (pagination ile aynı sözdizimi)
+#   context_selectors         : liste sayfasından bir kez okunan alanlar (ör. sector: breadcrumb)
+#   selectors                 : item + alan seçicileri. Sözdizimi:
+#                                 "css"            -> metin
+#                                 "css@attr"       -> öznitelik
+#                                 "@attr"          -> öğenin kendi özniteliği
+#                                 {sel, attr, regex, index} -> ayrıntılı (regex 1. grubu alır, index n. eşleşme)
+#                                 [spec, spec]     -> sırayla dene, ilk dolu değer
+#   json_keys                 : JSON kaynaklar için: items (nokta yolu, "" = kök) + alan yolları
+#                               (alan yolu liste olabilir: sırayla denenir); null_values: boş sayılan değerler
+#   lookups                   : {alan: {list, key, value}} kök JSON'daki bir listeden kod -> ad çevirisi
+#   inline_json_marker        : kind=inline_json için HTML içindeki JS dizesinin başlangıç işareti
+#   detail_page               : true ise eksik alanlar için detay sayfası çekilir (en çok max_detail_pages)
+#   detail_kind, detail_method, detail_url, detail_headers, detail_data, detail_selectors, detail_json_keys
+#                               detail_url şablonunda {id} (selectors.detail_id) ve {detail_link} kullanılabilir
+#   max_detail_pages          : teknopark başına detay sayfası üst sınırı (vars. defaults.max_detail_pages)
+#   notes                     : araştırma notu (bilgi amaçlı)
+
+defaults:
+  max_detail_pages: 150
+  max_pages: 60
+
+technoparks:
+  # ============================ ANKARA ============================
+  - slug: odtu-teknokent
+    name: ODTÜ Teknokent
+    city: Ankara
+    kind: json
+    list_url: https://odtuteknokent.com.tr/assets/data/companies.json
+    pagination: none
+    json_keys:
+      items: ""
+      name: name
+      website: url
+    notes: "Statik JSON (392 firma). HTML sayfası boş kabuk. DNS zaman zaman hata veriyor."
+
+  - slug: bilkent-cyberpark
+    name: Bilkent Cyberpark
+    city: Ankara
+    kind: html
+    list_url: https://www.cyberpark.com.tr/firma-arsiv
+    pagination: "path_template:https://www.cyberpark.com.tr/firma-arsiv/{n}"
+    page_start: 2
+    page_size: 20
+    selectors:
+      item: div.e-bulletin-image-box
+      name: h3.title
+    notes: "Yalnızca firma adı; web sitesi yok. 19 sayfa."
+
+  - slug: hacettepe-teknokent
+    name: Hacettepe Teknokent
+    city: Ankara
+    kind: html
+    list_url: https://www.hacettepeteknokent.com.tr/tr/firma_rehberi
+    pagination: none
+    sub_links: "a[href^='/tr/firma_rehberi/']"
+    sub_link_field: sector
+    context_selectors:
+      sector: li.breadcrumb-item.active
+    selectors:
+      item: div.firma
+      name: div.firma_adi a
+      detail_link: div.firma_adi a@href
+    detail_page: true
+    detail_kind: html
+    detail_selectors:
+      phone: {sel: div.firma_detay_bilgi, index: 0}
+      website: {sel: div.firma_detay_bilgi, index: 1}
+      email: {sel: div.firma_detay_bilgi, index: 2}
+      address: {sel: div.firma_detay_bilgi, index: 3}
+    notes: "15 sektör sayfası; firma birden çok kategoride olabilir (ada göre tekilleştirilir). Yalnızca www. alan adı yanıt veriyor."
+
+  - slug: gazi-teknopark
+    name: Gazi Teknopark
+    city: Ankara
+    kind: json
+    list_url: https://api.gaziteknopark.com.tr/Unit/GetUnitByPaginationAll
+    pagination: none
+    json_keys:
+      items: data.unitUi
+      name: unit.name
+      website: unit.description
+      email: unit.eposta
+      phone: unit.phone
+      address: unit.adress
+      description: unit.description1
+      null_values: ["Yok", "None", "-", ""]
+    notes: "Belgelenmemiş açık API (147 birim). Web sitesi 'description' alanında."
+
+  - slug: aso-teknopark
+    name: ASO Teknopark
+    city: Ankara
+    kind: html
+    list_url: https://www.asoteknopark.com.tr/?page_id=1606
+    pagination: none
+    selectors:
+      item: "a.af-card, div.af-card"
+      name: [span.af-name, "@title", "@data-n"]
+      website: "@href"
+    notes: "WordPress, tek sayfa, 69 firma."
+
+  # ============================ İSTANBUL ============================
+  - slug: itu-ari-teknokent
+    name: İTÜ Arı Teknokent
+    city: İstanbul
+    kind: html
+    list_url: https://www.ariteknokent.com.tr/tr/teknoloji-firmalari/teknokentli-firmalar
+    pagination: "page_param:page"
+    page_start: 2
+    page_size: 24
+    selectors:
+      item: div.company-card
+      name: [div.company-card__title, "@title"]
+      sector: div.company-card__sector@title
+      detail_id: "@data-row-id"
+    detail_page: true
+    detail_kind: json
+    detail_url: "https://www.ariteknokent.com.tr/tr/getCompanyInformations?rowID={id}"
+    detail_headers:
+      X-Requested-With: XMLHttpRequest
+    detail_json_keys:
+      website: [company.website_url, company.website]
+      phone: company.phone
+      email: company.email
+      sector: sector.title_tr
+      description: about.content_tr
+    notes: "24 firma/sayfa, ~17 sayfa. Detay JSON uç noktası."
+
+  - slug: yildiz-teknopark
+    name: Yıldız Teknopark
+    city: İstanbul
+    kind: html
+    list_url: https://www.yildizteknopark.com.tr/firmalarimiz
+    pagination: "page_param:per_page"
+    page_start: 72
+    page_step: 36
+    page_size: 36
+    selectors:
+      item: div.service-block_six
+      name: div.service-block_six-text
+      website: a@href
+    notes: "per_page parametresi sayfa imleci gibi çalışır (36, 72, 108 ...). ~640 firma."
+
+  - slug: bogazici-teknopark
+    name: Boğaziçi Teknopark
+    city: İstanbul
+    kind: html
+    list_url: https://bogaziciteknopark.com/firmalarimiz
+    pagination: none
+    selectors:
+      item: "a[href^='/firmalarimiz/']"
+      name: ["img@alt", {sel: span, index: -1}]
+      sector: {sel: span, index: 0}
+      detail_link: "@href"
+    notes: "Next.js SSR, tek sayfa, 79 kart. Sektör yerine AR-GE / KULUÇKA etiketi."
+
+  - slug: entertech-istanbul-teknokent
+    name: Entertech İstanbul Teknokent
+    city: İstanbul
+    kind: html
+    list_url: https://entertech.com.tr/firmalarimiz/
+    pagination: none
+    selectors:
+      item: div.firmalar-item
+      name: img.firmalar-logo@alt
+      detail_id: a.firmalar-popup@data-id
+    detail_page: true
+    detail_kind: html
+    detail_method: post
+    detail_url: https://entertech.com.tr/wp-admin/admin-ajax.php
+    detail_data:
+      action: get_firm_details
+      post_id: "{id}"
+    detail_selectors:
+      sector: {sel: "div.firma-popup-info p:-soup-contains('Faaliyet Alanı')", regex: "Faaliyet Alanı:\\s*(.+)"}
+      email: {sel: "div.firma-popup-info p:-soup-contains('Email')", regex: "Email:\\s*(\\S+)"}
+      phone: {sel: "div.firma-popup-info p:-soup-contains('Telefon')", regex: "Telefon:\\s*(.+)"}
+      website: "div.firma-popup-info p:-soup-contains('Web Sitesi') a@href"
+    notes: "301 firma tek sayfa; detaylar admin-ajax POST ile (firma başına 1 istek)."
+
+  - slug: teknopark-istanbul
+    name: Teknopark İstanbul
+    city: İstanbul
+    kind: js_unsupported
+    list_url: https://www.teknoparkistanbul.com.tr/firmalar
+    pagination: none
+    notes: "Cloudflare JS doğrulaması (403). Tarayıcısız çekilemez; CSV ile içe aktarın."
+
+  # ============================ İZMİR ============================
+  - slug: teknopark-izmir
+    name: Teknopark İzmir
+    city: İzmir
+    kind: html
+    list_url: https://www.teknoparkizmir.com.tr/tr/firmalar
+    pagination: none
+    selectors:
+      item: div.tp-company-card
+      name: "@data-company-name"
+      website: "@data-company-web"
+      sector: "@data-company-sector"
+      description: "@data-company-about"
+    notes: "151 kart tek sayfa, tüm alanlar data-özniteliklerinde."
+
+  - slug: depark
+    name: DEPARK
+    city: İzmir
+    kind: html
+    list_url: https://www.depark.com/firmalarimiz/?per_page=48
+    pagination: "path_template:https://www.depark.com/firmalarimiz/page/{n}/?per_page=48"
+    page_start: 2
+    page_size: 48
+    selectors:
+      item: div.firma-card
+      name: [h3.firma-title, "img@alt"]
+      website: "@data-websitesi"
+      sector: "@data-sektor"
+      description: "@data-aciklama"
+    notes: "164 firma, 48/sayfa."
+
+  - slug: izmir-bilimpark
+    name: İzmir Bilim ve Teknoloji Parkı
+    city: İzmir
+    kind: html
+    list_url: https://izmirbilimpark.com.tr/aktif-firmalar/
+    pagination: none
+    selectors:
+      item: div.firm-card
+      name: h3.firm-name
+      sector: {sel: div.firm-details, regex: "Ana Faaliyet Alanı:\\s*(.+?)(?=\\s+\\S+@\\S+|\\s+https?://|$)"}
+      email: div.firm-contact span.d-block
+      website: div.firm-contact a@href
+    notes: "92 firma tek sayfa."
+
+  # ============================ KONYA ============================
+  - slug: konya-teknokent
+    name: Konya Teknokent
+    city: Konya
+    kind: json
+    list_url: https://www.konyateknokent.com.tr/data/companies.asp
+    pagination: none
+    json_keys:
+      items: companies
+      name: name
+      website: contact.web
+      email: contact.email
+      phone: contact.phone
+      address: contact.address
+      description: description
+      sector: category
+      null_values: [""]
+    lookups:
+      sector: {list: categories, key: id, value: name}
+    notes: "text/html olarak sunulan JSON; ham kontrol karakterleri olabilir (strict=False)."
+
+  # ============================ ESKİŞEHİR ============================
+  - slug: atap-eskisehir
+    name: ATAP Anadolu Teknoloji Araştırma Parkı
+    city: Eskişehir
+    kind: html
+    list_url: https://www.atap.com.tr/Portal/Firmalar
+    pagination: none
+    selectors:
+      item: div.post-item
+      name: h2 a.main-color
+      detail_link: h2 a.main-color@href
+      sector: "li:-soup-contains('Sektör') a"
+      phone: li.meta-comments a
+      website: "article.post-content p a[target=_blank]@href"
+      legal_name: {sel: article.post-content p, regex: "^(.+)$"}
+    notes: "145 firma tek sayfa. Boş web siteleri 'http://www.' olarak gelir (süzülür)."
+
+  # ============================ BURSA ============================
+  - slug: ulutek
+    name: ULUTEK Teknopark
+    city: Bursa
+    kind: html
+    list_url: https://ulutekpartnerim.com/firmalar
+    pagination: "page_param:page"
+    page_start: 2
+    page_size: 40
+    selectors:
+      item: div.education_block_grid
+      name: h4.firma-unvan a
+      detail_link: h4.firma-unvan a@href
+    detail_page: true
+    detail_kind: html
+    detail_selectors:
+      website: "a[href^='http']:not([href*='ulutekpartnerim']):not([href*='facebook']):not([href*='twitter']):not([href*='instagram']):not([href*='linkedin']):not([href*='youtube']):not([href*='google']):not([href*='ulutek.com'])@href"
+    notes: "Resmi partner rehberi; 40 firma/sayfa, 7 sayfa. Web sitesi detay sayfasında."
+
+  # ============================ SAKARYA ============================
+  - slug: sakarya-teknokent
+    name: Sakarya Teknokent
+    city: Sakarya
+    kind: inline_json
+    list_url: https://www.sakaryateknokent.com/firmalar
+    pagination: none
+    inline_json_marker: "companies: JSON.parse('"
+    json_keys:
+      items: ""
+      name: name
+      website: website
+      email: email
+      phone: phone
+      address: address
+      sector: main_activity
+      description: summary
+      employee_count: employee_count
+      null_values: ["", ".", "None"]
+    notes: "Tüm veri HTML içindeki JS dizesinde gömülü (137 firma)."
+
+  # ============================ ANTALYA ============================
+  - slug: antalya-teknokent
+    name: Antalya Teknokent
+    city: Antalya
+    kind: html
+    list_url: https://www.antalyateknokent.com.tr/tr/firmalar
+    pagination: none
+    sub_links: "a[href]"
+    sub_links_pattern: "/tr/(ar-ge-\\d+-[a-z0-9-]*binasi|girisimcilik-ve-kulucka-merkezi1)$"
+    sub_link_field: building
+    selectors:
+      item: div.box20
+      name: h3.title
+      detail_link: a.button@href
+    notes: "9 bina sayfası; yalnızca ad + bina. Web sitesi yok (zenginleştirme gerekir)."
+
+  # ============================ MERSİN ============================
+  - slug: mersin-technoscope
+    name: Mersin Teknopark (Technoscope)
+    city: Mersin
+    kind: html
+    list_url: https://www.technoscope.com.tr/firmalar/
+    pagination: none
+    sub_links: div.blog-item h4.blog__title a
+    sub_links_pattern: "/menu/"
+    sub_link_field: sector
+    sub_pagination: "page_param:SayfaNo"
+    page_start: 2
+    page_size: 12
+    selectors:
+      item: div.blog-item
+      name: [h4.blog__title a, "h4.blog__title a@title"]
+      detail_link: h4.blog__title a@href
+    detail_page: true
+    detail_kind: html
+    detail_selectors:
+      website: "a[href^='http']:not([href*='technoscope.com.tr']):not([href*='facebook']):not([href*='twitter']):not([href*='instagram']):not([href*='linkedin']):not([href*='youtube']):not([href*='google']):not([href*='wp-content'])@href"
+    notes: "11 sektör sayfası, her biri ?SayfaNo=N ile sayfalanır (12/sayfa)."
+
+  # ============================ AFYONKARAHİSAR ============================
+  - slug: zafer-teknopark
+    name: Zafer Teknopark
+    city: Afyonkarahisar
+    kind: html
+    list_url: https://www.zaferteknopark.com.tr/firmalar/
+    pagination: none
+    selectors:
+      item: div.eael-filterable-gallery-item-wrap
+      name: h3.fg-item-title
+      legal_name: div.fg-item-content p
+      website: "a[aria-label='eael-item-maybe-link']@href"
+    notes: "48 firma tek sayfa. TGB Afyon+Uşak+Kütahya'yı kapsar; firma bazında şehir yok."

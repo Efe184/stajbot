@@ -1,0 +1,4105 @@
+[
+ {
+  "id": "01a0b8c7-6370-7392-be7c-65a4b7c8efee",
+  "slug": "abdullah-kayar",
+  "name": "ABDULLAH KAYAR",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 0,
+  "website": null,
+  "email": "ensarrocakci@gmail.com",
+  "phone": "(551) 031-96-32",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ NO:2 - İÇ KAPI NO: 5 - SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "05 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "05",
+    "label": "05 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-96ea-7339-9a7c-983cd9a3b039",
+  "slug": "adsaya-lab-yazilim-arge-ve-danismanlik-san-ve-tic-as",
+  "name": "ADSAYA LAB YAZILIM ARGE VE DANIŞMANLIK SAN. VE TİC. A.Ş.",
+  "summary": "ADSAYA LAB YAZILIM ARGE VE DANIŞMANLIK SAN. VE TİC. A.Ş.",
+  "description": "ADSAYA LAB YAZILIM ARGE VE DANIŞMANLIK SAN. VE TİC. A.Ş.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": null,
+  "email": "adil.sarikaya@adsaya.com",
+  "phone": "(530) 835-00-44",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK NO:10 B/114 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "114 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "114",
+    "label": "114 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-948d-715d-b9e8-b83eba3d67ec",
+  "slug": "agrisolvetech-teknoloji-as",
+  "name": "AGRISOLVETECH TEKNOLOJİ A.Ş.",
+  "summary": "AGRISOLVETECH Teknoloji A.Ş., sürdürülebilir tarım ve kontrollü ortamda bitki yetiştirme teknolojileri alanında yenilikçi çözümler geliştirm...",
+  "description": "AGRISOLVETECH Teknoloji A.Ş., sürdürülebilir tarım ve kontrollü ortamda bitki yetiştirme teknolojileri alanında yenilikçi çözümler geliştirmek amacıyla 24 Aralık 2024 tarihinde Sakarya Teknokent bünyesinde kurulmuştur. Şirket, akademik bilgi birikimi ile sahaya dönük mühendislik uygulamalarını bir araya getiren bir yapı ile faaliyet göstermektedir. Şirketin kuruluş süreci, TÜBİTAK 1812 BiGG Girişimcilik Destek Programı kapsamında desteklenen AgriSolveTECH Sürdürülebilir Tarım İçin Yenilikçi ve Biyoteknolojik Çözümler projesi ile şekillenmiştir. Bu kapsamda AGRISOLVETECH, biyoteknoloji, elektronik, yazılım ve otomasyon tabanlı tarım teknolojileri üzerine Ar-Ge çalışmalarına başlamış ve 3 oranında TÜBİTAK BiGG Fonu ortaklığı ile faaliyetlerine devam etmektedir.",
+  "tags": [
+   "Tarım"
+  ],
+  "main_activity": "Tarım",
+  "nace_code": "61.20.02",
+  "active_project_count": 2,
+  "employee_count": 4,
+  "website": null,
+  "email": "selcukcoskun@subu.edu.tr",
+  "phone": "(505) 856-97-50",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK NO:10 B BLOK Z05-25 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/f25c2feb876ac57d215db1a2a1de9678.jpg",
+  "office_summary": "115 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "115",
+    "label": "115 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a18df8-23cb-7291-9443-6672d13da3d1",
+  "slug": "ozel-aktip-hastanesi",
+  "name": "AKTIP SAĞLIK HİZMETLERİ A.Ş. SAKARYA ŞUBESİ",
+  "summary": "Şirketimiz 2003 yılında tıbbi görüntüleme alanında faaliyete başlamış olup 2006 yılında cerrahi tı merkezine dönüşmüş, 2022 yılında da hasta...",
+  "description": "Şirketimiz 2003 yılında tıbbi görüntüleme alanında faaliyete başlamış olup 2006 yılında cerrahi tı merkezine dönüşmüş, 2022 yılında da hastaneye dönüşürmüştür.",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": "http://www.aktip.com.tr",
+  "email": "muhasebe@aktip.com.tr",
+  "phone": "(378) 502-30-60",
+  "address": null,
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/0e152839104fca9f29c696e04897dcb7.jpg",
+  "office_summary": "",
+  "offices": []
+ },
+ {
+  "id": "019a77ba-860e-7014-bf4f-368869fed663",
+  "slug": "alfatek-yazilim-danismanlik-ltd-sti",
+  "name": "ALFATEK YAZILIM DANIŞMANLIK LTD. ŞTİ.",
+  "summary": "Daha sonra güncellenecektir.",
+  "description": "Daha sonra güncellenecektir.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 11,
+  "website": "http://www.alfatekyazilim.com.tr",
+  "email": "eminyormaz1@gmail.com",
+  "phone": "(505) 981-45-21",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D /B02  SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B06 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "B06",
+    "label": "B06 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7abe-70fa-98e7-e7722ffdf105",
+  "slug": "argede-bilisim-teknolojileri",
+  "name": "ARGEDE BİLİŞİM TEKNOLOJİLERİ SAN. TİC. LTD. ŞTİ.",
+  "summary": "Argede ailesi olarak biz, Yazılım alanında 13 yıldır başarıyla faaliyet gösteren köklü bir kuruluşuz. 2010 yılında kurulduğumuz günden itiba...",
+  "description": "Argede ailesi olarak biz, Yazılım alanında 13 yıldır başarıyla faaliyet gösteren köklü bir kuruluşuz. 2010 yılında kurulduğumuz günden itibaren müşterilerimize en iyi hizmeti sunmak ve sektörümüzde öncü olmak için tutkuyla çalışıyoruz.Bu süre zarfında edindiğimiz tecrübe ve birikim, bize sektördeki değişen trendleri takip etme ve müşteri ihtiyaçlarına uygun çözümler üretme konusunda önemli bir avantaj sağlamaktadır. Çözümlerimiz; Web, Mobile Tasarım Çözümleri SAP Entegrasyon Çözümleri IOT Çözümleri B2B ve B2C Çözümleri Ürünlerimiz; Andon Panel Sistemleri CRMİZ KAPSİS İSG Saha Takip Sistemleri DijitAR Dijital YAK (Yerinde Anında Kalite) Arge Faaliyetlerimiz Assisteen Assismarin",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "58.29.01",
+  "active_project_count": 17,
+  "employee_count": 15,
+  "website": "http://argede.com.tr",
+  "email": "destek@argede.com.tr",
+  "phone": "(533) 199-35-89",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 A / Z06-Z07  Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/3d7693c94ba730a9332e668ece48fedf.jpg",
+  "office_summary": "Z12 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z12",
+    "label": "Z12 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9852-7107-a67d-c578c9aa495f",
+  "slug": "arm-arge-robotik-yazilim-muhendislik-san-ve-tic-ltd-sti",
+  "name": "ARM ARGE ROBOTİK YAZILIM MÜHENDİSLİK SAN. VE TİC. LTD. ŞTİ.",
+  "summary": "ARM ARGE Yazılım Robotik, sanayi ve üretim alanında yenilikçi otomasyon çözümleri sunmayı hedefleyen bir şirkettir. Firma, robotik sistemler...",
+  "description": "ARM ARGE Yazılım Robotik, sanayi ve üretim alanında yenilikçi otomasyon çözümleri sunmayı hedefleyen bir şirkettir. Firma, robotik sistemler ve yazılım teknolojilerini bir araya getirerek üretim süreçlerini daha verimli, güvenilir ve esnek hale getirmeyi amaçlar. Özellikle lazer kesim, robotik doldur-boşalt sistemleri ve akıllı kontrol yazılımları gibi projeler üzerinde çalışarak işletmelere modern, düşük maliyetli ve ileri teknolojiye dayalı çözümler geliştirir. Böylece endüstride dijitalleşme sürecine katkıda bulunur ve işletmelerin rekabet gücünü artırır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "71.12.08",
+  "active_project_count": 4,
+  "employee_count": 4,
+  "website": "http://armrobotik.com",
+  "email": "burakgok34.bg@gmail.com",
+  "phone": "(538) 695-01-41",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK.TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK NO:10 İÇ KAPI NO:Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/f421b313b971bd0309cb635fb1b62464.jpg",
+  "office_summary": "29, 30 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "29",
+    "label": "29 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "30",
+    "label": "30 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-939e-702d-b965-24f536cae63d",
+  "slug": "artes-solution-yazilim-donanim-ve-muh-hiz-ltd-sti",
+  "name": "ARTES SOLUTION YAZILIM DONANIM VE MÜH. HİZ. LTD. ŞTİ.",
+  "summary": "Artes",
+  "description": "Artes",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 3,
+  "website": null,
+  "email": "yusuftatar@artessolution.com",
+  "phone": "(505) 108-56-96",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 B BLOK Z05-36 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7cb7-703b-b51a-db8446278347",
+  "slug": "arvasis-bilisim",
+  "name": "ARVASİS BİLİŞİM VE DANIŞMANLIK SANAYİ VE TİCARET A. Ş. ",
+  "summary": "arvasis",
+  "description": "arvasis",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 10,
+  "employee_count": 6,
+  "website": "http://arvasis.com",
+  "email": "bilaltorkul@arvasis.com",
+  "phone": "(264) 295-54-91",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / 105  SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "105 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "105",
+    "label": "105 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8926-72df-8ef8-1b1cbb8b3c19",
+  "slug": "assistbox-teknoloji-as",
+  "name": "ASSİSTBOX TEKNOLOJİ A.Ş.-SAKARYA ŞUBESİ",
+  "summary": "Assistbox, regülasyona tabi, yüksek hacimli ve kritik operasyonlar için özel olarak tasarlanmış kurumsal görüntülü görüşme altyapısı sunar....",
+  "description": "Assistbox, regülasyona tabi, yüksek hacimli ve kritik operasyonlar için özel olarak tasarlanmış kurumsal görüntülü görüşme altyapısı sunar. Müşteri ediniminden uzaktan değerlendirme ve ekspertiz süreçlerine kadar tüm aşamalarda; güvenli, ölçülebilir ve yapay zek destekli insan etkileşimleri sağlar. 2018 yılından bu yana 70 ten fazla büyük ölçekli kuruma hizmet vererek, görüntülü görüşme gerektiren projelerde kurumların güvenilir ve stratejik çözüm ortağı konumundadır.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 20,
+  "website": null,
+  "email": "bora.gul@assistbox.io",
+  "phone": "(536) 924-68-64",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / B05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/60c3a0209c4ae5fdf3613e1ef4516fd1.jpg",
+  "office_summary": "B05 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B05",
+    "label": "B05 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efb4-7063-9d50-d2e0b38bc3e8",
+  "slug": "aygul-albayrak",
+  "name": "AYGÜL ALBAYRAK ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": null,
+  "email": "erdm.albayrak@gmail.com",
+  "phone": "(545) 211-39-98",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ NO:2- İÇ KAPI NO:3 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "03 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "03",
+    "label": "03 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-ef74-708c-8036-9888f879f010",
+  "slug": "baran-oguz",
+  "name": "BARAN OĞUZ",
+  "summary": ". Signal Life, titreşim temelli dokunsal geri bildirim yaklaşımından ilham alan bir giyilebilir teknoloji ürünüdür. Günlük yaşamın temposu i...",
+  "description": ". Signal Life, titreşim temelli dokunsal geri bildirim yaklaşımından ilham alan bir giyilebilir teknoloji ürünüdür. Günlük yaşamın temposu içinde kullanıcıların ritim ve farkındalık hissini destekleyen sade bir deneyim sunmayı amaçlar. Titreşim tabanlı wellness yaklaşımıyla tasarlanan Signal Life, gün boyunca dikkat dağıtmayan dokunsal bildirimlerle kullanıcıların kendi ritimlerini fark etmelerine yardımcı olur ve günlük akış içinde küçük ama anlamlı anlar yaratır. Minimal ve kullanıcı odaklı tasarımı sayesinde günün temposuna kolayca uyum sağlar. Amaç, teknolojiyi karmaşıklaştırmadan insan deneyimiyle uyumlu, dengeli ve akıcı bir kullanım sunmaktır. Signal Life, dokunsal deneyim üzerinden farkındalık, ritim ve kullanıcı konforu odaklı bir etkileşim yaklaşımı sunar. Önemli Bilgilendirme: Signal Life bir tıbbi cihaz değildir; herhangi bir hastalığın teşhisi, tedavisi veya önlenmesi amacıyla tasarlanmamıştır. Yalnızca kişisel kullanım ve yaşam tarzı deneyimi sunmak için geliştirilmiştir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "info@signallife.tr",
+  "phone": "(532) 205-65-54",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK NO:10B KAPI NO:Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/b3afe500dacee7d017683a7a0b760be1.jpg",
+  "office_summary": "NİGEM OFİSLERİ",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": null,
+    "label": "NİGEM OFİSLERİ",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9010-7283-ba5d-c9036669f6b4",
+  "slug": "bay-biyoteknoloji-anonim-sirketi",
+  "name": "BAY BİYOTEKNOLOJİ ANONİM ŞİRKETİ",
+  "summary": "BAY BİYOTEKNOLOJİ ANONİM ŞİRKETİ",
+  "description": "BAY BİYOTEKNOLOJİ ANONİM ŞİRKETİ",
+  "tags": [
+   "İlaç"
+  ],
+  "main_activity": "İlaç",
+  "nace_code": "72.11.01",
+  "active_project_count": 3,
+  "employee_count": 3,
+  "website": null,
+  "email": "burakozbay@adatiphastanesi.com",
+  "phone": "(532) 428-02-01",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 A BLOK B04 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B04 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "B04",
+    "label": "B04 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efe2-720e-917a-f54a379cdd3c",
+  "slug": "vesta-vision",
+  "name": "BEYZA KEÇECİ",
+  "summary": "Vesta Vision; e-ticaret, turizm (Travel-Tech), otomotiv ve benzeri sektörlerde fiziksel varlıkların dijital ortama aktarılması, analiz edilm...",
+  "description": "Vesta Vision; e-ticaret, turizm (Travel-Tech), otomotiv ve benzeri sektörlerde fiziksel varlıkların dijital ortama aktarılması, analiz edilmesi ve üç boyutlu dijital ikizlerinin oluşturulması süreçlerini kolaylaştırmayı amaçlayan, yapay zek ve bilgisayarlı görü tabanlı bir DeepTech teknoloji girişimidir. Geliştirilmekte olan yerli teknoloji altyapısı; standart kamera sistemleri ve akıllı telefonlardan elde edilen görüntüleri kullanarak, küçük ölçekli ürünlerden otel odaları, konaklama alanları ve araçlar gibi daha büyük fiziksel ortamlara kadar farklı ölçeklerdeki varlıkların görsel olarak analiz edilmesini ve yüksek kaliteli 3 boyutlu temsillerinin oluşturulmasını hedeflemektedir. Vesta Vision'ın Ar-Ge çalışmaları; 3D rekonstrüksiyon, 3D Gaussian Splatting (3DGS), bilgisayarlı görü ve yapay zek tabanlı görsel analiz teknolojilerini ortak bir altyapıda birleştirerek özel tarama donanımlarına olan bağımlılığı ve mevcut çözümlerin yüksek operasyonel maliyetlerini azaltmaya odaklanmaktadır. Platform; geliştiriciler, dijital platformlar ve kurumsal müşteriler tarafından mevcut ürünlere entegre edilebilecek API tabanlı, donanımdan mümkün olduğunca bağımsız ve ölçeklenebilir bir B2B teknoloji altyapısı olarak geliştirilmektedir. Uzun vadeli hedef, Türkiye'de geliştirilen bilgisayarlı görü ve 3D dijitalleştirme teknolojilerinin global pazarda kullanılmasını sağlayan ihracat odaklı bir teknoloji platformu oluşturmaktır.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": "http://vestavision.io",
+  "email": "beyza@vestavision.io",
+  "phone": "(534) 370-77-00",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ NO:2 - İÇ KAPI NO: 24 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/75ff078b0fb9bb542553308b29607548.jpg",
+  "office_summary": "24 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "24",
+    "label": "24 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019b74c5-bb99-73b8-a443-0e3b54893261",
+  "slug": "bloocell-saglik-teknolojileri-san-ve-tic-as-sakarya-subesi",
+  "name": "BLOOCELL SAĞLIK TEKNOLOJİLERİ SAN. VE TİC. A.Ş. SAKARYA ŞUBESİ.",
+  "summary": "BLOOCELL SAĞLIK TEKNOLOJİLERİ SAN. VE TİC. A.Ş. SAKARYA ŞUBESİ",
+  "description": "BLOOCELL SAĞLIK TEKNOLOJİLERİ SAN. VE TİC. A.Ş. SAKARYA ŞUBESİ",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "72.19.01",
+  "active_project_count": 2,
+  "employee_count": 4,
+  "website": "http://www.bloocell.com",
+  "email": "m.cuneyt@bloocell.com",
+  "phone": "(533) 059-14-62",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK.TEKNOLOJİ GELİŞTİRME BÖLGELERİ F BLOK BİNA NO:10/6 OFİS NO:119 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/caa9c1c5258d1c6e08fdc33ecd9cfa46.jpg",
+  "office_summary": "119–121 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "119",
+    "label": "119 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "F Blok",
+    "office_no": "120",
+    "label": "120 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "F Blok",
+    "office_no": "121",
+    "label": "121 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-823d-72a3-983d-9b366a55fa68",
+  "slug": "adanet-internet-hizmetleri",
+  "name": "BURAK ERSÜKMEN - enyakin.com",
+  "summary": "2003 yılında internet - web teknolojileri alanında faaliyete başlayan Adanet Ajans Sakarya ve çevresinde 750 yi aşkın işletmeye web konusund...",
+  "description": "2003 yılında internet - web teknolojileri alanında faaliyete başlayan Adanet Ajans Sakarya ve çevresinde 750 yi aşkın işletmeye web konusunda çözümler sunmaktadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 6,
+  "employee_count": 9,
+  "website": "http://www.enyakin.com",
+  "email": "info@adanetajans.com",
+  "phone": "(264) 272-82-06",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK 10 A /111 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/4f6db22e435e7477eace6ed6eb114b14.jpg",
+  "office_summary": "111 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "111",
+    "label": "111 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-85d2-72b6-828d-1ac18475c0d8",
+  "slug": "bym-yazilim-sanayi-ve-ticaret-as",
+  "name": "BYM YAZILIM SANAYİ VE TİCARET A.Ş.",
+  "summary": "-",
+  "description": "-",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 6,
+  "employee_count": 15,
+  "website": "http://bymyazilim.com.tr",
+  "email": "info@bymyazilim.com.tr",
+  "phone": "(850) 480-02-96",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / 203 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/a0e6d0aa476df9a60ed05e9569ee4ffe.jpg",
+  "office_summary": "203 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "203",
+    "label": "203 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8331-7317-b391-fbc0dd7add89",
+  "slug": "biocure-kimya-ilac-arge-danismanlik-san-ve-tic-as",
+  "name": "BİOCURE KİMYA İLAÇ ARGE DANIŞMANLIK SAN. VE TİC. A.Ş.",
+  "summary": "Biocure Kimya; ilaç ve kimya sektörü gereksinimlerine yönelik yenilikçi, sürdürülebilir projeler geliştirmek ve profesyonel çözümler üretmek...",
+  "description": "Biocure Kimya; ilaç ve kimya sektörü gereksinimlerine yönelik yenilikçi, sürdürülebilir projeler geliştirmek ve profesyonel çözümler üretmek üzere 2019 yılında Sakarya Üniversitesi Teknoloji Geliştirme Bölgesi nde kurulmuş olan büyüme odaklı yerli sermayeli bir şirkettir.",
+  "tags": [
+   "İlaç"
+  ],
+  "main_activity": "İlaç",
+  "nace_code": "72.19.01",
+  "active_project_count": 6,
+  "employee_count": 2,
+  "website": "http://www.biocure.com.tr",
+  "email": "csunlu@biocure.com.tr",
+  "phone": "(536) 953-99-33",
+  "address": "ESENTEPE MH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO:2 / 7-8-10 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/228b06919ce08e6241961e142b51bfa2.jpg",
+  "office_summary": "37 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "37",
+    "label": "37 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-92ea-71ff-a933-21aee278b22a",
+  "slug": "bios-makina-endustriyel-otomasyon-san-ve-tic-ltd-sti-teknokent-subesi",
+  "name": "BİOS MAKİNA ENDÜSTRİYEL OTOMASYON SAN. VE TİC. LTD. ŞTİ.-TEKNOKENT ŞUBESİ",
+  "summary": "BİOS MAKİNA ENDÜSTRİYEL OTOMASYON SAN. VE TİC. LTD. ŞTİ.-TEKNOKENT ŞUBESİ",
+  "description": "BİOS MAKİNA ENDÜSTRİYEL OTOMASYON SAN. VE TİC. LTD. ŞTİ.-TEKNOKENT ŞUBESİ",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "33.20.53",
+  "active_project_count": 3,
+  "employee_count": 19,
+  "website": null,
+  "email": "muhasebe@biosindustry.com",
+  "phone": "(264) 230-10-40",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGESİ SİTESİ BİNA NO:10 A BLOK NO: Z15 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "NİGEM OFİSLERİ",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": null,
+    "label": "NİGEM OFİSLERİ",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7edb-713e-b923-9be1416f0492",
+  "slug": "c1soft",
+  "name": "C1SOFT BİLİŞİM TEKNOLOJİLERİ LTD. ŞTİ.",
+  "summary": "Otomotiv sektörüne özel yazılım projeleri üreten bir grup şirketidir.",
+  "description": "Otomotiv sektörüne özel yazılım projeleri üreten bir grup şirketidir.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 8,
+  "employee_count": 10,
+  "website": null,
+  "email": "muhasebe@c1soft.com",
+  "phone": "(543) 627-31-26",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z01  SERDİVAN 54200 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/30ae2bed7742bf4363280e223950e57a.jpg",
+  "office_summary": "Z01 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z01",
+    "label": "Z01 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7da9-7100-9f4f-b4e25136871b",
+  "slug": "caz-bilisim-hizmetleri-ticaret-as",
+  "name": "CAZ BİLİŞİM HİZMETLERİ TİCARET A.Ş.",
+  "summary": "Hakkımızda Advancity, 1999 yılında e-öğrenme alanında faaliyet göstermek üzere kurulan ve gittikçe genişleyen ürün ve hizmet çeşitliliğini t...",
+  "description": "Hakkımızda Advancity, 1999 yılında e-öğrenme alanında faaliyet göstermek üzere kurulan ve gittikçe genişleyen ürün ve hizmet çeşitliliğini tek bir çatı altında, bütünsel bir yaklaşımla sunmayı hedefleyen uzaktan ve e-eğitim markasıdır. Advancity kimdir? 20 yılı aşan deneyimi ile önceliğini Akademik Eğitim Yönetimi (LMS) ve Sanal Sınıf (Virtual Clasroom) yazılımlarına vererek başta Üniversiteler olmak üzere birçok eğitim kurumuna dijital eğit im çözümleri sunan firmamız, tamamen yerli bir yazılım kadrosu ile çalışmanın avantajıyla Türkiye deki eğitim kurumlarının ihtiyaçlarına göre özelleştirerek geliştirdiği çözümler ile sektörün en önemli oyuncularından birisi haline gelmiştir. Kendi alanında Yerli Malı Belgesi alan ilk firma olan Advancity, bugün İstanbul ve Sakarya Teknopark ta olmak üzere iki ofisi, Sürekli Destek ve Kesintisiz Eğitim ekibi ile kendini tüm eğitim kurumlarının dijital eğitim süreçlerini kolaylaştırmaya adamış ve bugün Uzaktan Eğitim Çözümleri kullanan üniversiteler tarafından en çok tercih edilen ve pazarın açık ara lideri durumuna gelmiştir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 13,
+  "employee_count": 32,
+  "website": "http://www.caz.com.tr",
+  "email": "info@caz.com.tr",
+  "phone": "(532) 777-44-15",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / 206  Merkez 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "206, 207 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "206",
+    "label": "206 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "D Blok",
+    "office_no": "207",
+    "label": "207 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9502-70e4-9786-7b9f11dd8863",
+  "slug": "chatier-yazilim-danismanlik-ltd-sti",
+  "name": "CHATIER YAZILIM DANIŞMANLIK LTD. ŞTİ.",
+  "summary": "Yazılacak",
+  "description": "Yazılacak",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 1,
+  "website": null,
+  "email": "ynsemrsngr@gmail.com",
+  "phone": "(505) 981-45-21",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ BİNA BO:10 B BLOK Z05-28 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7de5-7074-97d3-da518541c944",
+  "slug": "cmv-teknoloji-sanayi-ve-ticaret-ltd-sti",
+  "name": "CMV Teknoloji San.ve Tic. Ltd. Şti.",
+  "summary": "Ülkemizde sektörlerinin öncü firmaları olan,teknoloji, sigorta,perakende, iletişim ve gıda sektöründe faaliyet gösteren çeşitli şirketlere y...",
+  "description": "Ülkemizde sektörlerinin öncü firmaları olan,teknoloji, sigorta,perakende, iletişim ve gıda sektöründe faaliyet gösteren çeşitli şirketlere yazılım danışmanlığı hizmeti vermekteyiz. Hayata geçirilmiş farklı projelerimiz bulunmaktadır. Bilişim sektöründe yetkin ve tecrübeli bir ekipten oluşan kadromuzla hizmet vermeye devam ediyoruz.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 14,
+  "employee_count": 14,
+  "website": "http://www.cmvteknoloji.com",
+  "email": "burak.sulun@cmvteknoloji.com",
+  "phone": "(532) 317-76-55",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z13  Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z13 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z13",
+    "label": "Z13 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8595-7255-881d-a4ce95cc942e",
+  "slug": "codefirst-yazilim-teknolojileri-as",
+  "name": "CODEFIRST YAZILIM TEKNOLOJİLERİ A.Ş.",
+  "summary": "yazılım firması",
+  "description": "yazılım firması",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 11,
+  "employee_count": 25,
+  "website": "http://codefirst.io",
+  "email": "info@codefirst.io",
+  "phone": "(530) 268-18-72",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / B04  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/65d505806cd7551bbbea82aa2891405a.jpg",
+  "office_summary": "B04 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B04",
+    "label": "B04 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a0b8c7-6378-7114-937f-bc9ac1c07455",
+  "slug": "coremind-yazilim-as",
+  "name": "COREMIND YAZILIM A.Ş.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 2,
+  "website": "http://coremind.tr",
+  "email": "info@coremind.tr",
+  "phone": "(534) 445-03-64",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ NO:2 - İÇ KAPI NO:25 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/17402acd67059823fe0605bc68e475dd.jpg",
+  "office_summary": "25 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "25",
+    "label": "25 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8b81-73cd-b1db-d923c765c6d7",
+  "slug": "cyberwise-siber-guvenlik-tic-as-sakarya-subesi",
+  "name": "CYBERWİSE SİBER GÜVENLİK TİC. A.Ş.-SAKARYA ŞUBESİ",
+  "summary": "Cyberwise olarak, daha güvenli bir dünya için siber risklerin bütüncül bir yaklaşımla, uçtan uca yönetilmesi gerektiğine inanıyoruz. Çeşitli...",
+  "description": "Cyberwise olarak, daha güvenli bir dünya için siber risklerin bütüncül bir yaklaşımla, uçtan uca yönetilmesi gerektiğine inanıyoruz. Çeşitli siber güvenlik yetkinliklerini birleştiren vizyonumuz, 40 yılı aşkın deneyimimiz ve alanının en saygın sertifikalarına sahip uzman ekibimiz ile bugün Türkiye'nin önde gelen siber güvenlik çözümleri sağlayıcısı olarak hizmet veriyoruz. Dünya lideri teknoloji iş ortaklarımız, sınıfının en iyisi ürünlerimiz ve 350'nin üzerinde uzman insan kaynağımızla kuruluşlar için uçtan uca koruma sağlıyoruz. Danışmanlık, denetim, ürün entegrasyonu ve yönetilen güvenlik hizmetlerini kapsayan akıllı ve özelleştirilebilir çözümlerimiz; müşterilerimizin dijital dönüşüm yolculuklarını güvence altına alıyor. İstanbul, Ankara, İzmir, Sakarya, Hollanda, Dubai ve Abu Dabi'de hizmet veren ofislerimizde uzmanlığımızı global ölçekte genişletiyor ve siber güvenlikte fark yaratmaya devam ediyoruz.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.02.01",
+  "active_project_count": 2,
+  "employee_count": 22,
+  "website": null,
+  "email": "firatb@cyberwise.com.tr",
+  "phone": "(216) 688-81-82",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK 10 A / 110-111  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/26fd1516907f4cffc7164a243af90277.jpg",
+  "office_summary": "110, 111 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "110",
+    "label": "110 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "111",
+    "label": "111 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-988e-735d-b01d-f684015dfcb5",
+  "slug": "defteran-teknoloji-as",
+  "name": "DEFTERAN TEKNOLOJİ A.Ş.",
+  "summary": "Bu alan doldurulacak",
+  "description": "Bu alan doldurulacak",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 3,
+  "website": null,
+  "email": "bilgi@defteran.com",
+  "phone": "(539) 602-12-29",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ NO:2 İÇ KAPI NO:1 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "33 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "33",
+    "label": "33 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7bc5-72a8-a6e3-d1e36455e8cd",
+  "slug": "demircioglu-robotik",
+  "name": "DEMİRCİOĞLU ROBOTİK BİLİŞİM TEKNOLOJİLERİ SAN. VE TİC. LTD. ŞTİ.",
+  "summary": "DEMİRCİOĞLU",
+  "description": "DEMİRCİOĞLU",
+  "tags": [
+   "Elektronik"
+  ],
+  "main_activity": "Elektronik",
+  "nace_code": "26.20.01",
+  "active_project_count": 24,
+  "employee_count": 5,
+  "website": "http://www.demircioglurobotik.com.tr",
+  "email": "musa@demircioglurobotik.com.tr",
+  "phone": "(264) 277-99-22",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ E BLOK NO:10 E Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Demircioğlu Teknoloji, Merkezi",
+  "offices": [
+   {
+    "building": "E Blok",
+    "office_no": null,
+    "label": "Demircioğlu Teknoloji, Merkezi",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a13ee6-764f-738e-855d-d13550928ca4",
+  "slug": "deniz-ozay-yavuz",
+  "name": "DENİZ ÖZAY YAVUZ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": null,
+  "email": "kadineviresmi@gmail.com",
+  "phone": "(530) 385-75-77",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. YTONG ÖĞRENCİ YURTLARI 2. BLOK NO:5 - 7C - İÇ KAPI NO: 1 - SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "26 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "26",
+    "label": "26 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-877b-7098-91bd-d766e2f5bd74",
+  "slug": "depar-arge-enerji-ve-bilisim-teknolojileri-san-tic-ltid-sti",
+  "name": "DEPAR ARGE ENERJİ VE BİLİŞİM TEKNOLOJİLERİ SAN. TİC. LTD. ŞTİ.",
+  "summary": "DEPAR ARGE, sektördeki geniş tecrübe birikimi ile akademik deneyimi bir araya getiren uzman kadrosuyla, enerji ve sanayi sektörü için projel...",
+  "description": "DEPAR ARGE, sektördeki geniş tecrübe birikimi ile akademik deneyimi bir araya getiren uzman kadrosuyla, enerji ve sanayi sektörü için projeler üretmektedir. Enerji sektöründe SEDAŞ, GDZ Elektrik Dağıtım A.Ş., Uludağ EDAŞ gibi firmalarla AR-GE projeleri yürütürken, diğer taraftan sanayi sektörü ile de yakın çalışmakta, çeşitli TÜBİTAK, AB, KOSGEB, Bakanlık vb. projeleri geliştirmektedir. Temel faaliyet alanlarımız AR-GE projesi geliştirme, danışmanlık ve mühendislik hizmetleridir. Uzmanlık alanlarımız ise, elektrik enerjisi dağıtımı, optimizasyon, gömülü sistemler, yazılım-donanım geliştirme, güç sistem analizi, enerji verimliliği, IoT, akıllı şebeke sistemleri, yapay zeka ve veri analitiğidir.",
+  "tags": [
+   "Enerji"
+  ],
+  "main_activity": "Enerji",
+  "nace_code": "26.11.90",
+  "active_project_count": 10,
+  "employee_count": 4,
+  "website": null,
+  "email": "ilkerdursun@subu.edu.tr",
+  "phone": "(532) 620-07-92",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / Z08 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B10 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "B10",
+    "label": "B10 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efd0-73d2-824b-f2d2fcd3d692",
+  "slug": "dnm-yazilim-egitim-danismanlik-ve-ticaret-ltd-sti",
+  "name": "DNM YAZILIM EĞİTİM DANIŞMANLIK TİC. LTD. ŞTİ.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "aydinm@sakarya.edu.tr",
+  "phone": "(554) 624-23-74",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGESİ SİTESİ A BLOK NO:10A İÇ KAPI NO:Z10 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/e78b3946d772cdd0af2be76673e83560.jpg",
+  "office_summary": "Z10 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "Z10",
+    "label": "Z10 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8370-7122-95f3-ae86cd2a8c1a",
+  "slug": "doctor-klc-kimya-ilac-kozmetik-dogal-urunler-arge-ltd-sti",
+  "name": "DOCTOR KLC KİMYA İLAÇ KOZMETİK DOĞAL ÜRÜNLER ARGE LTD. ŞTİ. ",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "İlaç"
+  ],
+  "main_activity": "İlaç",
+  "nace_code": "20.12.02",
+  "active_project_count": 4,
+  "employee_count": 2,
+  "website": null,
+  "email": "info@doctorklc.com.tr",
+  "phone": "(532) 351-36-55",
+  "address": "ESENTEPE MH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO:2 /14 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/e1c2bc05d6cea7a2d22e6b945df6b9a1.jpg",
+  "office_summary": "09 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "09",
+    "label": "09 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-ef6a-73c0-9ac1-5fddd59bfdee",
+  "slug": "dogrunet-yazilim-ve-danismanlik-anonim-sirketi",
+  "name": "DOĞRUNET YAZILIM VE DANIŞMANLIK A.Ş.",
+  "summary": "Deneme",
+  "description": "Deneme",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 5,
+  "website": null,
+  "email": "teknokent@dogrunet.com.tr",
+  "phone": "(532) 514-59-59",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK NO:10B İÇ KAPI NO: Z03  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z03 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z03",
+    "label": "Z03 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-93da-7072-b0c1-1414bfb912f1",
+  "slug": "enginsoft-turkey-muhendislik-yazilim-tic-ltd-sti",
+  "name": "DYNOVEX MÜHENDİSLİK VE YAZILIM TİCARET LİMİTED ŞİRKETİ",
+  "summary": "EnginSoft Turkey 2015 yılında Teknopark İstanbul'da kurulmuştur. Firma Mühendislik hizmetleri, offset ve Ar-Ge projeleri, mühendislik yazılı...",
+  "description": "EnginSoft Turkey 2015 yılında Teknopark İstanbul'da kurulmuştur. Firma Mühendislik hizmetleri, offset ve Ar-Ge projeleri, mühendislik yazılımları satışı ve teknik desteği alanlarında hizmet vermektedir. Aynı zamanda KOBİ statüsünde bir mühendislik firması olarak çalışmalarını yürütmektedir. Firmanın İstanbul ve Ankara'da ofisleri bulunmakta, AS9100 ve ISO9001 kalite sertifikalarına sahiptir. Ülkemizin önde gelen kuruluşlarının mühendislik çözüm ortağı olarak çalışmanın yanında firma kendi Ar-Ge projelerini de yürütmektedir. Ar-Ge projeler TÜBİTAK, TEYDEB ve KOSGEB tarafından desteklenmektedir. EnginSoft Turkey aynı zamanda Avrupa Birliği projelerinde yer almaktadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 4,
+  "website": null,
+  "email": "info@enginsoftturkey.com",
+  "phone": "(216) 504-11-53",
+  "address": "Sanayi Mahallesi Teknopark Bulvarı No: 1/2A 108 Pendik 34906 İSTANBUL/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019c40e3-cc15-7342-ac2a-57b8c02ca3b3",
+  "slug": "dyrobx-robotik-ve-muhendislik-teknolojileri-as",
+  "name": "DYROBX ROBOTİK VE MÜHENDİSLİK TEKNOLOJİLERİ A.Ş.",
+  "summary": "DYROBX ROBOTİK VE MÜHENDİSLİK TEKNOLOJİLERİ A.Ş.",
+  "description": "DYROBX ROBOTİK VE MÜHENDİSLİK TEKNOLOJİLERİ A.Ş.",
+  "tags": [
+   "İmalat Sanayi"
+  ],
+  "main_activity": "İmalat Sanayi",
+  "nace_code": "28.99.10",
+  "active_project_count": 3,
+  "employee_count": 5,
+  "website": null,
+  "email": "dyrobx@gmail.com",
+  "phone": "(553) 509-25-85",
+  "address": "ESENTEPE MAH. AKADEMİYİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGESİ TGB ROSEM NO:2 / 20 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/249e76e82b30bb8ef42ff253496cffeb.jpg",
+  "office_summary": "46 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "46",
+    "label": "46 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8bd3-73a8-9e65-11875e0de1e8",
+  "slug": "digital-donusum",
+  "name": "DİGİTAL DÖNÜŞÜM BİLİŞİM SİSTEMLERİ SİBER TEKN. İNŞ. MATBAACILIK TAR. HAY. TUR. VE DAN. HİZM. SAN. TİC. A.Ş.-SAKARYA ŞUBESİ",
+  "summary": "DİGİTAL DÖNÜŞÜM HİZMETLERİ OLARAK GELİR İDARE BAŞKANLIĞININ GETİRMİŞ OLDUĞU ZORUNLU E-DÖNÜŞÜM UYGULMALARI İÇİN ERP LER İLE GİB MEVZUATINA GÖ...",
+  "description": "DİGİTAL DÖNÜŞÜM HİZMETLERİ OLARAK GELİR İDARE BAŞKANLIĞININ GETİRMİŞ OLDUĞU ZORUNLU E-DÖNÜŞÜM UYGULMALARI İÇİN ERP LER İLE GİB MEVZUATINA GÖRE YAZILIM GELİŞTİREREK ENTEGRASYON SAĞLAMASI YAPILMAKTADIR.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "63.11.08",
+  "active_project_count": 3,
+  "employee_count": 2,
+  "website": "http://www.ddhsoft.com",
+  "email": "info@ddhsoft.com",
+  "phone": "(224) 256-05-32",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-19 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/071e905004dcc300c9559375b231971c.jpg",
+  "office_summary": "",
+  "offices": []
+ },
+ {
+  "id": "019a77ba-8c72-7263-9a7b-660297d28c27",
+  "slug": "ecohub-kimya-ve-biyoteknoloji-as",
+  "name": "ECOHUB KİMYA VE BİYOTEKNOLOJİ A.Ş.",
+  "summary": "ECOHUB KİMYA VE BİYOTEKNOLOJİ A.Ş.",
+  "description": "ECOHUB KİMYA VE BİYOTEKNOLOJİ A.Ş.",
+  "tags": [
+   "Gıda Sanayi"
+  ],
+  "main_activity": "Gıda Sanayi",
+  "nace_code": "20.16.05",
+  "active_project_count": 4,
+  "employee_count": 3,
+  "website": null,
+  "email": "ummugulsumzor@sakarya.edu.tr",
+  "phone": "(543) 680-02-70",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO:2 /15 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "21 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "21",
+    "label": "21 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8fd4-7072-81d1-063e004d5174",
+  "slug": "eng-mineral-sanayi-ve-ticaret-limited-sirketi-teknokent-subesi",
+  "name": "ENG MİNERAL SANAYİ VE TİCARET LİMİTED ŞİRKETİ-TEKNOKENT ŞUBESİ",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Makine ve Teçhizat İmalatı"
+  ],
+  "main_activity": "Makine ve Teçhizat İmalatı",
+  "nace_code": "28.99.90",
+  "active_project_count": 6,
+  "employee_count": 12,
+  "website": "http://www.engmineral.com.tr",
+  "email": "argeofis@engmineral.com.tr",
+  "phone": "(264) 276-06-06",
+  "address": "Esentepe Mah. Akademiyolu Sk. Teknoloji Geliştirme Bölgesi Sitesi B Blok No:10B 110 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/c19c47f8a08b050a8801b0fa4efe9447.jpg",
+  "office_summary": "110 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "110",
+    "label": "110 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7b49-7056-b591-27da3e19e66d",
+  "slug": "erkay-teknoloji-gelistirme-hizmetleri",
+  "name": "ERKAY TEKNOLOJİ GELİŞTİRME HİZ. SAN. TİC.LTD.ŞTİ.",
+  "summary": "Sakarya Üniversitesi Teknoloji Geliştirme Bölgesi nde (Sakarya Teknokent) 4691 sayılı Teknoloji Geliştirme Bölgeleri Kanunu na göre faaliyet...",
+  "description": "Sakarya Üniversitesi Teknoloji Geliştirme Bölgesi nde (Sakarya Teknokent) 4691 sayılı Teknoloji Geliştirme Bölgeleri Kanunu na göre faaliyet gösteren bir Ar-Ge, danışmanlık ve eğitim kuruluşudur. Şirket ana sözleşmesinde de belirtildiği gibi faaliyetlerini ERP (Kurumsal Kaynak Planlaması) yazılımlarının insan kaynakları modüllerini geliştirmek üzere görev tanımlarına uygunluk, bireysel performans değerleme ve personel eliminasyonu alanlarında yazılım programları geliştirilmektedir. Bunlara ek olarak Kobilerin kurumsallaşması, stratejik planlaması ve kurumsal performans ölçümü alanlarında da kurumsal danışmanlık ve eğitim hizmetleri verilmektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 14,
+  "employee_count": 7,
+  "website": "http://www.erkayteknoloji.com",
+  "email": "info@erkayteknoloji.com",
+  "phone": "(532) 271-73-50",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK 10 A / 118-119  SERDİVAN 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/ca0cd3f76cce275b46e75874e89eff11.jpg",
+  "office_summary": "118, 119 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "118",
+    "label": "118 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "119",
+    "label": "119 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a0b8c7-6389-7017-a990-6a9c44df29c3",
+  "slug": "eryap-grup-teknoloji-anonim-sirketi",
+  "name": "ERYAP GRUP TEKNOLOJİ A.Ş. SAKARYA BONUS TEKNOLOJİ ŞUBESİ",
+  "summary": "Eryap Grup Teknoloji A.Ş, Ar-Ge, teknoloji geliştirme ve inovasyon faaliyetlerinin kurumsal bir yapı altında yürütülmesi amacıyla Sakarya Ün...",
+  "description": "Eryap Grup Teknoloji A.Ş, Ar-Ge, teknoloji geliştirme ve inovasyon faaliyetlerinin kurumsal bir yapı altında yürütülmesi amacıyla Sakarya Üniversitesi Teknoloji Geliştirme Bölgesi'nde açılacak şubesi ile aktif faaliyetlerine başlayacaktır. Faaliyet alanları; mineral yün üretim teknolojileri, yeni ürün geliştirme, geri kazanım sistemleri, sürdürülebilir üretim teknolojileri, proses optimizasyonu, görüntü işleme, yapay zek ve endüstriyel otomasyon uygulamalarıdır. İlk Ar-Ge projesi olarak mineral yün üretiminde oluşan ergimiş atık malzemenin kontrollü geri kazanımına yönelik teknoloji geliştirme çalışması yürütülecek olup, ilerleyen süreçlerde üretim teknolojilerine yönelik yeni Ar-Ge projelerinin hayata geçirilmesi planlanmaktadır.",
+  "tags": [
+   "İmalat Sanayi"
+  ],
+  "main_activity": "İmalat Sanayi",
+  "nace_code": "27.20.04",
+  "active_project_count": 1,
+  "employee_count": 7,
+  "website": "http://www.bonusyalitim.com.tr",
+  "email": "ilker.giresunlu@bonusyalitim.tr",
+  "phone": "(537) 256-19-50",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ D BLOK NO: 10D İÇ KAPI NO:Z5 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/f6e9c7c8dfe4236c3738476fa3086231.jpg",
+  "office_summary": "Z05 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8559-7217-89e4-3603b4846d5f",
+  "slug": "eska-gaz-urunleri-arge-ltd-sti-teknopark-subesi",
+  "name": "ESKA GAZ ÜRÜNLERİ ARGE LTD. ŞTİ. TEKNOPARK ŞUBESİ",
+  "summary": "ESKA GAZ, DOĞALGAZ HATLARINDA KULLANILAN ENDÜSTRİYEL GAZ EMNİYET EKİPMANLARINI ÜRETEN ESKA VALVE NİN AR-GE ŞİRKETİ OLARAK KURULMUŞTUR. GOSB...",
+  "description": "ESKA GAZ, DOĞALGAZ HATLARINDA KULLANILAN ENDÜSTRİYEL GAZ EMNİYET EKİPMANLARINI ÜRETEN ESKA VALVE NİN AR-GE ŞİRKETİ OLARAK KURULMUŞTUR. GOSB TEKNOPARKTA BULUNAN ESKA GAZ 2018 YILI İTİBARİYLE SEKTÖR TALEP VE İHTİYAÇLARINI GİDEREBİLMEK AMACIYLA FAALİYETE GEÇMİŞTİR",
+  "tags": [
+   "Makine ve Teçhizat İmalatı"
+  ],
+  "main_activity": "Makine ve Teçhizat İmalatı",
+  "nace_code": "28.14.01",
+  "active_project_count": 13,
+  "employee_count": 10,
+  "website": null,
+  "email": "atilerim@eskaarge.com",
+  "phone": "(533) 021-37-45",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / Z04  serdivan 54055 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/347c39d264a5596f1c354c4ccfdbade8.jpg",
+  "office_summary": "Z04 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "Z04",
+    "label": "Z04 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9815-7192-b8d7-d47c7fdad0f2",
+  "slug": "fayrise-muhendislik-teknoloji-san-tic-ltd-sti",
+  "name": "FAYRISE MÜHENDİSLİK TEKNOLOJİ SAN. TİC. LTD. ŞTİ.",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "İnşaat"
+  ],
+  "main_activity": "İnşaat",
+  "nace_code": "71.12.10",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "furkansari@sakarya.edu.tr",
+  "phone": "(542) 718-33-10",
+  "address": "Esentepe Mah. Akademiyolu Sok. Teknoloji Geliştirme Bölgeleri, B Blok B06, 54050 Serdivan/Sakarya Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "31 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "31",
+    "label": "31 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-827c-7035-b9ee-577c4ef619fc",
+  "slug": "fxy-bilgi-teknolojileri",
+  "name": "FXY BİLGİ TEKNOLOJİLERİ VE DİJİTAL PAZARLAMA TİC. LTD. ŞTİ.",
+  "summary": "2008 Yılında projelendirilmiş ve çalışmalara başlamış, TRT Ana Haber Bülteni, TRT Haber kanallarında öğrencilere yurt bulma konusunda refera...",
+  "description": "2008 Yılında projelendirilmiş ve çalışmalara başlamış, TRT Ana Haber Bülteni, TRT Haber kanallarında öğrencilere yurt bulma konusunda referans gösterilmiş , Türkiye Bilişim Derneğinden ödüllü bir portaldır. Öğrencilere yurt bulma konusunda yardımcı olmak ve kayıt- kayıt sonrası problemleri gidermek, online rezervasyon sistemleri geliştirerek kayıt işlemlerini kolaylaştırmak projenin ana hedefleri arasındadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 5,
+  "employee_count": 6,
+  "website": "http://www.muratdurak.com.tr",
+  "email": "murat@muratdurak.com.tr",
+  "phone": "(532) 554-26-93",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / 112  SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/c4c2f1fba3d4f0f502fa7bb84a7e5dd3.jpg",
+  "office_summary": "112 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "112",
+    "label": "112 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-81ff-7163-94c0-f08c6c27a93b",
+  "slug": "finanstech-finansal-danismanlik-ve-egitim-anonim-sirketi",
+  "name": "FİNANSTECH FİNANSAL DANIŞMANLIK VE EĞİTİM A.Ş.",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "63.11.08",
+  "active_project_count": 5,
+  "employee_count": 1,
+  "website": "http://www.finanstech.com.tr",
+  "email": "evrensel.demirci@finanstech.com.tr",
+  "phone": "(530) 520-31-02",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / B12  Serdivan 54055 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-804e-72db-9f4b-00a40d3c6a25",
+  "slug": "fintech-yazilim-hizmetleri-san-ve-tic-ltd-sti",
+  "name": "FİNTECH YAZILIM HİZMETLERİ SAN. VE TİC. LTD. ŞTİ.",
+  "summary": "Fintech Yazılım finans sektörüne danışmanlık ve yazılım geliştirme hizmetleri sunmaktadır. Müşterilerimize sunduğumuz kaliteli hizmeti belir...",
+  "description": "Fintech Yazılım finans sektörüne danışmanlık ve yazılım geliştirme hizmetleri sunmaktadır. Müşterilerimize sunduğumuz kaliteli hizmeti belirleyen en önemli faktör, piyasa alım-satım işlemleri konusundaki tecrübemiz ve köklü sektör bilgimizdir. Uzmanlığımız finansal yazılım geliştirme alanındadır. Finans sektöründeki şirketlere özelleştirilmiş yazılım çözümleri ve Fintech alanındaki uzmanlığımızı sağlayarak, müşterilerimizin büyümelerine ve rekabet avantajı elde etmelerine yardımcı olmaktayız.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.09.02",
+  "active_project_count": 8,
+  "employee_count": 10,
+  "website": null,
+  "email": "serhanguner@outlook.com",
+  "phone": "(532) 614-28-91",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / 105  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/25e51a6940b425d8d5f48c720755ebbf.jpg",
+  "office_summary": "105 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "105",
+    "label": "105 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9361-7359-80e9-c777afc3aec1",
+  "slug": "gemini-gen-tibbi-cihazlar-ve-saglik-hiz-ltd-stisakarya-teknokent-subesi",
+  "name": "GEMİNİ GEN TIBBİ CİHAZLAR VE SAĞLIK HİZ. LTD. ŞTİ.SAKARYA TEKNOKENT ŞUBESİ",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "46.46.01",
+  "active_project_count": 2,
+  "employee_count": 1,
+  "website": "http://Www.geminigene.com",
+  "email": "ardakoksal@gmail.com",
+  "phone": "(533) 693-91-59",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ BİNA NO:10 B BLOK Z05-30 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-851c-70f4-9738-c096e3a15c3d",
+  "slug": "greensoft-yazilim-uretim-san-ve-tic-ltd-sti",
+  "name": "GREENSOFT YAZILIM ÜRETİM SAN. VE TİC. LTD. ŞTİ. ",
+  "summary": "E-Dönüşüm Uygulama ve Entegrasyonları, E-Ticaret, E-Fatura, E-İrsaliye, E-Tahsilat, E-Muhasebe, ERP",
+  "description": "E-Dönüşüm Uygulama ve Entegrasyonları, E-Ticaret, E-Fatura, E-İrsaliye, E-Tahsilat, E-Muhasebe, ERP",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 5,
+  "website": "http://www.greensoft.com.tr",
+  "email": "info@greensoft.com.tr",
+  "phone": "(264) 277-08-08",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / Z07  SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/1708a4b0343e3a33a45d93032db96012.jpg",
+  "office_summary": "Z07 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "Z07",
+    "label": "Z07 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8e6b-7152-a638-f59965e6392a",
+  "slug": "hayzen-pharma-kimya-ilac-gida-arge-ve-biyoteknoloji-tic-ve-san-ltd-sti",
+  "name": "HAYZEN PHARMA KİMYA İLAÇ GIDA ARGE VE BİYOTEKNOLOJİ TİC. VE SAN. LTD. ŞTİ. ",
+  "summary": "HAYZEN PHARMA KİMYA İLAÇ GIDA ARGE VE BİYOTEKNOLOJİ TİC. VE SAN. LTD. ŞTİ.",
+  "description": "HAYZEN PHARMA KİMYA İLAÇ GIDA ARGE VE BİYOTEKNOLOJİ TİC. VE SAN. LTD. ŞTİ.",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "72.11.01",
+  "active_project_count": 2,
+  "employee_count": 1,
+  "website": null,
+  "email": "hzengin@sakarya.edu.tr",
+  "phone": "(532) 354-44-02",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK NO: 10 Z05-06 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efbd-72d1-ad27-97686ab21576",
+  "slug": "hekimdoktor-saglik-tek-as",
+  "name": "HEKİMDOKTOR SAĞLIK TEK. A.Ş.",
+  "summary": "HekimDoktor Sağlık Teknoloji A.Ş., Sakarya Teknokent bünyesinde yapay zek destekli dijital sağlık çözümleri geliştirir. Çok dilli HekimDokto...",
+  "description": "HekimDoktor Sağlık Teknoloji A.Ş., Sakarya Teknokent bünyesinde yapay zek destekli dijital sağlık çözümleri geliştirir. Çok dilli HekimDoktor platformu hasta, hekim, klinik ve hastaneyi tek çatıda buluşturur; hekim arama, online randevu, klinik dijital kimliği ve yapay zek asistanı sunar. Hekim ve veteriner hekimlere B2B üyelikler, hastalara ise ücretsiz mobil uygulama sağlar.",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 2,
+  "website": "http://hekimdoktor.com",
+  "email": "bilgi@hekimdoktor.com",
+  "phone": "(850) 242-54-34",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. F BLOK NO: 10/6 İÇ KAPI NO: 116 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/b413fcbb65613fd4f1773d62e5a41367.jpg",
+  "office_summary": "116 Nolu Ofis",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "116",
+    "label": "116 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019d3d75-a5ac-708f-9d64-e0e3b01a2869",
+  "slug": "hsu-teknoloji-as",
+  "name": "HSU TEKNOLOJİ A.Ş. ",
+  "summary": "Teknopark proje onayı sonrası verilecek adres numarası işe teknopark bölgesi içerisinde şirketimizin kuruluşunu yapacak ve faaliyete başlaya...",
+  "description": "Teknopark proje onayı sonrası verilecek adres numarası işe teknopark bölgesi içerisinde şirketimizin kuruluşunu yapacak ve faaliyete başlayacağız.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 5,
+  "website": null,
+  "email": "admin@hsuteknoloji.com",
+  "phone": "(534) 457-75-58",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÇLGELERİ SİTESİ B BLOK NO: 10B İÇ KAPI NO: B06  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B06 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B06",
+    "label": "B06 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019c09eb-6eb5-7322-a71e-7b528a11c8ae",
+  "slug": "hyper-teknoloji-ltd-sti",
+  "name": "HYPER TEKNOLOJİ LTD. ŞTİ.",
+  "summary": "Doldurulacak.",
+  "description": "Doldurulacak.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 12,
+  "website": null,
+  "email": "info@hyperteknoloji.com",
+  "phone": "(532) 330-70-76",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK NO: 10B İÇ KAPI NO: ZO6 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B06 Nolu Ofis, Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B06",
+    "label": "B06 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efc6-7395-a301-533fe4a99652",
+  "slug": "hive-bilisim-ve-yazilim-as",
+  "name": "HİVE BİLİŞİM VE YAZILIM A.Ş. SAKARYA ŞUBESİ ",
+  "summary": "Doldurulacak",
+  "description": "Doldurulacak",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 5,
+  "website": "http://hive.com.tr",
+  "email": "ismet@hive.com.tr",
+  "phone": "(532) 432-42-73",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJŞ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK N0: 10B İÇ KAPI NO:B09 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B09 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B09",
+    "label": "B09 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8d78-7264-a415-beca03032ee5",
+  "slug": "icsfusion-siber-guvenlik-ve-teknoloji-as",
+  "name": "ICSFUSİON SİBER GÜVENLİK VE TEKNOLOJİ A.Ş.",
+  "summary": "Siber güvenlikte global bakış açısına sahip olan şirketimiz, ortaklık yapısına özel sermayeli fon yönetim şirketi Taxim Capital in de dahil...",
+  "description": "Siber güvenlikte global bakış açısına sahip olan şirketimiz, ortaklık yapısına özel sermayeli fon yönetim şirketi Taxim Capital in de dahil olduğu birleşme ile ICSFUSION adı ile 2025 yılında resmi olarak faaliyete başladı . Bölgesel liderlik hedefi doğrultusunda siber güvenlik sektörünün güçlü şirketlerinden bir olmayı hedefleyen ICSFusion; siber güvenlik alanında, danışmanlık, ürün satışı, teknik destek ve yönetilen hizmetlerden oluşan, uluslararası standartlarda hizmet vermektedir. Türkiye nin en büyük siber güvenlik çözüm sağlayıcısı olarak hizmet vermektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 5,
+  "website": null,
+  "email": "can@icsfusion.com",
+  "phone": "(553) 436-45-90",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10  BLOK Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "50, 51 Nolu Ofisler, Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "50",
+    "label": "50 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "51",
+    "label": "51 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9102-73cb-ab78-0dc64001a9d5",
+  "slug": "inopolyme-kimya-ve-muhendislik-anonim-sirketi",
+  "name": "INOPOLYME KİMYA VE MÜHENDİSLİK A.Ş.",
+  "summary": "INOPOLYME KİMYA VE MÜHENDİSLİK A.Ş.",
+  "description": "INOPOLYME KİMYA VE MÜHENDİSLİK A.Ş.",
+  "tags": [
+   "Kimya"
+  ],
+  "main_activity": "Kimya",
+  "nace_code": "20.16.01",
+  "active_project_count": 3,
+  "employee_count": 5,
+  "website": "http://www.inopolyme.com",
+  "email": "info@inopolyme.com",
+  "phone": "(553) 509-25-85",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ ROSEM NO:2 / 18 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/59c70742e954fa9eef17e1dc2a435686.jpg",
+  "office_summary": "07 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "07",
+    "label": "07 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-953f-73bb-8487-f2e11377a9cc",
+  "slug": "isera-yazilim-teknolojileri-as",
+  "name": "ISERA YAZILIM TEKNOLOJİLERİ A.Ş.",
+  "summary": "ISERA is a technology company specializing in artificial intelligence, chip technologies, and robotic systems, offering innovative solutions...",
+  "description": "ISERA is a technology company specializing in artificial intelligence, chip technologies, and robotic systems, offering innovative solutions to meet the demands of the modern world. Our mission is to bring value to businesses and society through advancements in transportation, fleet management, industrial automation, and intelligent systems. With our cutting-edge products, we enhance safety, ensure operational efficiency, and deliver sustainable solutions. We view technology not just as a tool but as a force for positive change, striving to lead industries toward a smarter and moresecurefuture.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 4,
+  "website": "http://www.iseratech.com",
+  "email": "info@iseratech.com",
+  "phone": "(542) 620-84-94",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ BİNA NO: 10 B BLOK B10 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/5b9c0cb7afa38b4915f280680ada8016.jpg",
+  "office_summary": "B10 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B10",
+    "label": "B10 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019c8963-ae1c-708b-8044-115c7367e58a",
+  "slug": "khantech",
+  "name": "KHANTECH BİLGİ TEKNOLOJİLERİ A.Ş.",
+  "summary": "Firmamız, Bilişim tecrübesi ile Ürün Yaşam Döngüsü Yazılımlarına destek ve yazılım geliştirmek için kurulmuştur. Savunma ve Havacılık Sanayi...",
+  "description": "Firmamız, Bilişim tecrübesi ile Ürün Yaşam Döngüsü Yazılımlarına destek ve yazılım geliştirmek için kurulmuştur. Savunma ve Havacılık Sanayi, Otomotiv Sanayi de bulunan bir çok firmaya destek vermektedir. Geliştirdiği yazılımlarlada ürün yerelleştirme ve süreç geliştirme çalışmaları ile tasarım ve üretim süreçlerine katkıda bulunmaktadır.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 10,
+  "website": "http://www.khantech.com.tr",
+  "email": "info@khantech.com.tr",
+  "phone": "(216) 709-71-32",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK NO:10 B / Z08 - Z09 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/5ef6207b9a655b96680c349fcf9e7a3a.jpg",
+  "office_summary": "Z08, Z09 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z08",
+    "label": "Z08 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "Z09",
+    "label": "Z09 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-92ae-72c6-b4be-e786a584cff1",
+  "slug": "kobe-finansal-teknoloji-as",
+  "name": "KOBE FİNANSAL TEKNOLOJİ A.Ş.",
+  "summary": "KOBE FİNANSAL TEKNOLOJİ A.Ş.",
+  "description": "KOBE FİNANSAL TEKNOLOJİ A.Ş.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 1,
+  "website": null,
+  "email": "mertagacan@outlook.com",
+  "phone": "(532) 791-37-97",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ  NO:10 B BLOK Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9272-714b-bb3d-07754a2ccded",
+  "slug": "konvo-teknoloji-as",
+  "name": "KONVO TEKNOLOJİ A.Ş.",
+  "summary": "Konvotech, yapay zeka ve ileri teknoloji tabanlı çözümler geliştiren bir Ar-Ge firmasıdır. Kurumlara özel geliştirilen ürünlerimiz; doğal di...",
+  "description": "Konvotech, yapay zeka ve ileri teknoloji tabanlı çözümler geliştiren bir Ar-Ge firmasıdır. Kurumlara özel geliştirilen ürünlerimiz; doğal dil işleme, sesli ve yazılı yapay zeka destekli iletişim çözümleri, robotik süreç otomasyonu (RPA) ve bilgi sistemlerine entegre akıllı asistanlar gibi alanlarda hizmet sunmaktadır. LivaCall isimli ürünümüz, çağrı merkezi operasyonlarını yapay zeka ile otomatikleştirirken; Visebot, çok dilli yazılı iletişimleri yönetebilen, bilgi sistemleriyle entegre çalışabilen bir sohbet botudur. ARIF ise kurumsal veriye anlık erişim ve analiz sağlayan yönetici asistanı olarak konumlanmaktadır. Tüm bu çözümler, kurum içi veri güvenliğini önceliklendirerek yerel (on-premise) konuşlandırılabilmekte ve isteğe bağlı olarak yerli, özel amaçlı büyük dil modelleri (local LLM) ile çalışacak şekilde yapılandırılabilmektedir. Konvotech, işletmelerin dijitalleşme süreçlerine stratejik katkı sunmayı ve yerli teknolojilerle yüksek katma değer üretmeyi hedeflemektedir.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 4,
+  "website": "http://konvotech.com",
+  "email": "info@konvotech.com",
+  "phone": "(538) 357-65-05",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 B BLOK Z05-38 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/56604c241e32dc9fda80f07bb3b321b1.jpg",
+  "office_summary": "36 Nolu Ofis, Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "36",
+    "label": "36 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-886e-7288-9713-a54fec4464a7",
+  "slug": "kopuz-muhendislik-ve-yazilim-tic-ltd-sti-sakarya-subesi",
+  "name": "KOPUZ MÜHENDİSLİK VE YAZILIM TİC. LTD. ŞTİ.- SAKARYA ŞUBESİ",
+  "summary": "Kuruluşumuz mühendislik hizmetleri ve Ar-Ge projeleri alanında hizmet vermektedir. Mekanik tasarım ve prototip üretimi ana çalışma konuların...",
+  "description": "Kuruluşumuz mühendislik hizmetleri ve Ar-Ge projeleri alanında hizmet vermektedir. Mekanik tasarım ve prototip üretimi ana çalışma konularını oluşturmaktadır. İleri mühendislik analizleri (sonlu elemanlar analizleri) bir diğer önemli yetkinliklerimiz arasındadır. İleriye yönelik olarak özellikle mekanik tasarım ve ileri mühendislik analizleri alanında faaliyet gösteren şirketler arasında olmak ve hem yurtiçi hem de yurtdışına hizmet verebilecek şekilde yapılanmak istiyoruz. Bunun için firmanın planlaması yapılmıştır.",
+  "tags": [
+   "Otomotiv Tasarımı ve Mühendislik"
+  ],
+  "main_activity": "Otomotiv Tasarımı ve Mühendislik",
+  "nace_code": "71.12.08",
+  "active_project_count": 4,
+  "employee_count": 132,
+  "website": "http://www.kopuzmuhendislik.com.tr",
+  "email": "nasser.kasimbeyoglu@kopuzmuhendislik.com.tr",
+  "phone": "(312) 354-54-73",
+  "address": "İVEDİK OSB Mahallesi 2224. Cadde No: 1/9 Yenimahalle 06378 ANKARA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/e043e0e75804b0746226c1f5739eb0e7.jpg",
+  "office_summary": "122–134 Nolu Ofisler",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "122",
+    "label": "122 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "123",
+    "label": "123 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "124",
+    "label": "124 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "125",
+    "label": "125 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "126",
+    "label": "126 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "127",
+    "label": "127 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "128",
+    "label": "128 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "129",
+    "label": "129 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "130",
+    "label": "130 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "131",
+    "label": "131 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "132",
+    "label": "132 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "133",
+    "label": "133 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "134",
+    "label": "134 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a13ee6-7641-7328-ae11-b0a2d72083d0",
+  "slug": "koshoy-teknoloji-as",
+  "name": "KOSHOY TEKNOLOJİ A.Ş. ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": "http://www.koshoy.com",
+  "email": "koshoy@koshoy.com",
+  "phone": "(532) 702-80-07",
+  "address": "Esentepe Mahallesi Akademiyolu Sokak Teknoloji Geliştirme Bölgesi Bina:A3\nBLOK NO:5/7C (A3 BLOK ) Ofis No : 32 /SAKARYA/Türkiye\n Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "32 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "32",
+    "label": "32 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9326-7294-8d1b-64bf505e71b7",
+  "slug": "kotic-bilisim-as-teknokent-subesi",
+  "name": "KOTİC BİLİŞİM A.Ş.-TEKNOKENT ŞUBESİ",
+  "summary": "Kotic",
+  "description": "Kotic",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 6,
+  "website": "http://www.kotic.com.tr",
+  "email": "iletisim@kotic.com.tr",
+  "phone": "(505) 383-54-85",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 A BLOK B01 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B01 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "B01",
+    "label": "B01 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7b87-7223-baca-606a63a287a3",
+  "slug": "kurumsal-yazilim",
+  "name": "KURUMSAL YAZILIM ANONİM ŞİRKETİ",
+  "summary": "Kurumsal Yazılım Anonim Şirketi HarmonyERP HarmonQ",
+  "description": "Kurumsal Yazılım Anonim Şirketi HarmonyERP HarmonQ",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 11,
+  "employee_count": 25,
+  "website": "http://www.kurumsalyazilim.com",
+  "email": "fatih@kurumsalyazilim.com",
+  "phone": "(543) 801-71-02",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK 10 A / Z04  Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/2252c0d96992fcd05cc551430777a680.jpg",
+  "office_summary": "Z04 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "Z04",
+    "label": "Z04 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efac-717c-9fc2-b457ee680033",
+  "slug": "lohr-istanbul-tasit-araclari-san-tic-as",
+  "name": "LOHR İSTANBUL TAŞIT ARAÇLARI SAN. VE TİC. AŞ. LOHR İSTANBUL TAŞIT ARAÇLARI TEKNOKENT ŞUBESİ",
+  "summary": "Fransız şirketi olan LOHR Grubu, 50 yılı aşkın süredir yük ve insan taşıma sistemlerinin tasarımı, üretimi ve pazarlanması alanlarında dünya...",
+  "description": "Fransız şirketi olan LOHR Grubu, 50 yılı aşkın süredir yük ve insan taşıma sistemlerinin tasarımı, üretimi ve pazarlanması alanlarında dünya çapında uzmanlaşmış bir firmadır.",
+  "tags": [
+   "Otomotiv"
+  ],
+  "main_activity": "Otomotiv",
+  "nace_code": "29.20.02",
+  "active_project_count": 1,
+  "employee_count": 8,
+  "website": "http://www.lohr.com.tr",
+  "email": "info@lohr.com.tr",
+  "phone": "(264) 650-59-50",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. F BLOK NO:10/6 İÇ KAPI NO:109 SERDİVAN/SAKARYA  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/dbcb92fbb3e9874b79a053cadfd449f1.jpg",
+  "office_summary": "109, 110 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "109",
+    "label": "109 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "F Blok",
+    "office_no": "110",
+    "label": "110 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8f97-73ea-bc9a-90d57a73ecb4",
+  "slug": "livinext-teknoloji-ve-saglik-as",
+  "name": "LİVİNEXT TEKNOLOJİ VE SAĞLIK A.Ş.",
+  "summary": "Firmamız, yapay zek ve dijital sağlık teknolojileri alanında yenilikçi çözümler geliştiren bir teknoloji kuruluşudur. Sağlık bilgilerine eri...",
+  "description": "Firmamız, yapay zek ve dijital sağlık teknolojileri alanında yenilikçi çözümler geliştiren bir teknoloji kuruluşudur. Sağlık bilgilerine erişimi kolaylaştırmayı, kullanıcılara güvenilir ve kişiselleştirilmiş danışmanlık hizmetleri sunmayı hedeflemektedir. Akademik bilgi, uzman görüşü ve güncel bilimsel verileri tek platformda bir araya getirerek, sağlık hizmetlerine erişimde coğrafi ve sosyoekonomik engellerin azaltılmasına katkı sağlamaktadır.",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "86.22.05",
+  "active_project_count": 2,
+  "employee_count": 1,
+  "website": null,
+  "email": "sngnfrk@gmail.com",
+  "phone": "(533) 573-61-69",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 B BLOK Z05-31 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8831-7064-828e-0e938136a325",
+  "slug": "maenso-muhendislik-as",
+  "name": "MAENSO MÜHENDİSLİK A.Ş.",
+  "summary": "Elektrikli bisiklet, elektrikli motosiklet, L6 7 kategori araç geliştirme ve bu araçların prototip ve seri imalatı alanlarında hizmet veriyo...",
+  "description": "Elektrikli bisiklet, elektrikli motosiklet, L6 7 kategori araç geliştirme ve bu araçların prototip ve seri imalatı alanlarında hizmet veriyoruz. Şirketimiz ayrıca otomotiv sektöründe özellikle gövde imalat proseslerinin planlanması, tasarlanması, ekipman imalatı ve kurulum işlerine proje bazlı hizmet vermektedir.",
+  "tags": [
+   "Otomotiv Tasarımı ve Mühendislik"
+  ],
+  "main_activity": "Otomotiv Tasarımı ve Mühendislik",
+  "nace_code": "29.10.02",
+  "active_project_count": 3,
+  "employee_count": 4,
+  "website": "http://www.maenso.com",
+  "email": "sebutay.goksu@maenso.com",
+  "phone": "(533) 323-94-98",
+  "address": "Esentepe Mah. Akademiyolu Sk. Teknoloji Geliştirme Bölgesi A Blok No:10 A İç kapı No:B15 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/61178c5c2f9eca95389ff266ca5e4796.jpg",
+  "office_summary": "B15 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "B15",
+    "label": "B15 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8011-730e-960d-76a7d6dc40d2",
+  "slug": "marmara-simulasyon-ve-bilgi-teknolojileri-san-tic-ltd-sti",
+  "name": "MARMARA SİMÜLASYON VE BİLGİ TEKNOLOJİLERİ SAN. TİC. LTD.ŞTİ.",
+  "summary": "Marmara Simülasyon ve Bilgi Teknolojileri San.Tic.Ltd Şti. 23.02.2017 tarihinde Dr. Mehmet Fatih Döker ve Dr. Cem Kırlangıçoğlu tarafından k...",
+  "description": "Marmara Simülasyon ve Bilgi Teknolojileri San.Tic.Ltd Şti. 23.02.2017 tarihinde Dr. Mehmet Fatih Döker ve Dr. Cem Kırlangıçoğlu tarafından kurulmuştur. Mimarlık, şehir planlama, mühendislik, savunma, güvenlik ve eğitim alanlarında 3 boyutlu simülasyon ve sanal gerçeklik uygulamalarını yapmak ve geliştirmek şirketin ana faaliyet konularını oluşturmaktadır. Aynı zamanda şirket bu teknolojiler ile ilgili ar-ge çalışmaları yaparak ürünler geliştirmek, danışmanlık hizmetleri ve eğitimlerini vermeyi de hedeflemektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 8,
+  "employee_count": 2,
+  "website": null,
+  "email": "fdoker@sakarya.edu.tr",
+  "phone": "(530) 602-79-45",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-12 Serdivan 54187 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/139b774ee4e9cc7ce2e83c1c1d74f920.jpg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-86c5-730f-ac21-a55b0b41a5ef",
+  "slug": "masbiotech-biyoteknoloji-laboratuvar-hizmetleri-arge-danismanlik-bilisim-san-ltd-sti",
+  "name": "MASBIOTECH BİYOTEKNOLOJİ LABORATUVAR HİZMETLERİ ARGE DANIŞMANLIK BİLİŞİM SAN. LTD. ŞTİ.",
+  "summary": "MASBIOTECH BİYOTEKNOLOJİ LABORATUVAR HİZMETLERİ ARGE DANIŞMANLIK BİLİŞİM SAN. LTD. ŞTİ.",
+  "description": "MASBIOTECH BİYOTEKNOLOJİ LABORATUVAR HİZMETLERİ ARGE DANIŞMANLIK BİLİŞİM SAN. LTD. ŞTİ.",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "72.11.01",
+  "active_project_count": 3,
+  "employee_count": 1,
+  "website": null,
+  "email": "maltindis@sakarya.edu.tr",
+  "phone": "(532) 661-52-63",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-11 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9451-7236-8cc7-0a74e265c54d",
+  "slug": "main-cea-biyoteknoloji-ltd-sti",
+  "name": "MAİN CEA BİYOTEKNOLOJİ LTD. ŞTİ.",
+  "summary": "MAİN CEA BİYOTEKNOLOJİ LTD. ŞTİ.",
+  "description": "MAİN CEA BİYOTEKNOLOJİ LTD. ŞTİ.",
+  "tags": [
+   "Tarım"
+  ],
+  "main_activity": "Tarım",
+  "nace_code": "72.11.01",
+  "active_project_count": 3,
+  "employee_count": 1,
+  "website": null,
+  "email": "mulayimmurat@gmail.com",
+  "phone": "(505) 098-33-76",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 A BLOK B11 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B11 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "B11",
+    "label": "B11 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a0b8c7-6392-7185-a955-5ecb225fa398",
+  "slug": "mey54-kozmetik-urunleri-san-ve-tic-ltd-sti-teknokent-fuzyon-subesi",
+  "name": "MEY54 KOZMETİK ÜRÜNLERİ SAN. VE TİC. LTD. ŞTİ. TEKNOKENT FÜZYON ŞUBESİ",
+  "summary": "Mey Esans , parfüm ve esans sektöründe faaliyet gösteren; kadın, erkek, unisex ve niş parfüm kategorilerinde geniş bir ürün portföyü sunan b...",
+  "description": "Mey Esans , parfüm ve esans sektöründe faaliyet gösteren; kadın, erkek, unisex ve niş parfüm kategorilerinde geniş bir ürün portföyü sunan bir işletmedir. Firma, farklı tüketici tercihleri ve koku profillerine yönelik ürünlerini fiziksel ve dijital satış kanalları aracılığıyla müşterilerine ulaştırmayı; ürün çeşitliliği, kalıcılık ve müşteri memnuniyeti odaklı hizmet anlayışıyla sektördeki konumunu geliştirmeyi amaçlamaktadır.",
+  "tags": [
+   "Kozmetik ve Temizlik Ürünleri"
+  ],
+  "main_activity": "Kozmetik ve Temizlik Ürünleri",
+  "nace_code": "20.42.03",
+  "active_project_count": 1,
+  "employee_count": 0,
+  "website": "http://www.meyesasns.com.tr",
+  "email": "mey54kozmetik@gmail.com",
+  "phone": "(532) 061-01-54",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. F BLOK NO: 10/6 İÇ KAPI NO: 137 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/8d2bc3f0a6c98ae5f3718455a5f21076.jpg",
+  "office_summary": "137 Nolu Ofis",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "137",
+    "label": "137 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-88ea-7174-a323-4b16ea9353f9",
+  "slug": "mirage-yazilim-as",
+  "name": "MIRAGE YAZILIM A.Ş.",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 2,
+  "website": null,
+  "email": "info@miragemobile.com",
+  "phone": "(555) 404-75-44",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-16 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9233-720f-b081-d61968c74479",
+  "slug": "mobtech-yazilim-danismanlik-san-ve-tic-as-sakarya-subesi",
+  "name": "MOBTECH YAZILIM DANIŞMANLIK SAN. VE TİC. A.Ş.-SAKARYA ŞUBESİ",
+  "summary": "MobTech, yarının ihtiyaçlarına çözümler üreten mühendisleri ile yeni endüstri düzeninde rekabet avantajı sağlayan projeler yürütmektedir. Mü...",
+  "description": "MobTech, yarının ihtiyaçlarına çözümler üreten mühendisleri ile yeni endüstri düzeninde rekabet avantajı sağlayan projeler yürütmektedir. Müşterileri için değer yaratan, geleceğe ışık tutan stratejik bakış açısı, müşteri odaklı ürün yönetimi yaklaşımı, teknolojiye yön veren Ar-Ge gücü ve inovatif çözümleri ile MobTech, hizmet verdiği sektörleri geleceğe taşımaktadır. Tüm paydaşları için değer üretmeye ve ihtiyaçlara özel projeler geliştirmeye devam eden MobTech, çevre, çalışan mutluluğu, etik değerler ile atılan her adımın ve geliştirdiği her teknolojinin odağında sürdürülebilirlik olduğunun altını çizmektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 7,
+  "employee_count": 26,
+  "website": "http://www.mobtech.com.tr",
+  "email": "enes.tasdan@mobtech.com.tr",
+  "phone": "(533) 565-73-34",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 B BLOK Z05-39 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/3b9223f3181a6a984fa327319c82f489.jpg",
+  "office_summary": "101, 102 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "101",
+    "label": "101 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "102",
+    "label": "102 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-ef7d-7246-b13b-310aae164b2e",
+  "slug": "morexim-dis-ticaretdanismanlik-yazilim-san-tic-as",
+  "name": "MOREXIM DIŞ TİCARET DANIŞMANLIK YAZILIM SAN. TİC. A.Ş. ",
+  "summary": "Uluslararası ticaretin dinamiklerini yeni nesil bir vizyonla yeniden şekillendirmek üzere yola çıkan MOREXIM, küresel pazarlara güven, hız v...",
+  "description": "Uluslararası ticaretin dinamiklerini yeni nesil bir vizyonla yeniden şekillendirmek üzere yola çıkan MOREXIM, küresel pazarlara güven, hız ve etik ilkeler çerçevesinde köprüler kuran bir dış ticaret organizasyonudur. İmzamızı taşıyan her operasyonda, ismimizin ve varoluş amacımızın temelini oluşturan \"MOR\" (Moral Ahlak) ile \"EXIM\" (Export-Import) dengesini hassasiyetle gözetiyoruz. Ticarette ahlaki değerlerin sarsılmaz güvenini dijital dönüşümün ve teknolojinin hızıyla birleştiriyor; modern dış ticaret ekosistemini etik değerler zemininde yeniden tanımlıyoruz. Kuruluş felsefemiz olan \"High Morals, High Technology\" (Yüksek Ahlak, Yüksek Teknoloji) ilkesini operasyonlarımızın merkezine yerleştirerek, dürüstlük, şeffaflık ve iş ahlakını küresel erişim gücümüzün yakıtı haline getiriyoruz. Uluslararası ticaretin tam merkezinde, özellikle Sakarya bölgesinin esnek ve güçlü sanayi altyapısını önceliklendirerek konumlanan MOREXIM, talep odaklı dış ticaret modeliyle sektörde fark yaratmaktadır. Klasik, ürün odaklı ve sürdürülebilirliği düşük ticaret yaklaşımlarının aksine; küresel pazarlardan gelen gerçek ve doğrulanmış talepleri doğrudan doğru üretici ağımızla buluşturuyoruz. Bu doğrultuda geliştirdiğimiz geniş tedarik zinciri entegrasyonu ve stratejik lojistik çözümlerimizle, dünya genelindeki iş ortaklarımıza kesintisiz, hızlı ve tek muhataplı bir süreç yönetimi sunuyoruz. Markamızın özünü oluşturan bu dengeli yapı sayesinde, hem yerel üretim hassasiyetlerini koruyor hem de küresel pazarın yüksek operasyonel standartlarını tek bir potada başarıyla eritiyoruz. Uluslararası arenadaki varlığımızı, dış ticaretin üç temel stratejik sütunu üzerine inşa edilmiş derin bir uzmanlıkla taçlandırıyoruz. Dış Ticaret ve Aracılık Hizmetlerimiz kapsamında, küresel pazarlarda ithalat ve ihracat süreçlerini uçtan uca yöneterek doğru ürünün, doğru zamanda ve optimize edilmiş maliyetlerle yer almasını sağlıyor; böylece iş ortaklarımızın operasyonel risklerini en aza indiriyoruz. Stratejik Dış Ticaret Danışmanlığımız ile sektörel analizler, hedef pazar belirleme ve mevzuat uyum süreçlerinde uzman kadromuzla rehberlik ederken, karmaşık ticaret rotalarını şeffaf ve öngörülebilir kılıyoruz. Fon Yönetimi ve Yatırım Ekosistemi odağımızla ise, geleceğin yenilikçi iş fikirlerini ve potansiyeli yüksek üreticileri doğru sermaye kaynaklarıyla etik bir düzlemde buluşturuyor, karşılıklı değer yaratan uzun vadeli iş birliklerinin zeminini hazırlıyoruz. Dijitalleşen dünya ekonomisinde veriyi doğru analiz etmenin gücüne inanıyor, teknolojik çevikliği operasyonel mükemmeliyetimizin merkezine alıyoruz. Geleneksel ticaret kalıplarını kırarak; yapay zeka destekli pazar analizleri, dijital talep-üretici eşleştirme mekanizmaları ve akıllı lojistik takip entegrasyonları ile dış ticaret deneyimini tüm paydaşlarımız için optimize ediyoruz. Bizim için başarı, anlık işlem hacimlerinin ötesinde; kurduğumuz sürdürülebilir, dürüst ve güvene dayalı stratejik ortaklıkların derinliğiyle ölçülür. MOREXIM olarak vizyonumuz; hızı teknolojiyle, ticareti ahlakla ve talebi doğru sistemle yönetenlerin kalıcı olacağı yeni ticaret çağında, küresel ölçekte en saygın, çevik ve güvenilir aktörlerden biri olmaktır. MOREXIM: High Morals, High Trade.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "46.14.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "aliogutlu@sakaryatuna.com",
+  "phone": "(053) 374-84-99",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ NO:2 - İÇ KAPI NO:1 - SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/91273a3c914434d0efda79de4de3992a.jpg",
+  "office_summary": "35 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "35",
+    "label": "35 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8649-712c-ac14-f7694daf60d1",
+  "slug": "medical-research-and-development-arge-ve-biyoteknoloji-san-ve-tic-ltd-sti",
+  "name": "MRD BİYOTEKNOLOJİ SANAYİ VE DIŞ TİCARET A.Ş.",
+  "summary": "MRD BİYOTEKNOLOJİ SANAYİ VE DIŞ TİCARET A.Ş.",
+  "description": "MRD BİYOTEKNOLOJİ SANAYİ VE DIŞ TİCARET A.Ş.",
+  "tags": [
+   "Sağlık"
+  ],
+  "main_activity": "Sağlık",
+  "nace_code": "72.11.01",
+  "active_project_count": 4,
+  "employee_count": 4,
+  "website": null,
+  "email": "mkoroglu@sakarya.edu.tr",
+  "phone": "(532) 631-91-21",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / B04  SERDİVAN 54200 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B04–B06, B08 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "B04",
+    "label": "B04 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "D Blok",
+    "office_no": "B05",
+    "label": "B05 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "D Blok",
+    "office_no": "B06",
+    "label": "B06 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "D Blok",
+    "office_no": "B08",
+    "label": "B08 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a0b8c7-6356-7314-8077-b892153085f1",
+  "slug": "msb-bilgi-teknolojileri-as",
+  "name": "MSB BİLGİ TEKNOLOJİLERİ A.Ş.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": null,
+  "email": "semih@msbotomotiv.com",
+  "phone": "(532) 296-58-77",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ NO: 2- İÇ KAPI NO:28 - SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "28 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "28",
+    "label": "28 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9089-7135-9f90-4c5aa2a20f6a",
+  "slug": "mtk-uzay-ve-savunma-teknolojileri-as",
+  "name": "MTK UZAY VE SAVUNMA TEKNOLOJİLERİ A.Ş.",
+  "summary": "Enerji alanında çalışılmaktadır.",
+  "description": "Enerji alanında çalışılmaktadır.",
+  "tags": [
+   "Enerji"
+  ],
+  "main_activity": "Enerji",
+  "nace_code": "27.20.03",
+  "active_project_count": 2,
+  "employee_count": 5,
+  "website": null,
+  "email": "info@mtksavunma.com",
+  "phone": "(535) 088-09-24",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ ROSEM NO:2  /13 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/2f9685172ade5db6d8f0d0d08869ddf1.jpg",
+  "office_summary": "136 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "136",
+    "label": "136 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efa2-700b-8a69-92188e8e21df",
+  "slug": "muammer-altiok-fikirsahipleri-seslendirme-ofisi",
+  "name": "MUAMMER ALTIOK FİKİRSAHİPLERİ SESLENDİRME OFİSİ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Medya ve İletişim"
+  ],
+  "main_activity": "Medya ve İletişim",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": null,
+  "email": "maltiok@gmail.com",
+  "phone": "(264) 606-09-27",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ NO:2- İÇÖ KAPI NO: 4 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "04 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "04",
+    "label": "04 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8aaa-7130-acd6-d0607bf577e5",
+  "slug": "muhammed-kursad-ucar",
+  "name": "MUHAMMED KÜRŞAD UÇAR",
+  "summary": "X",
+  "description": "X",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 1,
+  "website": "http://www.raitoy.com",
+  "email": "mucar@sakarya.edu.tr",
+  "phone": "(506) 849-31-46",
+  "address": "ESENTEPE MH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO:2 / 11 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/9bce106f33567a9c50265e0f6d6a04da.jpg",
+  "office_summary": "15 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "15",
+    "label": "15 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8ea6-7122-86ef-73d72baaeb50",
+  "slug": "mirror-bilisim-yazilim-san-ve-tic-ltd-sti",
+  "name": "MİRROR BİLİŞİM YAZILIM SAN. ve TİC. LTD. ŞTİ.",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 1,
+  "website": "http://www.mirrorbilisim.com",
+  "email": "info@mirrorbilisim.com",
+  "phone": "(532) 413-94-16",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ BİNA NO:10 B BLOK Z05-34 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8465-7074-a52b-3109b5b99015",
+  "slug": "nesstec-enerji-ve-yuzey-teknolojileri-as",
+  "name": "NESSTEC ENERJİ VE YÜZEY TEKNOLOJİLERİ SAN. VE TİC. A.Ş.",
+  "summary": "NESSTEC Enerji, elektrokimyasal enerji depolama ve ileri malzeme teknolojileri alanında faaliyet gösteren bir Ar-Ge şirketidir. Li-iyon, Na-...",
+  "description": "NESSTEC Enerji, elektrokimyasal enerji depolama ve ileri malzeme teknolojileri alanında faaliyet gösteren bir Ar-Ge şirketidir. Li-iyon, Na-iyon ve yeni nesil bataryalar için malzeme geliştirme, elektrot üretimi, coin ve pouch hücre prototipleme, karakterizasyon ve performans doğrulama hizmetleri sunmaktadır.",
+  "tags": [
+   "Enerji"
+  ],
+  "main_activity": "Enerji",
+  "nace_code": "72.19.01",
+  "active_project_count": 5,
+  "employee_count": 5,
+  "website": null,
+  "email": "mtokur@sakarya.edu.tr",
+  "phone": "(539) 967-62-65",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B /108 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/f8ab9ec484a367addad84e328139fb0a.jpg",
+  "office_summary": "108 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "108",
+    "label": "108 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9905-7008-a888-c7f18d323251",
+  "slug": "neurox-yazilim-ve-danismanlik-as",
+  "name": "NEUROX YAZILIM VE DANIŞMANLIK A.Ş.",
+  "summary": "Deneme",
+  "description": "Deneme",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "neuroxas@gmail.com",
+  "phone": "(532) 455-25-09",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ NO:2 - İÇ KAPI NO:1 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "34 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "34",
+    "label": "34 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7d6c-7227-80ee-8d4be75caa5d",
+  "slug": "omicron-bilisim-hizticltdsti",
+  "name": "OMİCRON BİLİŞİM HİZMETLERİ TİC. LTD. ŞTİ.",
+  "summary": "OMİCRON BİLİŞİM HİZMETLERİ TİC. LTD. ŞTİ. 2014 yılında faaliyete geçen Omicron Bilişim, genç ve uzman ekibiyle e-ticaret, sigorta, perakende...",
+  "description": "OMİCRON BİLİŞİM HİZMETLERİ TİC. LTD. ŞTİ. 2014 yılında faaliyete geçen Omicron Bilişim, genç ve uzman ekibiyle e-ticaret, sigorta, perakende, hızlı tüketim ve eğitim sektörlerine yenilikçi yazılım çözümleri sunar. Çevik çalışma anlayışı, sektörel deneyimi ve hızlı çözüm üretme gücüyle işletmelerin dijital süreçlerini başarıyla geliştirir; verimliliği, sürdürülebilir değeri ve yüksek müşteri memnuniyetini her projede daima ön planda tutar.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 10,
+  "employee_count": 8,
+  "website": "http://www.omicron.com.tr",
+  "email": "info@omicron.com.tr",
+  "phone": "(850) 840-92-77",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05  KADIKÖY 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/bb7d5ed51193aded031282506b8289d9.jpg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-873f-7345-b073-65957d2cce2d",
+  "slug": "optimus-yazilim-ithalat-ihracat-san-ve-tic-ltd-sti-sakarya-teknokent-subesi",
+  "name": "OPTİMUS YAZILIM İTHALAT İHRACAT SAN. VE TİC. LTD. ŞTİ. SAKARYA TEKNOKENT ŞUBESİ",
+  "summary": "OPTİMUS YAZILIM İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ Türkiye'de Bankacılık Finans sktöründe faaliyet gösteren firmamızın Borsa...",
+  "description": "OPTİMUS YAZILIM İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ Türkiye'de Bankacılık Finans sktöründe faaliyet gösteren firmamızın Borsa İstanbul da faaliyet gösteren Aracı kurumlara bağlı oldukları Bankalara hizmet vermektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 9,
+  "website": "http://www.optimusyazilim.com.tr",
+  "email": "ersin.altun@optimusyazilim.com.tr",
+  "phone": "(216) 499-29-29",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / 204  SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/dcf177c09914bd70c5b7c2601e4f6937.jpg",
+  "office_summary": "204 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "204",
+    "label": "204 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7d30-7307-987e-fdb2439e88fc",
+  "slug": "ord-kimya-san-ve-ticltdsti",
+  "name": "ORD KİMYA SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "İlaç"
+  ],
+  "main_activity": "İlaç",
+  "nace_code": "20.14.01",
+  "active_project_count": 9,
+  "employee_count": 4,
+  "website": null,
+  "email": "mzengin@sakarya.edu.tr",
+  "phone": "(532) 440-11-41",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK NO.10  B08 Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B02 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "B02",
+    "label": "B02 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7f59-73c3-a547-b3a3bd796371",
+  "slug": "parametrik-muhendislik-danismanlik-san-tic-ltd-sti",
+  "name": "PARAMETRİK MÜHENDİSLİK DANIŞMANLIK SAN. TİC. LTD. ŞTİ.",
+  "summary": "Parametrik Mühendislik Danışmanlık San. Tic. Ltd. Şti.",
+  "description": "Parametrik Mühendislik Danışmanlık San. Tic. Ltd. Şti.",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "71.12.90",
+  "active_project_count": 9,
+  "employee_count": 5,
+  "website": "http://www.runengineer.com",
+  "email": "bilgi@parametrikmuhendislik.com",
+  "phone": "(531) 811-80-44",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK 10 A / B09 SERDİVAN 54200 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B09 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "B09",
+    "label": "B09 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-95f6-72ee-ab82-887f1ec822d1",
+  "slug": "patika-mobilite-ve-ileri-teknoloji-as",
+  "name": "PATİKA MOBİLİTE VE İLERİ TEKNOLOJİ A.Ş.",
+  "summary": "Patika Robotics, otonom araç teknolojileri alanında tasarım, üretim, montaj ve yazılım faaliyetleri gerçekleştiren bir şirkettir.",
+  "description": "Patika Robotics, otonom araç teknolojileri alanında tasarım, üretim, montaj ve yazılım faaliyetleri gerçekleştiren bir şirkettir.",
+  "tags": [
+   "Otomotiv Tasarımı ve Mühendislik"
+  ],
+  "main_activity": "Otomotiv Tasarımı ve Mühendislik",
+  "nace_code": "29.10.02",
+  "active_project_count": 4,
+  "employee_count": 16,
+  "website": "http://www.patikarobotics.com",
+  "email": "info@patikarobotics.com",
+  "phone": "(216) 425-56-61",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ BİNA NO:10 D BLOK Z06 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/ff2699da6a4066e683fd2df72b7c0259.jpg",
+  "office_summary": "Z06 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "Z06",
+    "label": "Z06 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7b07-72f3-84b6-e8457fc68892",
+  "slug": "polisoft-yazilim-ticaret-ve-sanayi-as",
+  "name": "POLİSOFT YAZILIM TİCARET VE SANAYİ A.Ş.",
+  "summary": "1993 yılında şahıs firması olarak kurulan bilişim firmamız, müşterilerinin ihtiyaçlarını karşılayan, beklentilerine cevap veren ve gelişen t...",
+  "description": "1993 yılında şahıs firması olarak kurulan bilişim firmamız, müşterilerinin ihtiyaçlarını karşılayan, beklentilerine cevap veren ve gelişen teknolojiyle paralel çözümler sunan bir firma olarak 2001 yılında Polisoft Yazılım markasına dönüştü. Yazılımlarında yeni nesil geliştirme araçlarını kullanarak sigorta sektörüne profesyonel çözümler getirdi ve Genel Kabul Görmüş Yazılım İlkeleri ni benimsedi. Gelişen süreçte büyüyen profesyonel ekibi ile kaliteli çözümlere imza atan Polisoft Yazılım, gelişen ve değişen çağda yenilikçi bir vizyona sahiptir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "47.41.01",
+  "active_project_count": 12,
+  "employee_count": 17,
+  "website": "http://www.polisoft.com.tr",
+  "email": "info@polisoft.com.tr",
+  "phone": "(264) 346-01-23",
+  "address": "Sakarya Üniversitesi Teknoloji Geliştirme Bölgeleri Esentepe Kampüsü A BLok No : Z08 - Z09 - Z10 Serdivan 54100 SAMSUN/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "102–109 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "102",
+    "label": "102 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "103",
+    "label": "103 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "104",
+    "label": "104 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "105",
+    "label": "105 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "106",
+    "label": "106 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "107",
+    "label": "107 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "108",
+    "label": "108 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "109",
+    "label": "109 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019ac025-471c-72c2-b539-d4fa37e00142",
+  "slug": "pro-sicht-yapay-zeka-yazilim-arge-ve-proje-dan-san-ve-tic-ltdi-sti",
+  "name": "PRO SİCHT YAPAY ZEKA YAZILIM ARGE VE PROJE DANIŞMANLIK SAN. VE TİC. A.Ş.",
+  "summary": "PRO SİCHT YAPAY ZEKA YAZILIM ARGE VE PROJE DANIŞMANLIK SAN. VE TİC. A.Ş.",
+  "description": "PRO SİCHT YAPAY ZEKA YAZILIM ARGE VE PROJE DANIŞMANLIK SAN. VE TİC. A.Ş.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 5,
+  "website": null,
+  "email": "info@prosicht.com",
+  "phone": "(534) 668-98-45",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/c41e762c3b4cf371ff853affc3ab6ed5.jpg",
+  "office_summary": "205 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "205",
+    "label": "205 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-ef87-7011-94e5-2c4876a71a97",
+  "slug": "prosyn-proses-otomasyon-yazilim-teknolojileri-as",
+  "name": "PROSYN PROSES OTOMASYON YAZILIM TEKNOLOJİLERİ A.Ş. ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "mensurilhan@gmail.com",
+  "phone": "(532) 581-49-20",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / B07-B08  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B07, B08 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B07",
+    "label": "B07 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "B08",
+    "label": "B08 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8cfe-7157-9c10-77d8dd15facd",
+  "slug": "picode-yazilim-egitim-danismanlik-arge-ve-tic-ltd-sti",
+  "name": "PİCODE YAZILIM EĞİTİM DANIŞMANLIK ARGE VE TİC. LTD. ŞTİ.",
+  "summary": "İCODE YAZILIM EĞİTİM DANIŞMANLIK ARGE VE TİC. LTD. ŞTİ. Yazılım geliştirme, eğitim, akademik danışmanlık ve araştırma-geliştirme alanlarında...",
+  "description": "İCODE YAZILIM EĞİTİM DANIŞMANLIK ARGE VE TİC. LTD. ŞTİ. Yazılım geliştirme, eğitim, akademik danışmanlık ve araştırma-geliştirme alanlarında yenilikçi, güvenilir ve sürdürülebilir çözümler üretmektedir. Kurumların ve bireylerin ihtiyaçlarını doğru analiz ederek dijital süreçleri daha verimli, güvenli ve yönetilebilir h le getirmeyi amaçlıyoruz. Teknoloji alanındaki uzmanlığımızı eğitim ve danışmanlık deneyimimizle birleştiriyor; ihtiyaca özel yazılım projelerinden program geliştirmeye, akademik yayıncılık ve dergi yönetiminden araştırma süreçlerine kadar geniş bir alanda profesyonel destek sunuyoruz. Bilimsel etik, veri güvenliği, kalite ve kullanıcı odaklılık ilkeleriyle yürüttüğümüz çalışmalarımızda, iş ortaklarımız için yalnızca bugünün ihtiyaçlarını karşılayan değil, gelecekteki gelişimlerini de destekleyen kalıcı değerler oluşturmayı hedefliyoruz.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 6,
+  "employee_count": 5,
+  "website": null,
+  "email": "makyigit@sakarya.edu.tr",
+  "phone": "(536) 245-41-44",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/6ee6425ec3dd235ef19b844aa58be429.jpg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9941-7393-b3fb-add6b614d521",
+  "slug": "quatvision-yazilim-teknoloji-sanayi-tic-as",
+  "name": "QUATVİSİON YAZILIM TEKNOLOJİ SANAYİ TİC. A.Ş.",
+  "summary": "Quat Vision Analitik Görüş, Yenilikçi Bakış QuatVision, yapay zek , bilgisayarlı görü ve görüntü işleme teknolojileri alanında Ar-Ge ve tekn...",
+  "description": "Quat Vision Analitik Görüş, Yenilikçi Bakış QuatVision, yapay zek , bilgisayarlı görü ve görüntü işleme teknolojileri alanında Ar-Ge ve teknoloji geliştirme faaliyetleri yürüten bir firmadır. Üretim, kalite kontrol, lojistik ve dijital içerik güvenliği gibi alanlara yönelik yenilikçi yazılım çözümleri geliştirir. Amacı, geliştirdiği teknolojilerle işletmelerin verimliliğini, güvenilirliğini ve dijital dönüşümünü desteklemektir.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 6,
+  "website": "http://quatvision.ai/",
+  "email": "info@quatvision.ai",
+  "phone": "(530) 972-20-35",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. NO: 10/6 İÇ KAPI NO: 138 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/6d0a43dbec112223b20c70d2a7f43fdd.jpg",
+  "office_summary": "138 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "138",
+    "label": "138 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9634-72e5-b9a2-19406e411e57",
+  "slug": "raze-siber-guvenlik-cozumleri-ve-danismanlik-ltid-sti-sakarya-teknokent-subesi",
+  "name": "RAZE SİBER GÜVENLİK ÇÖZÜMLERİ VE DANIŞMANLIK LTD. ŞTİ.SAKARYA TEKNOKENT ŞUBESİ",
+  "summary": "RAZE Cyber Security , ülkemiz başta olmak üzere bir çok bölgede siber güvenlik alanında hizmetler sağlamak ve bu alanda gereksinimleri karşı...",
+  "description": "RAZE Cyber Security , ülkemiz başta olmak üzere bir çok bölgede siber güvenlik alanında hizmetler sağlamak ve bu alanda gereksinimleri karşılamak için teknolojiler geliştirmek amaçlı 2021 yılında kurulmuş bir siber güvenlik firmasıdır. Alanında hem kamu hem de özel sektör tecrübesi olan kadrosu ile geleneksel siber güvenlik yaklaşımlarını değiştirmek için yola çıkan genç ve dinamik bir firma olmasının yanı sıra, yenilenmiş eğitim konu ve içerikleriyle günümüz beklentilerini karşılayan eğitim hizmeleri de sağlamaktadır. Siber güvenlik hizmetlerinin yanı sıra, geliştirdiği yazılımsal ımsal teknolojileri sizlerin ihtiyaçlarınıza göre özelleştirerek, siber güvenlik alanındaki teknoloji ihtiyaçlarınızın nokta atışı karşılayabilmeyi hedeflemektedir.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.02.01",
+  "active_project_count": 2,
+  "employee_count": 13,
+  "website": "http://razesecurity.com",
+  "email": "mehmet.demirel@razesecurity.com",
+  "phone": "(542) 246-60-95",
+  "address": "ESENTEPE MAH.AKADEMİYOLU SK.TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK NO:10 B İÇ KAPI NO:106  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/f6346869b8596efeb071f506b7399ae7.jpg",
+  "office_summary": "106 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "106",
+    "label": "106 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7c3e-73af-86f0-faa6c7969a98",
+  "slug": "reklamotv-bilisim-teknoloji-reklamcilik-ve-organizasyon-hizmetleri-san-ve-tic-ltd-sti",
+  "name": "REKLAMOTV BİLİŞİM TEKNOLOJİ REKLAMCILIK VE ORGANİZASYON HİZMETLERİ SAN. VE TİC. LTD. ŞTİ.",
+  "summary": "Doldurulacak",
+  "description": "Doldurulacak",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 11,
+  "employee_count": 1,
+  "website": "http://www.reklamotv.com",
+  "email": "info@reklamotv.com",
+  "phone": "(541) 826-08-20",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-22 Adapazarı 5050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a0b8c7-6367-7310-816d-e0c90ffa5451",
+  "slug": "reopiya",
+  "name": "REOPİYA BİLGİ TEKNOLOJİLERİ TİC. LTD. ŞTİ. SAKARYA ŞUBESİ ",
+  "summary": "Reopiya 2025 yılında kurumsal alanlarda ihtiyaç duyulan yazılımları geliştirmek için kurulmuştur, kuruluşundan sonra firmaların ihtiyaç duyd...",
+  "description": "Reopiya 2025 yılında kurumsal alanlarda ihtiyaç duyulan yazılımları geliştirmek için kurulmuştur, kuruluşundan sonra firmaların ihtiyaç duyduğu özellikle yurtdışından lisanslama modeli ile kullanılan yazılımları yerli bir şekilde geliştirme hedefi bulunmaktadır, bunun yanında sahip olduğu yazılım uzmanlığı sayesinde firmalara danışmanlık hizmeti de vermektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 5,
+  "website": null,
+  "email": "soner.tugan@reopiya.com",
+  "phone": "(546) 714-70-63",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ D BLOK NO: 10D İÇ KAPI NO: 202 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/5c21ee4b46b922fa7c6441383c05e596.jpg",
+  "office_summary": "202 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "202",
+    "label": "202 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8a2e-7017-a20e-9a5dd17e6469",
+  "slug": "returnsoft-yazilim-danismanlik-tic-ltd-sti",
+  "name": "RETURNSOFT YAZILIM DANIŞMANLIK TİC. LTD. ŞTİ.",
+  "summary": "ReturnSoft Yazılım; 2022 yılında Sakarya Üniversitesi Bilgisayar ve Yazılım Mühendisliği akademisyenleri olan M. Fatih Adak ve Mustafa Akpın...",
+  "description": "ReturnSoft Yazılım; 2022 yılında Sakarya Üniversitesi Bilgisayar ve Yazılım Mühendisliği akademisyenleri olan M. Fatih Adak ve Mustafa Akpınar tarafından kurulmuştur. Endüstride birçok şirkete danışmanlık ve yazılım hizmeti sağlamış olan akademisyenler, bu deneyimlerini şirketleştirerek kendi projelerini gerçekleştirmeye başlamıştır. Ayrıca şirketin diğer bir çalışma alanı da outsource destektir. Çeşitli projelerin modüllerinin tasarlanması, modellenmesi, kodlanması, uygulanması ve test edilmesi de yine şirketin hizmetleri arasında yer almaktadır. Şirket olarak yazılım, eğitim, endüstri ve bankacılık sektörüne destek olmaktadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 2,
+  "website": null,
+  "email": "fatihadak@gmail.com",
+  "phone": "(536) 478-65-22",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-04 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/d62efb8200fd0ba39b40f9919f4ffb88.jpg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7c01-739f-b288-ff22cbe24c9b",
+  "slug": "reynolds-ileri-muhendislik-ltd-sti",
+  "name": "REYNOLDS ILERI MÜHENDISLIK LTD. ŞTİ.",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Enerji"
+  ],
+  "main_activity": "Enerji",
+  "nace_code": "71.12.08",
+  "active_project_count": 31,
+  "employee_count": 4,
+  "website": "http://www.inotekmuhendislik.com.tr",
+  "email": "aahmet@reynolds.com.tr",
+  "phone": "(264) 346-07-80",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-13 Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-88ab-705e-ba99-57f372f9c363",
+  "slug": "sakarya-yangin-ve-kimya-teknolojileri-uretim-as",
+  "name": "SAKARYA YANGIN VE KİMYA TEKNOLOJİLERİ ÜRETİM A.Ş.",
+  "summary": "Şirketimiz, Kimya ve Yangın söndürme ürünleri teknolojileri alanında; yurt içi ve dışındaki müşterilere katma değeri yüksek, güvenilir ve et...",
+  "description": "Şirketimiz, Kimya ve Yangın söndürme ürünleri teknolojileri alanında; yurt içi ve dışındaki müşterilere katma değeri yüksek, güvenilir ve etkili ürünler geliştirmek ve üretmek amacıyla Sakarya Üniversitesi Teknokent yerleşkesinde kurulmuştur. Saktaş, sektörlerinde uzun yıllardır edindikleri bilgi birikimi ve tecrübeye sahip profesyonel bir yönetim kadrosuna sahiptir. Saktaş olarak vizyonumuz; Bilimsel bilgiye dayalı, özgün, yenilikçi, yüksek teknolojili ürün,çözüm ve hizmetleri sunmak. Bu doğrultuda hedefimiz; kimya teknolojileri alanında ar-ge iş birlikleri yaparak ülkemize katma değeri yüksek yeni ürünler kazandırmaktır. Saktaş olarak misyonumuz; Yangın risklerine karşı basit ve kesin çözümler sunmak. Bu doğrultuda amacımız; dünya standartlarında kaliteli, uygun ve herkesin erişebileceği ürünler tasarlayarak yangın risklerini minimize etmektir.",
+  "tags": [
+   "Kimya"
+  ],
+  "main_activity": "Kimya",
+  "nace_code": "20.59.15",
+  "active_project_count": 4,
+  "employee_count": 1,
+  "website": null,
+  "email": "ekremhaktan@gmail.com",
+  "phone": "(532) 455-25-09",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-03 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/0f4c8992fc510156435d7d330cdc7bde.jpg",
+  "office_summary": "",
+  "offices": []
+ },
+ {
+  "id": "01a0b8c7-6399-739b-acf6-16ff7ada6a36",
+  "slug": "salykan-teknoloji-san-ve-tic-ltd-sti",
+  "name": "SALYKAN TEKNOLOJİ SAN. VE TİC. LTD. ŞTİ.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "ozgurkaraca@msn.com",
+  "phone": "(532) 701-78-91",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ NO: 2- İÇ KAPI NO: 23- SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "23 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "23",
+    "label": "23 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-87f4-7233-acc1-8b1aa9e65cda",
+  "slug": "sandikci-oto-san-ve-tic-ltd-sti-teknokent-subesi",
+  "name": "SANDIKÇI OTO SAN. VE TİC. LTD. ŞTİ.-TEKNOKENT ŞUBESİ",
+  "summary": "eKLENECEK",
+  "description": "eKLENECEK",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 14,
+  "website": "http://www.toyotasandikci.com.tr",
+  "email": "harun.sandikci@sandikci.toyota.com.tr",
+  "phone": "(264) 291-20-20",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B/ B13 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B12, B13 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B12",
+    "label": "B12 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "B13",
+    "label": "B13 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8cbc-71f9-9652-e0b7df5a0f4f",
+  "slug": "sautek-teknoloji-ve-ticaret-anonim-sirketi",
+  "name": "SAUTEK TEKNOLOJİ VE TİCARET ANONİM ŞİRKETİ",
+  "summary": "SAUTEK",
+  "description": "SAUTEK",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "70.22.02",
+  "active_project_count": 132,
+  "employee_count": 76,
+  "website": null,
+  "email": "sautekmuhasebe@sakaryateknokent.com",
+  "phone": "(264) 346-02-02",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK 10 A / Z08-Z09  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/d7d6d623f2955616deaf8f4fe62ab8c2.jpg",
+  "office_summary": "Z08, Z09 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "Z08",
+    "label": "Z08 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "Z09",
+    "label": "Z09 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-87b7-7021-8e33-e168d2d22278",
+  "slug": "segna-bilgi-sistemleri-ve-teknolojileri-ltd-sti",
+  "name": "SEGNA BİLGİ SİSTEMLERİ VE TEKNOLOJİLERİ LTD. ŞTİ.",
+  "summary": "Günümüzün hızlı değişen teknoloji dünyasında, güvenilir bir yol arkadaşı şart. SEGNA, dijital dönüşüm süreçlerinizde sadece bir tedarikçi de...",
+  "description": "Günümüzün hızlı değişen teknoloji dünyasında, güvenilir bir yol arkadaşı şart. SEGNA, dijital dönüşüm süreçlerinizde sadece bir tedarikçi değil, çözüm ortağınız olarak yanınızda. Danışmanlık, yazılım geliştirme ve stratejik teknoloji hizmetleriyle, işinizi dijital geleceğe taşıyoruz. Hizmetlerimiz Segna ERP BT Hizmet Çözümleri ISO 27001 BGYS Danışmanlığı Özel Yazılım Projeleri IT İşe Alım Danışmanlığı",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 10,
+  "website": null,
+  "email": "murat.gul@segna.com.tr",
+  "phone": "(532) 463-67-82",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / 113 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/bd7bb3b636334e993e13d378ca586941.jpg",
+  "office_summary": "113 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "113",
+    "label": "113 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-917d-71e9-a521-229e2bd76f09",
+  "slug": "selim-meric-bytemounts",
+  "name": "SELİM MERİÇ",
+  "summary": "Bytemounts, büyük veri analitiği, IoT sistemleri, elektronik tasarım ve yazılım geliştirme alanlarında uzmanlaşmış yenilikçi bir teknoloji ş...",
+  "description": "Bytemounts, büyük veri analitiği, IoT sistemleri, elektronik tasarım ve yazılım geliştirme alanlarında uzmanlaşmış yenilikçi bir teknoloji şirketidir. Güçlü veri işleme altyapısı ve ileri düzey IoT çözümleriyle işletmelerin dijital dönüşümünü hızlandırmayı hedefleyen Bytemounts, müşterilerine verimlilik, güvenlik ve sürdürülebilirlik konularında katma değer sunar. Elektronik tasarım ve yazılım geliştirme hizmetlerimizle iş süreçlerinizi optimize ederken, teknolojinin sunduğu en yeni olanaklardan faydalanmanızı sağlar.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 4,
+  "website": "http://bytemounts.com.tr",
+  "email": "bytemounts@gmail.com",
+  "phone": "(507) 000-87-11",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10 B BLOK Z05-33 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/c9bd740e7a0cc7137a83337b9c5d9ce6.jpg",
+  "office_summary": "01 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "01",
+    "label": "01 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8148-705f-aa52-316fa04defe7",
+  "slug": "smart-egitim-cozumleri-san-ve-tic-as",
+  "name": "SMART EĞİTİM ÇÖZÜMLERİ SAN. VE TİC. A.Ş.",
+  "summary": "Smart Eğitim Çözümleri , yapay zek destekli dijital öğrenme platformları ve interaktif eğitim içerikleri geliştiren, öğretmenlerin içerik ür...",
+  "description": "Smart Eğitim Çözümleri , yapay zek destekli dijital öğrenme platformları ve interaktif eğitim içerikleri geliştiren, öğretmenlerin içerik üretimini kolaylaştıran ve öğrenciler için etkili öğrenme deneyimleri sunan bir eğitim teknolojileri şirketidir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 5,
+  "employee_count": 4,
+  "website": "http://www.smarteducation.net",
+  "email": "ali.uzunyolcu@smarteducation.net",
+  "phone": "(537) 260-28-03",
+  "address": "Beşköprü, Sakarya Ünv., 54050 Serdivan/Sakarya Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/160594d9452bc387fe7fa2c7be243808.jpg",
+  "office_summary": "B01 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "B01",
+    "label": "B01 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-91b9-73e7-b6dd-634c8eb40b72",
+  "slug": "smart-mansion-yazilim-dan-hiz-tic-ltd-sti",
+  "name": "SMART MANSION YAZILIM DAN. HİZ. TİC. LTD. ŞTİ. ",
+  "summary": "Smart Mansion , akıllı sistemler ve IoT tabanlı çözümler geliştiren bir yazılım firmasıdır. Web ve mobil yazılımlar ile entegre çalışan dona...",
+  "description": "Smart Mansion , akıllı sistemler ve IoT tabanlı çözümler geliştiren bir yazılım firmasıdır. Web ve mobil yazılımlar ile entegre çalışan donanım çözümleri üretir. İşletmelere yönelik verimli, güvenilir ve ölçeklenebilir teknolojiler sunmayı amaçlar.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 2,
+  "website": "http://www.smartmansionsoftware.com/",
+  "email": "info@smartmansionsoftware.com",
+  "phone": "(507) 836-55-04",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ ROSEM NO:2 /25 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/67f6920862eb2c4293192145a7788e38.jpg",
+  "office_summary": "39 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "39",
+    "label": "39 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-997f-703e-bf78-eb35471acb79",
+  "slug": "soos-yazilim-teknoloji-ve-danismanlik-as",
+  "name": "SOOS YAZILIM TEKNOLOJİ VE DANIŞMANLIK A.Ş.",
+  "summary": "SOOS Yazılım Teknolojileri ve Danışmanlık A.Ş. , Sakarya Üniversitesi Teknokent bünyesinde faaliyet gösteren, yapay zek ve görüntü işleme al...",
+  "description": "SOOS Yazılım Teknolojileri ve Danışmanlık A.Ş. , Sakarya Üniversitesi Teknokent bünyesinde faaliyet gösteren, yapay zek ve görüntü işleme alanlarında uzmanlaşmış bir teknoloji şirketidir. Amacımız, sanayi ve üretim tesislerinde görüntü tabanlı otomasyon ve akıllı analiz sistemleri geliştirerek işletmelere verimlilik, kalite ve izlenebilirlik kazandırmaktır. SOOS olarak; Üretim hatlarında kamera tabanlı ürün tespiti, sayım ve kalite kontrol sistemleri , Yapay zek destekli nesne tanıma ve görüntü sınıflandırma yazılımları , Edge cihaz tabanlı saha çözümleri , Ve tüm bu sistemleri bir araya getiren merkezi veri yönetimi ve raporlama panelleri geliştiriyoruz. Her biri alanında uzman mühendis ekibimizle, endüstriyel ihtiyaçlara özel çözümler tasarlıyor; müşterilerimizin üretim süreçlerini ölçülebilir, optimize edilebilir ve sürdürülebilir hale getiriyoruz. Yenilikçi Ar-Ge yaklaşımımızla; yalnızca bugünün değil, geleceğin akıllı üretim standartlarını da şekillendiriyoruz.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.02.01",
+  "active_project_count": 1,
+  "employee_count": 4,
+  "website": "http://soosteknoloji.com",
+  "email": "info@soosteknoloji.com",
+  "phone": "(543) 630-76-85",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK.NO: 10/6 İÇ KAPI NO: 111-112 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/7e0e8d08dc0f5b1c4d0cbd9930aa5648.jpg",
+  "office_summary": "111, 112 Nolu Ofisler",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "111",
+    "label": "111 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "112",
+    "label": "112 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8d3c-7140-a8ca-a73a361435a5",
+  "slug": "srdvn-yazilim",
+  "name": "SRDVN YAZILIM A.Ş.",
+  "summary": "SRDVN A.Ş. yazılım sektöründe faaliyet göstermektedir.",
+  "description": "SRDVN A.Ş. yazılım sektöründe faaliyet göstermektedir.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 6,
+  "website": "http://www.srdvn.com",
+  "email": "info23@srdvn.com",
+  "phone": "(216) 706-30-76",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z10-Z11 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/af3655d508fc7a58a93b7086d7b51072.jpg",
+  "office_summary": "Z10, Z11 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z10",
+    "label": "Z10 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "Z11",
+    "label": "Z11 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-96af-71f8-a2ee-12f540f5154e",
+  "slug": "t3-otomasyon-elektrik-elektronik-muhendislik-sanve-ticltdsti-sakarya-teknokent-subesi",
+  "name": "T3 OTOMASYON ELEKTRİK ELEKTRONİK MÜHENDİSLİK SAN.VE TİC.LTD.ŞTİ. SAKARYA TEKNOKENT ŞUBESİ",
+  "summary": "T3 Otomasyon bilgi ve tecrübelerini endüstri ile paylaşmak ve hizmet vermek maksadıyla Fatih ALTINTAŞ tarafından 2006 yılında Sakarya da kur...",
+  "description": "T3 Otomasyon bilgi ve tecrübelerini endüstri ile paylaşmak ve hizmet vermek maksadıyla Fatih ALTINTAŞ tarafından 2006 yılında Sakarya da kuruldu, 2011 yılında limited olarak kurumsallaşmanın temellerini atmış oldu. Misyonumuz; çalışanlarımız başta olmak üzere tüm paydaşlarımızın memnuniyetini el üstünde tutan, ülkemizin kültür ve değerlerine sahip çıkan ve dürüstlük ilkesinden asla ödün vermeyen, insana ve doğaya saygılı. tüm bunları yaparken yenilikçi düşük maliyetli ve yüksek kaliteli ürün ve hizmetler sunan bir marka olmaktır. Vizyonumuz; Taahhütlerini yerine getiren, yenilikçi, dünyanın her bir noktasına ürün ve hizmetler ihraç eden, sektöründe lider firmalar arasında yer almaktır.",
+  "tags": [
+   "İmalat Sanayi"
+  ],
+  "main_activity": "İmalat Sanayi",
+  "nace_code": "28.99.90",
+  "active_project_count": 2,
+  "employee_count": 8,
+  "website": "http://www.t3otomasyon.com.tr",
+  "email": "info@t3otomasyon.com.tr",
+  "phone": "(264) 276-80-47",
+  "address": "ESENTEPE MAH.AKADEMİYOLU SK.TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ D BLOK NO:10 D İÇ KAPI NO:103  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/fca4bab4f88d27a306b45558e3a41e46.jpg",
+  "office_summary": "103 Nolu Ofis",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "103",
+    "label": "103 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8db5-719b-92d7-6d506644607c",
+  "slug": "talu-tekstil-san-ve-tic-as-serdivan-subesi",
+  "name": "TALU TEKSTİL SAN. VE TİC. A.Ş.-SERDİVAN ŞUBESİ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Tekstil"
+  ],
+  "main_activity": "Tekstil",
+  "nace_code": "14.14.01",
+  "active_project_count": 3,
+  "employee_count": 13,
+  "website": null,
+  "email": "yusuft@taluteks.com",
+  "phone": "(507) 780-55-17",
+  "address": "Sakarya 1. Organize Sanayi Bölgesi 1 Nolu Yol No:45 Arifiye / Sakarya Arifiye 54000 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "106 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "106",
+    "label": "106 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efd9-709a-88f6-18b10c52bb6f",
+  "slug": "tasem-teknoloji-ltd-sti",
+  "name": "TASEM TEKNOLOJİ LTD. ŞTİ.",
+  "summary": "Daha sonra güncellenecektir.",
+  "description": "Daha sonra güncellenecektir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 2,
+  "website": "http://www.tasemteknoloji.com",
+  "email": "info@tasemteknoloji.com",
+  "phone": "(531) 434-99-36",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. F BLOK NO: 10/6 İÇ KAPI NO: 107 SERDİVAN/SAKARYA  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "106, 107 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "106",
+    "label": "106 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "F Blok",
+    "office_no": "107",
+    "label": "107 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8964-7041-84d5-88dfdab13a63",
+  "slug": "taze-bilgi-teknolojileri-as-sakarya-subesi",
+  "name": "TAZE BİLGİ TEKNOLOJİLERİ A.Ş. SAKARYA ŞUBESİ",
+  "summary": "Taze, kurumlar için kullanıcı odaklı dijital ürünler geliştiren bir teknoloji şirketidir. Sigortacılıktan bankacılığa, e-ticaretten ulaşıma...",
+  "description": "Taze, kurumlar için kullanıcı odaklı dijital ürünler geliştiren bir teknoloji şirketidir. Sigortacılıktan bankacılığa, e-ticaretten ulaşıma birçok farklı sektörde projeleri hayata geçirmiştir. Frontend, Backend, Mobil Geliştirme ve Tasarım hizmetlerinin yanında dijital ürün geliştirme sürecinde ihtiyaç duyulan Proje Yönetim ve Analiz hizmetlerini sunmaktadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 6,
+  "website": "http://tazebt.com",
+  "email": "merhaba@tazebt.com",
+  "phone": "(544) 488-65-78",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z05-17  Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/a5c9c48bc6cb20de8b78e70845f81be5.jpg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-81c2-7111-81a9-2716052ff867",
+  "slug": "tdg-bilisim-danismanlik-ve-musteri-hiz-tic-as",
+  "name": "TDG BİLİŞİM DANIŞMANLIK VE MÜŞTERİ HİZMETLERİ TİCARET A.Ş. SAKARYA TEKNOKENT ŞUBESİ",
+  "summary": "TDG toplumda sağlıklı teknoloji gelişimini hızlandırmak için 2016 yılında kurulmuş, Avrupa ve ABD'de faaliyet gösteren lider teknoloji firma...",
+  "description": "TDG toplumda sağlıklı teknoloji gelişimini hızlandırmak için 2016 yılında kurulmuş, Avrupa ve ABD'de faaliyet gösteren lider teknoloji firmasıdır. TDG, üretim, finans ve otomotiv gibi farklı sektörlerden şirketlere, teknoloji alanındaki uzmanlığı ve endüstri bilgisi ile hizmet ve çözümler sunmaktadır. Mobil Saha Yönetimi, Yazılım Test Hizmetleri ve Dijital Dönüşüm Danışmanlığı odaklı faaliyet göstermektedir. TDG, bu alanlardaki varlığını güçlendirmek için üniversite ler ile birlikte Ar-Ge projeleri de gerçekleştirmektedir. Hizmet verilen temel konular : Mobil Saha Yönetimi ( Ecosh ) Yazılım Test Hizmeti ( tTesting-BrowseEmAll MultiBrowser-Selenium.Academy ) Dijital Dönüşüm Hizmeti ( ConsulTing ) Otomasyon Robotlar (Izzy) İş Süreçleri Operasyonu",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.02.01",
+  "active_project_count": 8,
+  "employee_count": 12,
+  "website": "http://www.tdg-global.net",
+  "email": "info@td-grp.com",
+  "phone": "(506) 422-53-12",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / B11 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/a0d488c06878dd32c07ca18e22f63a94.jpg",
+  "office_summary": "B02, B11 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B02",
+    "label": "B02 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "B Blok",
+    "office_no": "B11",
+    "label": "B11 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-83eb-730e-a224-af2df3490987",
+  "slug": "teamsan-teknoloji-endustriyel-ar-ge-ve-muhendislik-hizmetleri-tic-san-ltd-sti",
+  "name": "TEAMSAN TEKNOLOJİ ENDÜSTRİYEL AR-GE VE MÜHENDİSLİK HİZMETLERİ TİC. SAN. LTD. ŞTİ.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Enerji"
+  ],
+  "main_activity": "Enerji",
+  "nace_code": "72.11.01",
+  "active_project_count": 6,
+  "employee_count": 3,
+  "website": "http://www.hsoyhan.sakarya.edu.tr",
+  "email": "hsoyhan@sakarya.edu.tr",
+  "phone": "(541) 212-02-54",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELER B BLOK Z05-14 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/cc65a6898359d9410833d3e5539f3ce9.jpg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7c7a-73e8-a18a-cfa0d1519e28",
+  "slug": "teknoliva",
+  "name": "TEKNOLİVA BİLİŞİM SİSTEMLERİ LİMİTED ŞİRKETİ",
+  "summary": "Otomatik Tanımlama ve Veri Toplama ( OT ) Teknolojileri, Perakende Otomasyon Sistemleri (POS) ve Kurumsal Kaynak Planlaması Sistemleri (ERP)...",
+  "description": "Otomatik Tanımlama ve Veri Toplama ( OT ) Teknolojileri, Perakende Otomasyon Sistemleri (POS) ve Kurumsal Kaynak Planlaması Sistemleri (ERP) konularında profesyonel çözümler ve ürünler geliştiren Teknoliva müşterilerine katma değerli çözümler sunarak büyüme yolunda hızla ilerlemektedir. Her geçen gün daha da büyüyen Teknoliva hizmet alanında ülkemizin gelişimine hatırı sayılır katkılar sağlayan önemli projeler gerçekleştirmektedir. Hizmet Stratejisini verimlilik ve performans olarak tanımlayan Teknoliva, işletmelerin kurumsal yönetim ilkelerine uygun biçimde yapılanmasını, süreçlerini uluslararası standartlar doğrultusunda yöneterek verimlilik ve k rlılığını artırmasını sağlayan çözümler üretmektedir. Farklı ölçekler için tasarlanmış kurumsal kaynak yönetimi, sektörel yazılımlar, iş zek sı ve e-Devlet uygulamaları gibi çözümler, bu hedefteki örnek çalışmalara temel olmaktadır. Sadece bugün için değil yarınlar için de iş çözümlerini farklı platformlarda (masaüstü, Web, Mobil) geliştirerek iş süreçleri ve kaynak planlaması konularında en etkin çözümler geliştirilmektedir. İstanbul Ofisi ile satış ve destek faaliyetlerini yürütürken, Ar-Ge Faaliyetleri nedeni ile bulunduğu Sakarya Üniversitesi Esentepe Kampüsünde yer alan Teknoloji Geliştirme Bölgesindeki Arge ofisi ile de Sakarya ili ve çevresindeki bölgelere doğrudan hizmetlerini sunmaktadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "46.14.01",
+  "active_project_count": 7,
+  "employee_count": 4,
+  "website": "http://www.teknoliva.com",
+  "email": "info@teknoliva.com",
+  "phone": "(216) 576-79-77",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B /109 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/2c2d6da75fc9cb1985f7f0e84d0d2db1.jpg",
+  "office_summary": "109 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "109",
+    "label": "109 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9672-718b-a717-07d12213322d",
+  "slug": "tesodev-yazilim-donanim-bilisim-biyomedikal-kongre-turizm-organizasyon-egitim-danismanlik-as",
+  "name": "TESODEV YAZILIM DONANIM BİLİŞİM BİYOMEDİKAL KONGRE TURİZM ORGANİZASYON EĞİTİM DANIŞMANLIK A.Ş.– SAKARYA ŞUBESİ",
+  "summary": "Bir grup idealist olarak çıktığımız Tesodev maceramıza paydaşlarımızla birlikte büyüyerek devam ediyoruz. Ekibimiz, Türkiye'nin ilk ve tek b...",
+  "description": "Bir grup idealist olarak çıktığımız Tesodev maceramıza paydaşlarımızla birlikte büyüyerek devam ediyoruz. Ekibimiz, Türkiye'nin ilk ve tek bilgisayar mühendisliği lisans, işletme yüksek lisans ve doktora mezunlarını; İTÜ, Boğaziçi gibi seçkin üniversitelerden mezun mühendisleri barındırmaktadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 17,
+  "website": null,
+  "email": "bilgi@tesodev.com",
+  "phone": "(505) 488-84-45",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGESİ SİTESİ A BLOK NO:10 Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/436ba80dfe4b76cc5900fb019e89a2c2.jpg",
+  "office_summary": "Z05 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-efea-7111-b97e-2b2ecc75731d",
+  "slug": "the-rabbit-hole-ai-technologies-yazilim-arge-bilgi-tek-ve-dan-tic-as",
+  "name": "THE RABBİT HOLE Aİ TECHNOLOGİES YAZILIM ARGE BİLGİ TEK. VE DAN. TİC. A.Ş.",
+  "summary": ":.",
+  "description": ":.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 3,
+  "website": null,
+  "email": "cenk@thewhiterabbitdigital.com",
+  "phone": "(535) 590-58-55",
+  "address": "ESEBTEPE MAH. AKADEMİYOLU SK. F BLOK NO: 10/6 İÇ KAPI NO:135 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "135 Nolu Ofis",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "135",
+    "label": "135 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7fd2-70bd-9e4f-b7876dc7c2fd",
+  "slug": "tra-bilisim",
+  "name": "TRA BİLİŞİM TEKNOLOJİ HİZMETLERİ SANAYİ VE TİCARET A.Ş.",
+  "summary": "2017 yılında Sakarya Üniversitesi Teknokent te kurulan TRA Bilişim; FinTech ve RegTech alanlarında, finansal piyasalar ve regülasyon süreçle...",
+  "description": "2017 yılında Sakarya Üniversitesi Teknokent te kurulan TRA Bilişim; FinTech ve RegTech alanlarında, finansal piyasalar ve regülasyon süreçlerine yönelik yenilikçi teknoloji çözümleri geliştirmektedir. Ana bankacılık, sermaye piyasaları, algoritmik işlem, raporlama ve uyum teknolojilerindeki uzmanlığıyla kurumların dijital dönüşümüne değer katmakta; yenilikçi dijital dünyada güvenilir çözüm ortağınız olarak faaliyetlerini sürdürmektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 8,
+  "employee_count": 20,
+  "website": "http://www.trabilisim.com",
+  "email": "operasyon@trabilisim.com",
+  "phone": "(264) 502-27-29",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ D BLOK 10 D / 107 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/def85483f0b7cb40d1280b3551fe5244.jpg",
+  "office_summary": "107, Z01 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "D Blok",
+    "office_no": "107",
+    "label": "107 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "D Blok",
+    "office_no": "Z01",
+    "label": "Z01 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7e21-7060-b286-20102863a2c5",
+  "slug": "tarvit-tarim-kimya-ve-ileri-teknolojileri-ltdsti",
+  "name": "Tarvit Tarım Kimya ve İleri Teknolojileri San. ve Tic. Ltd. Şti.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Tarım"
+  ],
+  "main_activity": "Tarım",
+  "nace_code": "20.14.01",
+  "active_project_count": 9,
+  "employee_count": 2,
+  "website": "http://www.tarvit.com.tr",
+  "email": "info@tarvit.com.tr",
+  "phone": "(264) 346-03-22",
+  "address": "ESENTEPE MH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO: 2 / 29 Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8428-73c7-a199-9576001d4496",
+  "slug": "tuzegen-danismanlik-san-ve-tic-ltd-sti",
+  "name": "TÜZEGEN DANIŞMANLIK SAN. VE TİC. LTD. ŞTİ. ",
+  "summary": "Tüzegen Danımanlık ve Sanayi Ltd. Şti., 2020 yılında kurulmuştur. Şirketimiz kişisel verilerin korunması uyum danışmanlı ve hukuk uyuşmazlık...",
+  "description": "Tüzegen Danımanlık ve Sanayi Ltd. Şti., 2020 yılında kurulmuştur. Şirketimiz kişisel verilerin korunması uyum danışmanlı ve hukuk uyuşmazlıklarında arabuluculuk yazılımı projeleri çerçevesinde Sakarya Üniversitesi Teknokent bünyesine kabul edilmiştir. Şirketimiz ayrıca kişisel verilerin korunması, arabuluculuk uygulamalar ve hukuk uzmanlık konularında eğitimfaaliyetleri de yürütmektedir.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "70.22.02",
+  "active_project_count": 22,
+  "employee_count": 6,
+  "website": "http://tuzegen.com.tr",
+  "email": "sezercanbektas@sakarya.edu.tr",
+  "phone": "(555) 333-23-42",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ A BLOK 10 A / B03 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/ce3db1ffe1df93324ffd6a2c739e642f.jpg",
+  "office_summary": "B03 Nolu Ofis",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": "B03",
+    "label": "B03 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-9764-711b-abc2-33064b249283",
+  "slug": "us-guclendirme-ve-muhendislik-yapi-hiz-ltd-sti",
+  "name": "US GÜÇLENDİRME VE MÜHENDİSLİK YAPI HİZ. LTD. ŞTİ.",
+  "summary": "Us Güçlendirme ve Mühendislik Yapı Hizmetleri Limited Şirketi, mevcut yapıların incelenmesi ve güçlendirilmesi alanında uzmanlaşmış mühendis...",
+  "description": "Us Güçlendirme ve Mühendislik Yapı Hizmetleri Limited Şirketi, mevcut yapıların incelenmesi ve güçlendirilmesi alanında uzmanlaşmış mühendislik firmasıdır",
+  "tags": [
+   "İnşaat"
+  ],
+  "main_activity": "İnşaat",
+  "nace_code": "71.12.03",
+  "active_project_count": 1,
+  "employee_count": 2,
+  "website": "http://www.usmuhendislik.com/",
+  "email": "byalcin@retrofitmuhendislik.com.tr",
+  "phone": "(532) 499-40-39",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK NO:10 B İÇ KAPI 101 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/f4d11aa578ac9d0aadf70898b2d3620e.jpg",
+  "office_summary": "101 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "101",
+    "label": "101 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8a6c-72c6-b8c2-b873e1ee9797",
+  "slug": "vechur-havacilik-yapay-zeka-ve-tarim-teknolojileri-san-ve-tic-as",
+  "name": "VECHÜR HAVACILIK YAPAY ZEKA VE TARIM TEKNOLOJİLERİ SAN. VE TİC. A. Ş.",
+  "summary": "3 yıllık Teknofest geçmişi olan, 4 farkı kategoride yarışmada finale kalmış olan ekibiyle firmalaşma girişiminde bulunan bir firmayız. 2020...",
+  "description": "3 yıllık Teknofest geçmişi olan, 4 farkı kategoride yarışmada finale kalmış olan ekibiyle firmalaşma girişiminde bulunan bir firmayız. 2020 yılında Teknofest Tübitak İHA yarışmasında mansiyon ödülü kazandık. Diğer 3 yarışma ise 2021 Savaşan İHA, 2021 Tübitak İHA, 2021 Tarım teknolojileri yarışmalarıdır. Şu anda ise Yapay zeka teknolojilerini kullanarak Tarımsal analizler başta olmak üzere bir çok alanda analiz yazılımları geliştirmekteyiz.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 5,
+  "website": null,
+  "email": "fkamanli@sakarya.edu.tr",
+  "phone": "(543) 460-51-61",
+  "address": "ESENTEPE MH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO: 2 / 21 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/2f0353576898b8c7eb4b3d03070bf7be.jpg",
+  "office_summary": "114 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "114",
+    "label": "114 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-89b4-73fe-81ce-6810dd1ae257",
+  "slug": "venhancer-bilisim-ve-danismanlik-as",
+  "name": "VENHANCER BİLİŞİM VE DANIŞMANLIK A.Ş.",
+  "summary": "Venhancer Bililşim, yazılım ve yazılım ürünleri geliştirmek için, kurumların teknoloji ihtiyaçlarını sağlamak amacıyla , 2021 yılında kurulm...",
+  "description": "Venhancer Bililşim, yazılım ve yazılım ürünleri geliştirmek için, kurumların teknoloji ihtiyaçlarını sağlamak amacıyla , 2021 yılında kurulmuş bir teknoloji hizmeti şirketidir. Venhancer, yeni girişimler ve yerleşik kurumlara özel teknoloji hizmeti sağlar ve aynı zamanda teknoloji alanında günü yakalamayı hedefleyen kurumlar için Dijital Dönüşümü yönetir. Venhancer bünyesinde; yazılım geliştirme, hazır yazılım çözümleri, analitik, veri yönetimi, uygulama, sistem desteği, topoloji, altyapı, teknik kaynak alımı ve teknik dış kaynak kullanımı konularında hizmet veriyoruz. Müşterilerimize yüksek kalitede teknoloji hizmeti ve çözümleri sunan, dünya çapında müşterilerle çalışan, en güncel teknik uzmanlığa sahip, geniş ve güçlü teknoloji ekibimizle, 2022'de Türkiye'nin en büyük teknoloji hizmet ve ürün şirketlerinden biri olmayı hedefliyoruz.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 20,
+  "employee_count": 278,
+  "website": null,
+  "email": "erdem.caliskan@venhancer.com",
+  "phone": "(505) 192-18-00",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z06-Z08-Z09 Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/63a896f5854aa8f291581c111000d2e6.jpg",
+  "office_summary": "A2 OFİSLER",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": null,
+    "label": "A2 OFİSLER",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-90c6-736c-bbc7-435b1db89cda",
+  "slug": "vimobil-teknoloji-as",
+  "name": "VİMOBİL TEKNOLOJİ A.Ş.",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 2,
+  "employee_count": 2,
+  "website": null,
+  "email": "emrahk@vimobil.com",
+  "phone": "(533) 392-99-05",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ BİNA NO:10  BLOK Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8f1e-710a-bfad-947433d5bc59",
+  "slug": "white-cad-teknolojileri-san-ve-tic-ltd-sti-sakarya-subesi",
+  "name": "WHİTE CAD TEKNOLOJİLERİ SAN. VE TİC. LTD. ŞTİ.-SAKARYA ŞUBESİ",
+  "summary": "2005 yılından bu yana GOSB Teknopark ta ürünlerini projelendirme hizmeti ile sunan firmaların proje süreçlerinde verimliliği arttırma amaçlı...",
+  "description": "2005 yılından bu yana GOSB Teknopark ta ürünlerini projelendirme hizmeti ile sunan firmaların proje süreçlerinde verimliliği arttırma amaçlı 3B tasarım yazılımları üretiyoruz. Mimari tasarım, İnşaat, Otomotiv, Enerji, Kapı Pencere, Kış Bahçesi gibi pek çok alanda bulut tabanlı 10.000 lerce kişinin kullandığı, ödüllü projelerle gerek yurt içinde gerekse yurt dışında endüstri standartlarının belirleyen projeler ile çalışmaktayız. GOSB ve Sakarya Teknoloji geliştirme bölgelerinde bulunan ekiplerimiz ile uzun soluklu projeler üretiyoruz, referanslarımızdan bir kaç örnek sunmak gerekirse Eczacıbaşı, Kale Seramik, Yurtbay, Bien, Tofaş, Mapa Ikea Turkiye, EAE Elektrik, Tekpan gibi her bir kendi alanın lider firmalarını sayabiliriz.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 7,
+  "employee_count": 10,
+  "website": "http://www.whitecad.com",
+  "email": "ozlemyegit@whitecad.com",
+  "phone": "(555) 209-45-00",
+  "address": "Hibrid 1 Binasi 3.Ünite Kesit A \nKemal Nehrozoglu Cd. Teknopark GOSB \n Gebze 41480 KOCAELİ/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/7d914a375ddd3a4be62047382103c4ec.jpg",
+  "office_summary": "104 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "104",
+    "label": "104 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8184-702b-8614-ae6c2182f369",
+  "slug": "win-young-bilgi-ve-iletisim-teknolojileri-as",
+  "name": "WİN YOUNG BİLGİ VE İLETİŞİM TEKNOLOJİLERİ A.Ş.",
+  "summary": "Win Young yazılım ve teknolji gleiştirme konularında ürün ve hizmetler sunan bir arge şirketidir.",
+  "description": "Win Young yazılım ve teknolji gleiştirme konularında ürün ve hizmetler sunan bir arge şirketidir.",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 7,
+  "employee_count": 38,
+  "website": "http://www.wy.com.tr",
+  "email": "emre.ozbey@wy.com.tr",
+  "phone": "(505) 376-36-24",
+  "address": "ESENTEPE MH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO: 2 / 30 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/c0ef770e626a05383c439f2eb2e93d00.jpg",
+  "office_summary": "030 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "030",
+    "label": "030 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-97db-72a9-99d0-f4a45f058dca",
+  "slug": "yenerx-muhendislik-ve-teknoloji-limited-sirketi",
+  "name": "YENERX MÜHENDİSLİK VE TEKNOLOJİ LTD. ŞTİ.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "71.12.09",
+  "active_project_count": 2,
+  "employee_count": 3,
+  "website": null,
+  "email": "fyener@sakarya.edu.tr",
+  "phone": "(554) 435-83-54",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ SİTESİ B BLOK NO: 10B İÇ KAPI NO:Z05 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-ef42-73ae-ac70-f2a1cc58e169",
+  "slug": "yeni-doku-saglik-san-tic-ltd-sti",
+  "name": "YENİ DOKU SAĞLIK SAN. TİC. LTD. ŞTİ.",
+  "summary": "YENİ DOKU SAĞLIK SAN. TİC. LTD. ŞTİ.",
+  "description": "YENİ DOKU SAĞLIK SAN. TİC. LTD. ŞTİ.",
+  "tags": [
+   "Medikal"
+  ],
+  "main_activity": "Medikal",
+  "nace_code": "72.19.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": null,
+  "email": "mustafacuneytcikman@gmail.com",
+  "phone": "(533) 059-14-62",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ F BLOK BİNA NO:10/6 OFİS NO:118 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/499cf7bb2be062b9c253275ff3c81d01.jpg",
+  "office_summary": "118 Nolu Ofis",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "118",
+    "label": "118 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8704-707d-9e1c-f27eefa68d95",
+  "slug": "ymtm-teknoloji-san-ve-tic-as",
+  "name": "YMTM TEKNOLOJİ SAN. VE TİC. A.Ş.",
+  "summary": "YMTM Teknoloji 2018 yılında, Bilişim Vadisi Teknopark ta elektrik motorları ile ilgili özel çözümler geliştirmek üzere kurulmuştur. 15 yılı...",
+  "description": "YMTM Teknoloji 2018 yılında, Bilişim Vadisi Teknopark ta elektrik motorları ile ilgili özel çözümler geliştirmek üzere kurulmuştur. 15 yılı aşkın akademik ve sektör tecrübesine sahip genç ve dinamik kadrosu ile YMTM Teknoloji, başta savunma sanayi olmak üzere otomotiv, beyaz eşya ve endüstriyel otomasyon gibi birçok farklı sektöre hizmet vermektedir. YMTM Teknoloji, müşterilerin ihtiyaçları doğrultusunda fırçasız elektrik motoru (BLAC ve BLDC), çözücü (resolver) veya eyleyici tasarımı, prototip üretimi ve seri üretim gibi çeşitli konularda özel çözümler sunmaktadır. Müşteri ihtiyaçlarının belirlenmesinden projenin teslim edilmesine kadar olan tasarım, bilgisayar destekli simülasyon, prototip üretimi, prototip motor testleri, tasarım doğrulaması ve raporlama süreçlerini özenle istenen kalite standartlarında gerçekleştirmektedir. Yeni bir tasarımın geliştirilmesi dışında, mevcut bir tasarımın üretim sürecinin iyileştirmesi çalışmaları da YMTM Teknoloji nin yürüttüğü faaliyetler arasındadır.",
+  "tags": [
+   "Savunma Sanayi"
+  ],
+  "main_activity": "Savunma Sanayi",
+  "nace_code": "27.11.01",
+  "active_project_count": 6,
+  "employee_count": 10,
+  "website": "http://www.ymtm.com.tr",
+  "email": "oguzhan.ocak@ymtm.com.tr",
+  "phone": "(507) 953-11-39",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / 107 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/04d5fb1c8135c83f2ab302cfc84cfe40.jpg",
+  "office_summary": "107 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "107",
+    "label": "107 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-82b7-70fa-b718-475569b2b6e7",
+  "slug": "zdc-bilisim-yazilim-danismanlik-ve-otomasyon-tek-san-tic-ltd-sti",
+  "name": "ZDC BİLİŞİM YAZILIM DANIŞMANLIK VE OTOMASYON TEK. SAN. TİC. LTD. ŞTİ.",
+  "summary": "Zdc Bilişim",
+  "description": "Zdc Bilişim",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 6,
+  "employee_count": 3,
+  "website": "http://www.zdc.com.tr",
+  "email": "iletisim@zdc.com.tr",
+  "phone": "(264) 111-11-11",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / B14 SERDİVAN 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "B14 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "B14",
+    "label": "B14 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019f377c-ef99-7315-a613-3e33940d283d",
+  "slug": "zemlytic-muhendislik-ltd-sti",
+  "name": "ZEMLYTİC MÜHENDİSLİK LTD. ŞTİ.",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": "http://zemlytic.com.tr",
+  "email": "aytacaydinbas@gmail.com",
+  "phone": "(532) 252-86-74",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ 2 - / 17- SERDİVAN / SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/1dc3b4a8a3fb8bd710d52e7b8c3406fc.jpg",
+  "office_summary": "17 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "17",
+    "label": "17 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7cf2-73c6-937f-6089423f9454",
+  "slug": "zet-group",
+  "name": "ZET GROUP ZÖLLNER EISENMANN TECHNOLOGIE MÜHENDİSLİK SAN. VE TİC. LTD. ŞTİ.",
+  "summary": "",
+  "description": "",
+  "tags": [
+   "Ulaştırma ve Lojistik"
+  ],
+  "main_activity": "Ulaştırma ve Lojistik",
+  "nace_code": "71.12.06",
+  "active_project_count": 8,
+  "employee_count": 6,
+  "website": "http://www.zet-group.com.tr",
+  "email": "hguler@sakarya.edu.tr",
+  "phone": "(264) 295-57-47",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z07 Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z07 Nolu Ofis",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z07",
+    "label": "Z07 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a0b8c7-631a-7045-a66c-ce4964731613",
+  "slug": "zf-cvs-turkey-fren-sistemleri-san-tic-ltd",
+  "name": "ZF CVS TURKEY FREN SİSTEMLERİ SAN. TİC. LTD. ŞTİ. SAKARYA TEKNOKENT ŞUBESİ",
+  "summary": "ZF CVS Türkiye genel merkezi İstanbul'da, üretim tesisleri Sakarya'da bulunmaktadır. Sakarya'daki iki tesis için bugüne kadar yaklaşık 50 mi...",
+  "description": "ZF CVS Türkiye genel merkezi İstanbul'da, üretim tesisleri Sakarya'da bulunmaktadır. Sakarya'daki iki tesis için bugüne kadar yaklaşık 50 milyon Euro yatırım yapılmıştır. ZF CVS Türkiye; sac presleme, işleme, ısıyla sertleştirme, test ve montaj teknolojilerini kullanarak ürettiği fren körüğü, rot ve şasi ürünleriyle hem küresel ticari araç müşterilerinin hem de yerel müşterilerinin ihtiyaçlarını karşılamaktadır.  ZF CVS Türkiye'nin Dağıtım Merkezi (DC23) ve treyler, kamyon ve otobüs müşterilerine yönelik yerel satış faaliyetleri ve fren körüğü ihracatı faaliyetleri yapan şirketin 440'dan fazla çalışanı bulunuyor. ZF CVS Türkiye Ticari Araç Çözümleri, açılışından bu yana üretim alanını her geçen gün genişletiyor, Türkiye'deki yatırımlarıyla dünya çapındaki geniş müşteri tabanına üstün değer katarken, yerel ve global pozisyonlara istihdam olanağı sağlıyor.",
+  "tags": [
+   "Otomotiv"
+  ],
+  "main_activity": "Otomotiv",
+  "nace_code": "29.32.20",
+  "active_project_count": 1,
+  "employee_count": 15,
+  "website": "http://www.zf.com",
+  "email": "irem.yildirim@zf.com",
+  "phone": "(264) 289-65-00",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. F BLOK NO: 10/6 İÇ KAPI NO: 101 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/400023786e0044c59039adb678f56b9d.jpg",
+  "office_summary": "101–103 Nolu Ofisler",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "101",
+    "label": "101 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "F Blok",
+    "office_no": "102",
+    "label": "102 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "F Blok",
+    "office_no": "103",
+    "label": "103 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a0b8c7-6381-7127-8d44-1a1c2e791d26",
+  "slug": "omer-faruk-yumnu",
+  "name": "ÖMER FARUK YÜMNÜ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 2,
+  "website": null,
+  "email": "fyumnu@dsrobotics.tr",
+  "phone": "(531) 459-86-74",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ NO:2 - İÇ KAPI NO: 18 - SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "18 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "18",
+    "label": "18 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "01a13f3c-2a9a-71f8-b7f8-f48510592135",
+  "slug": "ilgeru-teknoloji-as",
+  "name": "İLGERU TEKNOLOJİ A.Ş. ",
+  "summary": ".",
+  "description": ".",
+  "tags": [
+   "Bilgisayar ve İletişim Teknolojileri"
+  ],
+  "main_activity": "Bilgisayar ve İletişim Teknolojileri",
+  "nace_code": "62.01.01",
+  "active_project_count": 1,
+  "employee_count": 1,
+  "website": null,
+  "email": "info@ilgeru.com",
+  "phone": "(545) 842-61-77",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. F BLOK NO: 10/6 İÇ KAPI NO: 113 SERDİVAN/SAKARYA Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "113 Nolu Ofis",
+  "offices": [
+   {
+    "building": "F Blok",
+    "office_no": "113",
+    "label": "113 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-91f7-72ae-9307-bf67afc311ac",
+  "slug": "indeks-muhendislik-akademisi-san-ve-tic-ltdi-sti",
+  "name": "İNDEKS MÜHENDİSLİK AKADEMİSİ SAN. VE TİC. LTDİ. ŞTİ.",
+  "summary": "İNDEKS MÜHENDİSLİK AKADEMİSİ SAN. VE TİC. LTDİ. ŞTİ.",
+  "description": "İNDEKS MÜHENDİSLİK AKADEMİSİ SAN. VE TİC. LTDİ. ŞTİ.",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "71.12.10",
+  "active_project_count": 2,
+  "employee_count": 2,
+  "website": null,
+  "email": "erenyilmaz@sakarya.edu.tr",
+  "phone": "(505) 403-17-61",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO:2 /27 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/a03280955bd8f9f0f1a1d3ff2cf0dadf.jpg",
+  "office_summary": "38 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "38",
+    "label": "38 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8e2e-7061-ac25-22f48a57710a",
+  "slug": "inlog-robot-teknoloji-as",
+  "name": "İNLOG ROBOT TEKNOLOJİ A.Ş.",
+  "summary": "İnlog Robot Teknoloji AŞ depo otomasyon sistemleri geliştiren bir firmadır.",
+  "description": "İnlog Robot Teknoloji AŞ depo otomasyon sistemleri geliştiren bir firmadır.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 3,
+  "employee_count": 3,
+  "website": null,
+  "email": "bt@inlogrobot.com",
+  "phone": "(532) 367-93-76",
+  "address": "Esentepe Mah. Teknoloji Geliştirme Bölgeleri Sitesi Rosem No:2 /19 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/5b877f144e7cca25d2bbb2849b29c018.jpg",
+  "office_summary": "40 Nolu Ofis",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "40",
+    "label": "40 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7f1a-73f0-ab91-e022d66e9da9",
+  "slug": "inovar-arge",
+  "name": "İNOVAR ARGE MÜHENDİSLİK VE TASARIM SAN. VE TİC. LTD. ŞTİ.",
+  "summary": "Firmamızın otomotiv, raylı sistemler, medikal, savunma sanayi ve havacılık üzerine faaliyet göstermektedir. Proje ve ürünlerin tamamı, çözüm...",
+  "description": "Firmamızın otomotiv, raylı sistemler, medikal, savunma sanayi ve havacılık üzerine faaliyet göstermektedir. Proje ve ürünlerin tamamı, çözüm ortaklarımızın talebi doğrultusunda oluşturulan kendi tasarım ve yazılımlarımızdır. Otomotiv elektroniğinde başta ECU olmak üzere özellikle ticari araç grubunda birçok cihazımız bulunmaktadır. Raylı sistemler alanında son olarak hayata geçirilen Milli Elektrikli Tren Seti için Aselsan ile beraber geliştirilen cihazlarımız mevcuttur. Savunma saneyisinde yine partner firmalarla geliştirdiğimiz kontrol kartları PDB ve PDU üniteleri bulunmaktadır.",
+  "tags": [
+   "Mühendislik/Mimarlık Faaliyetleri"
+  ],
+  "main_activity": "Mühendislik/Mimarlık Faaliyetleri",
+  "nace_code": "27.40.02",
+  "active_project_count": 8,
+  "employee_count": 8,
+  "website": "http://www.inovar.com.tr",
+  "email": "ktopcu@inovar.com.tr",
+  "phone": "(264) 502-27-26",
+  "address": "Sakarya Üniversitesi Teknoloji Geliştirme Bölgeleri Yönetici A.Ş. Esentepe Mahallesi Akademiyolu Sokak Bina No: 10 – A Blok No:103 Serdivan/Sakarya SERDİVAN 54050 SAMSUN/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/23a2b5e59be0a7d5abb77f79cb206957.jpg",
+  "office_summary": "Z13, Z14 Nolu Ofisler, NİGEM OFİSLERİ",
+  "offices": [
+   {
+    "building": "A Blok",
+    "office_no": null,
+    "label": "NİGEM OFİSLERİ",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "Z13",
+    "label": "Z13 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": "A Blok",
+    "office_no": "Z14",
+    "label": "Z14 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-7e9b-70d0-ba05-f372bb546a8d",
+  "slug": "insan-teknoloji-ve-bilisim-hizmetleri-ltdsti",
+  "name": "İNSAN TEKNOLOJİ VE BİLİŞİM HİZMETLERİ LTD.ŞTİ.",
+  "summary": "İNSAN TEKNOLOJİ VE BİLİŞİM HİZMETLERİ LTD.ŞTİ.",
+  "description": "İNSAN TEKNOLOJİ VE BİLİŞİM HİZMETLERİ LTD.ŞTİ.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "26.20.01",
+  "active_project_count": 9,
+  "employee_count": 1,
+  "website": "http://www.insanteknoloji.com",
+  "email": "sahin@insanteknoloji.com",
+  "phone": "(544) 242-11-17",
+  "address": "ESENTEPE Mah. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ B BLOK 10 B / Z03 Serdivan 54100 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/images/logo.svg",
+  "office_summary": "Z05 Nolu Ofis (Açık Ofis)",
+  "offices": [
+   {
+    "building": "B Blok",
+    "office_no": "Z05",
+    "label": "Z05 Nolu Ofis (Açık Ofis)",
+    "sqm": null
+   }
+  ]
+ },
+ {
+  "id": "019a77ba-8f5a-73d7-bf9e-6f36dd0c1241",
+  "slug": "sarjnerde-enerji-ve-yazilim-as",
+  "name": "ŞARJNERDE ENERJİ VE YAZILIM A.Ş.",
+  "summary": "Sarjnerde, elektrikli araç sahiplerine şarj istasyonlarını bulma, rezervasyon yapma ve ödeme yapma imkanı sunan akıllı bir platformdur. Kull...",
+  "description": "Sarjnerde, elektrikli araç sahiplerine şarj istasyonlarını bulma, rezervasyon yapma ve ödeme yapma imkanı sunan akıllı bir platformdur. Kullanıcılar uygulama aracılığıyla kolayca hızlı ve güvenli bir şekilde şarj sürecini yönetirken, aynı zamanda şarj istasyonlarının elektrik fiyatları ve yeşil enerji kullanımını da takip edebilirler. Gelecekte, sürdürülebilir mobiliteye liderlik ederek kullanıcılara daha iyi bir gelecek sunmayı hedefliyor.",
+  "tags": [
+   "Yazılım"
+  ],
+  "main_activity": "Yazılım",
+  "nace_code": "62.01.01",
+  "active_project_count": 4,
+  "employee_count": 3,
+  "website": null,
+  "email": "kurumsalposta@sarjnerde.com",
+  "phone": "(546) 297-01-11",
+  "address": "ESENTEPE MAH. AKADEMİYOLU SOK. TEKNOLOJİ GELİŞTİRME BÖLGELERİ ROSEM NO:2 /22 Serdivan 54050 SAKARYA/Türkiye",
+  "logo": "https://www.sakaryateknokent.com/storage/catalog/logos/14c420ded55df80fa78131b1fb10267f.jpg",
+  "office_summary": "43, 44 Nolu Ofisler",
+  "offices": [
+   {
+    "building": null,
+    "office_no": "43",
+    "label": "43 Nolu Ofis",
+    "sqm": null
+   },
+   {
+    "building": null,
+    "office_no": "44",
+    "label": "44 Nolu Ofis",
+    "sqm": null
+   }
+  ]
+ }
+]
