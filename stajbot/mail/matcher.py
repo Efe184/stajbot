@@ -393,7 +393,8 @@ def match(msg: EmailMessage, session: Session) -> MatchResult:
         session, company, EventType.email_received, (prefix + (msg.subject or "(konu yok)"))[:255],
         body=(reply_body(msg.body_text) or msg.body_text or "")[:2000], actor=Actor.system, email_message=msg, occurred_at=when,
     )
-    if not auto and company.status in (AppStatus.sent, AppStatus.no_reply, AppStatus.followup_sent):
+    # bounced da dahil: bir adres ulaşmasa bile (ör. info@ iç adrese yönlendirip geri döner) şirket başka adresten cevap verebilir.
+    if not auto and company.status in (AppStatus.sent, AppStatus.no_reply, AppStatus.followup_sent, AppStatus.bounced):
         services.change_status(
             session, company, AppStatus.replied, actor=Actor.system,
             title=f"Cevap geldi (tahmin: {sentiment.value})", email_message=msg, occurred_at=when,

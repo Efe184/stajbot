@@ -63,6 +63,7 @@ SYSTEM_TRANSITIONS: dict[AppStatus, set[AppStatus]] = {
     AppStatus.sent: {AppStatus.replied, AppStatus.no_reply, AppStatus.bounced},
     AppStatus.no_reply: {AppStatus.followup_sent, AppStatus.replied, AppStatus.bounced},
     AppStatus.followup_sent: {AppStatus.replied, AppStatus.bounced},
+    AppStatus.bounced: {AppStatus.replied},
 }
 
 # Bu durumlardaki şirketlere asla otomatik mail gitmez.

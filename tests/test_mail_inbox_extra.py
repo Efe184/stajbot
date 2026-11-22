@@ -676,6 +676,14 @@ def test_normal_reply_is_not_a_bounce(session):
     assert c.status == AppStatus.replied and _out(c).status == MailStatus.sent
 
 
+def test_human_reply_after_bounce_marks_company_replied(session):
+    # info@ iç adrese yönlendirip geri döndü, ama İK başka adresten cevap yazdı (SFS vakası)
+    c = _company(session, status=AppStatus.bounced)
+    m = _stored(session, _mime(frm="ik@alfa.com", subject="Başvurunuz hakkında", body="Merhaba, başvurunuzu aldık."))
+    matcher.match(m, session)
+    assert c.status == AppStatus.replied
+
+
 def test_bounce_reason_picks_smtp_code_line():
     assert matcher.bounce_reason(GMAIL_BOUNCE_BODY) == "İleti engellendi — 550 5.4.1 Recipient address rejected: Access denied."
     o365 = (
