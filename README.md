@@ -1,267 +1,243 @@
-# StajBot — Staj Başvuru Otomasyonu
+# StajBot
 
-Bilgisayar mühendisliği öğrencileri için **İşyeri Mesleki Eğitim (uzun dönem, yüz yüze) staj başvurusu**
-otomasyonu. Hedef şehirlerdeki (Konya, Ankara, İstanbul, İzmir, Eskişehir, Bursa, Sakarya, Antalya,
-Mersin, Afyonkarahisar) yazılım / bilişim şirketlerini bulur, e-posta adreslerini çıkarır, sizin
-onayınızla kişiselleştirilmiş başvuru mailleri üretir, kontrollü biçimde gönderir ve gelen cevapları
-takip eder.
+**Staj başvurusunu baştan sona yöneten kişisel otomasyon aracı.** Şirketleri herkese açık kaynaklardan toplar, web sitelerini tarayıp puanlar, her şirkete özel başvuru maili hazırlar, senin onayınla kontrollü biçimde gönderir ve gelen cevapları takip eder.
 
-**Ne yapar?**
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-HTMX-009688?logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-SQLAlchemy%202-003B57?logo=sqlite&logoColor=white)
+![Tests](https://img.shields.io/badge/testler-686-brightgreen)
 
-1. Şirketleri birden çok kaynaktan toplar ve tekilleştirir: Sanayi Bakanlığı Ar-Ge / Tasarım Merkezleri
-   listesi, teknopark firma rehberleri, YASAD / TÜBİSAD üye listeleri (Bilişim 500), Google Places,
-   CSV (okul protokol listesi, elle toplanan).
-2. Şirket web sitelerini tarayarak e-posta (İK / kariyer öncelikli), teknoloji yığını, kariyer sayfası,
-   staj ilanı ve büyüklük ipuçlarını çıkarır (**zenginleştirme**).
-3. Her şirkete 0-100 arası otomatik **puan** verir (staj ilanı, Ar-Ge merkezi, teknopark, okul protokolü,
-   HR e-postası, profilinizle örtüşen teknolojiler...).
-4. Web arayüzündeki **inceleme kuyruğunda** şirketleri onaylar / reddedersiniz.
-5. Onaylı şirketler için şablon + LLM (Anthropic) ile **kişiselleştirilmiş başvuru maili taslağı** üretir;
-   siz önizleyip onaylarsınız.
-6. Günlük limit, mesai saati ve rastgele bekleme ile **gönderir** (ya da Gmail taslaklarına koyar).
-7. Gelen kutusunu okur, cevapları şirkete eşleştirir (Message-ID, `BV-0042` takip kodu, domain),
-   olumlu / olumsuz tahmini yapar; telefon, mülakat, teklif gibi aşamaları siz işaretlersiniz.
-   Her şey şirket başına **zaman çizelgesinde** tutulur.
-
-> Hiçbir mail sizin onayınız olmadan gitmez: taslaklar web arayüzünde onaylanır, gönderim ayrıca
-> `send` komutuyla (ya da arayüzdeki butonla) başlatılır ve `MAIL_MODE` ile kontrol edilir.
+Bilgisayar mühendisliği 4. sınıfta **İşyeri Mesleki Eğitim** (uzun dönem, yüz yüze staj) yeri ararken yüzlerce şirketin sitesini tek tek gezmek, mail adresi bulmak ve her birine ayrı mail yazmak yerine bu süreci otomatikleştirmek için yazıldı. Kendi staj başvurularımda gerçekten kullanıyorum.
 
 ---
 
-## Kurulum
+## Öne çıkanlar
 
-Gereksinimler: Windows 11 (Linux/macOS'ta da çalışır), Python 3.13, bir Gmail hesabı.
+- 🔎 **Çok kaynaklı toplama:** Sanayi Bakanlığı Ar-Ge / Tasarım Merkezleri listesi, ~20 teknoparkın firma rehberi, YASAD / TÜBİSAD üye listeleri, Google Places ve CSV/XLSX. Aynı şirket farklı kaynaklardan gelse de tek kayıtta birleşir.
+- 🌐 **Zenginleştirme:** Şirket sitesini tarayıp İK / kariyer mail adreslerini, teknoloji yığınını, kariyer sayfasını, staj ilanını ve büyüklük ipuçlarını çıkarır. `robots.txt`'e uyar, istekler arasında bekler.
+- 📊 **Puanlama:** Her şirkete 0–100 puan verir: staj ilanı, Ar-Ge merkezi, teknopark, okul protokolü, İK maili, profilinle örtüşen teknolojiler…
+- ✉️ **Kişiye özel mailler:** Sektöre göre seçilen şablon (kurumsal, savunma, oyun, girişim…) ve şirkete özel "neden siz" paragrafı. İstenirse paragrafı LLM (Anthropic Claude) yazar, uydurma bilgi kullanmaz.
+- 🛡️ **Kontrollü gönderim:** Hiçbir mail onaysız gitmez. Günlük limit, mesai saati penceresi, gönderimler arası rastgele bekleme ve aynı şirkete 14 gün kuralı vardır.
+- 📥 **Cevap takibi:** Gelen kutusunu IMAP ile okur, cevapları Message-ID, `[BV-0042]` takip kodu ve domain üzerinden şirkete eşleştirir. Otomatik yanıtları ve **ulaşmayan mailleri** (bounce) ayırt eder, olumlu / olumsuz tahmini yapar.
+- 🗂️ **Zaman çizelgesi:** Her şirketin bulunmasından teklife kadar tüm aşamaları web arayüzünde tek sayfada görürsün.
+
+## Nasıl çalışır
+
+```mermaid
+flowchart LR
+    A["Kaynaklar<br/>Ar-Ge · Teknopark<br/>YASAD · Places · CSV"] --> B["collect<br/>topla ve birleştir"]
+    B --> C["enrich<br/>siteyi tara"]
+    C --> D["score<br/>puanla"]
+    D --> E["/inceleme<br/>onayla / reddet"]
+    E --> F["compose<br/>taslak üret"]
+    F --> G["/mailler<br/>oku ve onayla"]
+    G --> H["send<br/>limitli gönderim"]
+    H --> I["inbox<br/>cevapları eşleştir"]
+    I --> J["followups<br/>hatırlatma"]
+```
+
+Şirket durumu şu yolu izler: `Bulundu → Hazır → Taslak → Gönderildi → Cevap geldi / Cevap yok / Mail ulaşmadı → Mülakat → Teklif`. Sistemin değiştirdiği durumlar ile senin elle işaretlediğin aşamalar (telefon, mülakat, teklif) ayrı tutulur.
+
+---
+
+## Hızlı başlangıç
+
+Gereksinimler: Python 3.13 ve bir Gmail hesabı. Windows 11'de geliştirildi; Linux ve macOS'ta da çalışır.
 
 ```powershell
-cd "C:\Users\...\staj otomasyon"
+git clone https://github.com/Efe184/stajbot.git
+cd stajbot
 python -m venv .venv
 .venv\Scripts\python -m pip install -r requirements.txt
-copy .env.example .env
+copy .env.example .env            # bilgilerini doldur
 .venv\Scripts\python -m stajbot init-db
 ```
 
-Komutları her zaman sanal ortamın yorumlayıcısı ile çalıştırın: `.venv\Scripts\python -m stajbot ...`
-(Linux/macOS: `.venv/bin/python -m stajbot ...`).
+> Linux / macOS'ta `.venv\Scripts\python` yerine `.venv/bin/python`, `copy` yerine `cp` kullan.
 
-### `.env` dosyası
+### Hazır şirket listesi
 
-`.env.example` dosyasını `.env` olarak kopyalayın ve doldurun. Bu dosya gizli bilgi içerir; `.gitignore`
-içindedir, asla paylaşmayın.
+Repo, herkese açık kaynaklardan derlenmiş **4.792 şirketlik** bir liste içerir: [`data/sirketler.csv`](data/sirketler.csv). Listede yalnızca kurumsal mail adresleri (ik@, info@, kariyer@…) var, kişisel adresler çıkarıldı. Toplama adımını atlamak istersen:
 
-| Alan | Açıklama |
-|---|---|
-| `USER_FULL_NAME`, `USER_PHONE`, `USER_SCHOOL`, `USER_DEPARTMENT`, `USER_CLASS` | Mail şablonlarında kullanılan kimlik bilgileri |
-| `INTERNSHIP_TERM`, `INTERNSHIP_START`, `INTERNSHIP_END` | Staj dönemi (ör. `2026-2027 Bahar`, `2027-02-15`, `2027-06-15`) |
-| `TARGET_CITIES` | Hedef şehirler (virgülle). Boşsa varsayılan 10 şehir |
-| `GOOGLE_PLACES_API_KEY` | Google Places (New) anahtarı — isteğe bağlı, aşağıya bakın |
-| `ANTHROPIC_API_KEY`, `LLM_MODEL` | Kişiselleştirilmiş paragraf için — isteğe bağlı |
-| `MAIL_MODE` | `dry` (sadece logla) / `draft` (Gmail taslağına koy) / `send` (gerçekten gönder) |
-| `MAIL_USER`, `MAIL_PASSWORD`, `MAIL_FROM_NAME` | Gmail adresi ve **uygulama şifresi** |
-| `DAILY_SEND_LIMIT`, `SEND_DELAY_MIN_SEC`, `SEND_DELAY_MAX_SEC` | Günlük limit (varsayılan 15) ve gönderimler arası rastgele bekleme (sn) |
-| `SEND_WINDOW`, `SEND_WEEKDAYS_ONLY` | Mesai penceresi (`09:00-17:30`) ve yalnızca hafta içi |
-| `FOLLOWUP_DAYS`, `MIN_DAYS_BETWEEN_MAILS` | Hatırlatma süresi (10 gün) ve aynı şirkete iki mail arası en az gün (14) |
-| `ATTACHMENTS` | Ek dosyalar, varsayılan `data/cv.pdf` (varsa eklenir) |
-| `LOG_LEVEL`, `DB_PATH`, `DATA_DIR`, `PROFILE_PATH`, `HTTP_TIMEOUT_SEC`, `LLM_MAX_TOKENS` | İleri ayarlar; varsayılanlar genelde yeterlidir |
+```powershell
+.venv\Scripts\python -m stajbot import-csv data\sirketler.csv --allow-non-target
+```
 
-### Gmail uygulama şifresi (zorunlu: `draft` / `send` modu ve `inbox` için)
+`--allow-non-target` olmadan yalnızca `.env`'deki hedef şehirlerdeki şirketler alınır.
 
-Gmail normal şifreyle SMTP/IMAP girişine izin vermez; **uygulama şifresi** gerekir.
+### Web arayüzü
 
-1. Google hesabınızda **2 Adımlı Doğrulama**'yı açın: <https://myaccount.google.com/security>
-2. **Uygulama şifreleri** sayfasına gidin: <https://myaccount.google.com/apppasswords>
-3. Uygulama adı olarak `StajBot` yazın, oluşturulan 16 haneli şifreyi (boşluksuz) `.env` içine
-   `MAIL_PASSWORD=` olarak yazın; `MAIL_USER=adresiniz@gmail.com`.
-4. Gmail ayarlarında IMAP'ın açık olduğundan emin olun: *Ayarlar → Tüm ayarları gör → Yönlendirme ve
-   POP/IMAP → IMAP'ı etkinleştir*.
-5. Önce `MAIL_MODE=draft` ile deneyin: taslaklar Gmail'in **Taslaklar** klasörüne düşer, oradan
-   kontrol edip elle gönderebilirsiniz. Her şey yerindeyse `MAIL_MODE=send` yapın.
+```powershell
+.venv\Scripts\python -m stajbot serve      # http://127.0.0.1:8000
+```
 
-Okul e-postanız (ör. `@ogr.universite.edu.tr`) Google Workspace üzerindeyse aynı adımlar geçerlidir;
-Workspace yöneticisi uygulama şifrelerini kapatmışsa kişisel Gmail kullanın.
-
-### Google Places API anahtarı (isteğe bağlı, aylık birkaç dolar)
-
-Google Places, hedef şehirlerdeki yazılım şirketlerini web sitesiyle birlikte bulur. Diğer kaynaklar
-olmadan da sistem çalışır; anahtar yoksa bu kaynak uyarı vererek atlanır.
-
-1. <https://console.cloud.google.com> adresinde proje oluşturun ve **faturalandırma hesabı** bağlayın
-   (ücretsiz kota için de gerekir).
-2. *API'ler ve Hizmetler → Kitaplık* bölümünden **Places API (New)** servisini etkinleştirin
-   (eski "Places API" değil).
-3. *Kimlik bilgileri → Kimlik bilgisi oluştur → API anahtarı*. Anahtarı **yalnızca Places API (New)**
-   ile kısıtlayın.
-4. `.env` içine `GOOGLE_PLACES_API_KEY=AIza...` yazın.
-5. *Faturalandırma → Bütçeler ve uyarılar* bölümünde 5 $ gibi bir bütçe uyarısı tanımlayın.
-
-Maliyet: tam bir tarama (10 şehir × ~8 sorgu × 3 sayfa) yaklaşık 250 istektir; ayda ~1000 istek
-ücretsizdir, sonrası tarama başına ~8-9 $. Ham yanıtlar `data/google_places/` altında 7 gün önbellekte
-tutulur; tekrar çalıştırma ücretsizdir. Ayrıntı: `stajbot/collectors/google_places.py` başındaki açıklama.
-
-### Anthropic API anahtarı (isteğe bağlı)
-
-Her şirket için "neden bu şirket" paragrafını LLM yazar (2-4 cümle, şirketin teknolojileri / sektörü ve
-sizin profilinizden yola çıkar, uydurma bilgi yok). <https://console.anthropic.com> adresinden anahtar
-alın, `.env` içine `ANTHROPIC_API_KEY=` yazın. Anahtar yoksa ya da `compose --no-llm` derseniz şablonun
-sabit paragrafı kullanılır. Maliyet mail başına birkaç kuruştur.
-
-### `data/profil.md`
-
-LLM'in ve şablonların sizi tanıtırken kullandığı kısa profil: okul, bölüm, sınıf, bildiğiniz
-teknolojiler, 2-3 proje, ilgi alanları, staj dönemi. `data/profil.example.md` dosyasını `data/profil.md`
-olarak kopyalayıp düzenleyin (web arayüzündeki **/ayarlar** sayfasından da düzenlenebilir). CV'nizi
-`data/cv.pdf` olarak koyarsanız maillere eklenir.
+Kurulumu önce `MAIL_MODE=dry` (varsayılan) ile dene. Bu modda hiçbir mail gönderilmez, yalnızca ne yapılacağı loglanır.
 
 ---
 
 ## Günlük akış
 
 ```powershell
-# 1) Şirketleri topla (tüm kaynaklar, .env'deki hedef şehirler)
-.venv\Scripts\python -m stajbot collect
-#    tek kaynak / tek şehir:
-.venv\Scripts\python -m stajbot collect --source teknopark --city Konya --city Ankara
-
-# 2) Okulun protokol listesi ya da elle hazırladığınız CSV
-.venv\Scripts\python -m stajbot import-csv data\imports\okul_protokol.csv --source school
-
-# 3) Web sitelerini tara: e-posta, teknoloji, kariyer sayfası (hiç taranmamışlar, 50 tane)
-.venv\Scripts\python -m stajbot enrich --only-pending --limit 50
-
-# 4) Puanla
-.venv\Scripts\python -m stajbot score
-
-# 5) Web arayüzünü aç ve /inceleme sayfasında şirketleri Onayla / Reddet / Sonra
-.venv\Scripts\python -m stajbot serve          # http://127.0.0.1:8000
-
-# 6) Onaylı ve e-postası olan (status: Hazır) şirketler için mail taslağı üret
-.venv\Scripts\python -m stajbot compose --all-ready
-#    LLM olmadan: --no-llm ; tek şirket: --company-id 42
-
-# 7) /mailler sayfasında taslakları önizle, düzenle, Onayla
-
-# 8) Gönder (önce prova)
-.venv\Scripts\python -m stajbot send --dry-run
-.venv\Scripts\python -m stajbot send
-
-# 9) Gelen kutusunu oku, cevapları eşleştir
-.venv\Scripts\python -m stajbot inbox
-
-# 10) Cevap vermeyenler için hatırlatma taslakları (FOLLOWUP_DAYS sonra)
-.venv\Scripts\python -m stajbot followups
-
-# Hızlı özet
-.venv\Scripts\python -m stajbot stats
+.venv\Scripts\python -m stajbot collect                       # 1. şirketleri topla
+.venv\Scripts\python -m stajbot enrich --only-pending --limit 50   # 2. siteleri tara
+.venv\Scripts\python -m stajbot score                         # 3. puanla
+#                                                               4. /inceleme: onayla / reddet
+.venv\Scripts\python -m stajbot compose --all-ready           # 5. taslak üret
+#                                                               6. /mailler: oku, düzenle, onayla
+.venv\Scripts\python -m stajbot send --dry-run                # 7. önce prova…
+.venv\Scripts\python -m stajbot send                          #    …sonra gönder
+.venv\Scripts\python -m stajbot inbox                         # 8. cevapları eşleştir
+.venv\Scripts\python -m stajbot followups                     # 9. hatırlatma taslakları
 ```
 
-Kısaca: **collect → enrich → score → inceleme (web) → compose → onay (web) → send → inbox**. Her gün
-`inbox`, `send` ve haftada bir `followups` çalıştırmak yeterlidir; cevap gelen şirketlerde telefon /
-mülakat / teklif aşamalarını web arayüzünde elle işaretleyin.
+Kurulumdan sonra her gün `inbox` ve `send`, haftada bir de `followups` çalıştırmak yeterli.
 
-### Komutlar
+<details>
+<summary><b>Tüm komutlar</b></summary>
 
 | Komut | Açıklama |
 |---|---|
 | `init-db` | Veritabanı tablolarını oluşturur (`data/stajbot.db`) |
-| `collect [--source argem\|teknopark\|bilisim500\|google_places\|all] [--city X]... [--allow-non-target]` | Kaynaklardan toplar, tekilleştirerek kaydeder; bir kaynak hata verirse diğerleriyle devam eder |
-| `import-csv DOSYA [--source csv\|school] [--city VARSAYILAN] [--allow-non-target]` | CSV ya da XLSX içe aktarır (UTF-8 / cp1254; Türkçe başlıklar olur); `school` okul protokolü bayrağını açar. `--print-template` şablon başlığını yazdırır |
-| `enrich [--limit N] [--only-pending] [--company-id N]` | Web sitelerini tarar (e-posta, teknoloji, kariyer, büyüklük) |
-| `score` | Tüm şirketlerin puanını yeniden hesaplar |
-| `compose (--company-id N \| --all-ready) [--no-llm] [--limit N]` | Başvuru maili taslağı üretir (gönderilmez) |
-| `send [--dry-run] [--force] [--limit N]` | Onaylı taslakları gönderir; `--force` mesai saati kontrolünü aşar |
+| `collect [--source argem\|teknopark\|bilisim500\|google_places\|all] [--city X]... [--allow-non-target]` | Kaynaklardan toplar ve birleştirerek kaydeder. Bir kaynak hata verirse diğerleriyle devam eder |
+| `import-csv DOSYA [--source csv\|school] [--city VARSAYILAN] [--allow-non-target]` | CSV / XLSX içe aktarır (UTF-8 / cp1254, Türkçe başlıklar olur). `--print-template` şablonu yazdırır |
+| `enrich [--limit N] [--only-pending] [--company-id N]` | Web sitelerini tarar |
+| `score` | Tüm puanları yeniden hesaplar |
+| `compose (--company-id N \| --all-ready) [--no-llm] [--limit N]` | Başvuru taslağı üretir (göndermez) |
+| `send [--dry-run] [--force] [--limit N]` | Onaylı taslakları gönderir. `--force` yalnızca mesai saati kontrolünü aşar, limiti aşmaz |
 | `inbox` | IMAP'tan yeni mesajları alır ve şirketlere eşleştirir |
-| `followups [--limit N]` | Süresi dolanları "Cevap yok" yapar, hatırlatma taslağı üretir (onay bekler; hatırlatma 14 gün kuralından muaftır) |
-| `serve [--host 127.0.0.1] [--port 8000] [--reload]` | Web arayüzü |
+| `followups [--limit N]` | Süresi dolanları "Cevap yok" yapar ve hatırlatma taslağı üretir |
+| `serve [--host] [--port] [--reload]` | Web arayüzü |
 | `stats` | Sayıların Türkçe özeti |
 
-Her komut hata durumunda `HATA: ...` satırı yazar ve sıfır dışı çıkış koduyla biter. Ayrıntılı log
-`.env` içinde `LOG_LEVEL=DEBUG` ile stderr'e yazılır.
+</details>
 
-### Web arayüzü sayfaları
+<details>
+<summary><b>Web arayüzü sayfaları</b></summary>
 
 | Sayfa | İçerik |
 |---|---|
-| `/` | Pano: durum sayıları, bekleyen onay, bugün gönderilen, sahipsiz mail, yaklaşan hatırlatmalar, son hareketler |
-| `/sirketler` | Liste; şehir / durum / inceleme / büyüklük / kaynak / puan filtreleri, arama, sıralama; `/sirketler.csv` dışa aktarma |
-| `/sirketler/{id}` | Şirket kartı, kişiler (birincil seç / ekle / sil), kaynaklar, zaman çizelgesi, mailler; durum değiştir, not, alan düzenleme, kara liste, zenginleştir, taslak üret |
-| `/inceleme` | Onay kuyruğu (puana göre): Onayla / Reddet / Sonra |
-| `/mailler` | Taslaklar: düzenle, paragrafı yeniden üret, onayla, sil; onaylananlar / gönderilenler / hatalı sekmeleri; "Gönderimi başlat" |
-| `/gelen` | Gelen mailler: eşleşen / sahipsiz; sahipsizi şirkete bağla; olumlu-olumsuz tahminini onayla ve durumu güncelle |
+| `/` | Pano: durum sayıları, bekleyen onaylar, bugün gönderilenler, sahipsiz mailler, yaklaşan hatırlatmalar |
+| `/sirketler` | Filtrelenebilir liste (şehir, durum, büyüklük, kaynak, puan), arama, CSV dışa aktarma |
+| `/sirketler/{id}` | Şirket kartı: kişiler, kaynaklar, zaman çizelgesi, mailler, durum ve not düzenleme |
+| `/inceleme` | Puana göre sıralı onay kuyruğu |
+| `/mailler` | Taslakları düzenle, paragrafı yeniden üret, onayla; gönderimi başlat |
+| `/gelen` | Eşleşen ve sahipsiz mailler; cevap tahminini onayla |
 | `/istatistik` | Kaynak / şehir / sektör bazında gönderim ve cevap oranları |
-| `/ayarlar` | `.env` özeti (gizli değerler maskeli) ve `data/profil.md` düzenleme |
+| `/ayarlar` | Ayar özeti (gizli değerler maskeli) ve profil düzenleme |
 
-### Kaynaklarla ilgili notlar
-
-- **argem**: sanayi.gov.tr otomatik indirmeyi engelleyebilir. Komut önce `data/argem/*.xlsx`
-  dosyalarına bakar; tarayıcınızla *Ar-Ge Merkezleri* ve *Tasarım Merkezleri* XLSX dosyalarını indirip
-  bu klasöre koyun (adresler komut uyarısında yazılır). Yoksa Wayback Machine'den indirmeyi dener.
-- **teknopark**: Teknopark İstanbul gibi bot korumalı siteler otomatik taranamaz; firma listesini
-  CSV ile içe aktarın. Yapılandırma: `stajbot/collectors/teknoparklar.yaml`.
-- **bilisim500**: Bilişim 500 listesi ücretlidir. YASAD ve TÜBİSAD üye listeleri ücretsiz taranır;
-  listeyi satın alırsanız `data/manual/bilisim500_<yil>.csv` olarak koyun.
-- **google_places**: anahtar yoksa atlanır; istek bütçesi ve önbellek vardır.
+</details>
 
 ---
 
-## Güvenlik ve nezaket notları
+## Yapılandırma
 
-- **`MAIL_MODE`**
-  - `dry`: hiçbir şey gönderilmez, ne yapılacağı loglanır (varsayılan — kurulumu bu modda deneyin).
-  - `draft`: mail Gmail **Taslaklar** klasörüne konur; siz Gmail'den okuyup gönderirsiniz (veritabanında mail
-    "gönderildi" sayılır; göndermekten vazgeçerseniz şirket sayfasından durumu düzeltin). Gerçek
-    gönderime geçmeden önce birkaç gün bu modu kullanmanız önerilir.
-  - `send`: SMTP ile gerçekten gönderir. Yalnızca `MailStatus.approved` (sizin onayladığınız) taslaklar
-    gider.
-- Günlük limit (`DAILY_SEND_LIMIT=15`), gönderimler arası 2-6 dakika rastgele bekleme ve mesai saati
-  penceresi spam izlenimini önler ve Gmail'in günlük sınırlarına takılmanızı engeller. `--force` yalnızca
-  saat kontrolünü aşar; limiti aşmaz.
-- Aynı şirkete 14 gün içinde ikinci mail gitmez; kara listedeki ya da *Kapandı* / *Kabul ettim* /
-  *Olumsuz* durumundaki şirketlere asla mail gitmez.
-- Her mailin konusunda `[BV-0042]` biçiminde takip kodu bulunur; cevaplar bununla eşleştirilir.
-  Eşleşmeyen mailler arayüzde "Sahipsiz" listesinde elle bağlanır.
-- Toplayıcılar robots.txt'e uyar, istekler arasında bekler ve kendini `HTTP_USER_AGENT` ile tanıtır.
-- Olumlu / olumsuz tahmini yalnızca bir **tahmindir**; durum değişikliğini arayüzde siz onaylayın.
-- `.env`, `data/stajbot.db`, `data/cv.pdf`, `data/profil.md` kişisel veri içerir; `.gitignore`'dadır.
-  Yedeğini alın, paylaşmayın.
-- LLM yalnızca "neden bu şirket" paragrafını yazar ve şirketin sitesinden çıkarılan bilgiyi kullanır;
-  gönderimden önce her taslağı okuyun — sorumluluk sizdedir.
+Tüm ayarlar `.env` dosyasındadır (`.env.example`'dan kopyala). Bu dosya şifre içerir ve `.gitignore`'dadır.
 
----
+<details>
+<summary><b><code>.env</code> alanları</b></summary>
 
-## CSV içe aktarma şablonu
+| Alan | Açıklama |
+|---|---|
+| `USER_FULL_NAME`, `USER_PHONE`, `USER_SCHOOL`, `USER_DEPARTMENT`, `USER_CLASS` | Maillerde kullanılan kimlik bilgileri |
+| `INTERNSHIP_TERM`, `INTERNSHIP_START`, `INTERNSHIP_END` | Staj dönemi, örn. `2026-2027 Bahar`, `2027-01-25`, `2027-05-14`. Tarihler maile otomatik yazılır |
+| `TARGET_CITIES` | Hedef şehirler (virgülle). Boşsa varsayılan 10 şehir |
+| `MAIL_MODE` | `dry` (yalnızca logla) / `draft` (Gmail taslağına koy) / `send` (gerçekten gönder) |
+| `MAIL_USER`, `MAIL_PASSWORD`, `MAIL_FROM_NAME` | Gmail adresi ve **uygulama şifresi** |
+| `DAILY_SEND_LIMIT`, `SEND_DELAY_MIN_SEC`, `SEND_DELAY_MAX_SEC` | Günlük limit (varsayılan 15) ve gönderimler arası bekleme |
+| `SEND_WINDOW`, `SEND_WEEKDAYS_ONLY` | Mesai penceresi (`09:00-17:30`) ve yalnızca hafta içi |
+| `FOLLOWUP_DAYS`, `MIN_DAYS_BETWEEN_MAILS` | Hatırlatma süresi (10 gün) ve aynı şirkete iki mail arası en az gün (14) |
+| `ATTACHMENTS` | Maile eklenecek dosyalar (örn. CV) |
+| `GOOGLE_PLACES_API_KEY` | İsteğe bağlı, Google Places kaynağı için |
+| `ANTHROPIC_API_KEY`, `LLM_MODEL` | İsteğe bağlı, kişiye özel paragraf için |
+| `LOG_LEVEL`, `DB_PATH`, `DATA_DIR`, `PROFILE_PATH`, `HTTP_TIMEOUT_SEC`, `LLM_MAX_TOKENS` | İleri ayarlar |
 
-`python -m stajbot import-csv --print-template` komutu şablonu yazdırır. Dosya **UTF-8** (Excel'den
-kaydederken "CSV UTF-8") olmalı; ayraç virgül, noktalı virgül ya da sekme olabilir. Yalnızca `name`
-zorunludur; başlıklar İngilizce ya da Türkçe (`Şirket Adı`, `Web Sitesi`, `E-posta`, `Şehir`, `İlçe`,
-`Adres`, `Telefon`, `Sektör`, `Açıklama`, `Yetkili`, `Etiketler`, `Not`) yazılabilir.
+Profilini (okul, bildiğin teknolojiler, projeler) `data/profil.example.md`'den kopyaladığın `data/profil.md` dosyasına yaz. Web arayüzündeki `/ayarlar` sayfasından da düzenleyebilirsin.
+
+</details>
+
+<details>
+<summary><b>Gmail uygulama şifresi</b> (<code>draft</code> / <code>send</code> modu ve <code>inbox</code> için gerekli)</summary>
+
+Gmail, SMTP / IMAP girişi için normal şifreyi kabul etmez.
+
+1. Google hesabında **2 Adımlı Doğrulama**'yı aç: <https://myaccount.google.com/security>
+2. **Uygulama şifreleri** sayfasında `StajBot` adıyla şifre oluştur: <https://myaccount.google.com/apppasswords>
+3. 16 haneli şifreyi boşluksuz olarak `.env`'de `MAIL_PASSWORD=` satırına yaz.
+4. Gmail ayarlarında IMAP'ın açık olduğundan emin ol.
+5. Önce `MAIL_MODE=draft` ile dene. Taslaklar Gmail'in Taslaklar klasörüne düşer. Her şey doğruysa `send`'e geç.
+
+</details>
+
+<details>
+<summary><b>Google Places ve Anthropic anahtarları</b> (isteğe bağlı)</summary>
+
+**Google Places (New):** Google Cloud Console'da proje aç, faturalandırma bağla, **Places API (New)**'yu etkinleştir, anahtarı yalnızca bu API ile kısıtla ve bir bütçe uyarısı tanımla. Tam bir tarama yaklaşık 250 istektir. Ayda ~1000 istek ücretsizdir ve yanıtlar 7 gün önbellekte tutulur. Anahtar yoksa bu kaynak uyarıyla atlanır.
+
+**Anthropic:** "Neden bu şirket" paragrafını LLM'e yazdırmak için <https://console.anthropic.com>'dan anahtar al. Anahtar yoksa ya da `compose --no-llm` kullanırsan şablonun sabit paragrafı kullanılır.
+
+</details>
+
+<details>
+<summary><b>Kaynaklarla ilgili notlar</b></summary>
+
+- **argem:** sanayi.gov.tr otomatik indirmeyi engelleyebilir. Komut önce `data/argem/*.xlsx` dosyalarına bakar, yoksa Wayback Machine'den indirmeyi dener.
+- **teknopark:** Her teknoparkın sitesi için ayrı okuyucu vardır (`stajbot/collectors/teknoparklar.yaml`). Bot korumalı siteler için listeyi CSV ile içe aktar.
+- **bilisim500:** Bilişim 500 listesi ücretlidir. YASAD ve TÜBİSAD üye listeleri ücretsiz taranır.
+- **google_places:** Anahtar yoksa atlanır. İstek bütçesi ve önbellek vardır.
+
+</details>
+
+<details>
+<summary><b>CSV içe aktarma şablonu</b></summary>
+
+`python -m stajbot import-csv --print-template` şablonu yazdırır. Dosya UTF-8 olmalı. Ayraç virgül, noktalı virgül ya da sekme olabilir. Yalnızca `name` zorunludur, başlıklar Türkçe de yazılabilir (`Şirket Adı`, `Web Sitesi`, `E-posta`, `Şehir`…).
 
 ```csv
 name,website,email,city,district,address,phone,sector,description,contact_name,tags,notes
 Örnek Yazılım A.Ş.,https://www.ornekyazilim.com,kariyer@ornekyazilim.com,İstanbul,Maslak,,0212 000 00 00,Fintech,Ödeme sistemleri geliştirir,,"fintech;odeme",Okul listesinden
-Konya Bilişim Ltd.,konyabilisim.com.tr,info@konyabilisim.com.tr,Konya,Selçuklu,Teknokent,,Yazılım,ERP çözümleri,Ayşe Yılmaz,erp,
 ```
 
-| Sütun | Açıklama |
-|---|---|
-| `name` | Şirket adı (**zorunlu**) |
-| `website` | Web sitesi; `https://` yazmasanız da olur. Tekilleştirme anahtarıdır |
-| `email` | Bir ya da birden çok e-posta (`;` ile). `kariyer@`, `ik@`, `staj@` gibi adresler İK olarak önceliklenir |
-| `city` | Şehir; boşsa `--city` ile verilen varsayılan kullanılır. Hedef şehir dışındakiler atlanır (`--allow-non-target` ile alınır) |
-| `district`, `address`, `phone`, `sector`, `description` | İsteğe bağlı |
-| `contact_name` | Yetkili kişi adı (şablonda hitap için) |
-| `tags` | Serbest etiketler, `;` ile |
-| `notes` | Kendi notunuz |
+`--source school` ile alınan şirketler okul protokolü olarak işaretlenir ve +25 puan alır. Aynı dosyayı tekrar içe aktarmak kayıt çoğaltmaz, yalnızca boş alanları doldurur.
 
-Örnek dosya: `tests/fixtures/cli/sablon.csv`. Okul protokol listesini `--source school` ile içe
-aktarın; bu şirketlerde `school_protocol=True` olur ve puana +25 eklenir. Aynı dosyayı tekrar içe
-aktarmak kayıt çoğaltmaz; yalnızca boş alanlar doldurulur.
+</details>
 
 ---
+
+## Güvenlik ve nezaket
+
+- **Onay olmadan mail gitmez.** Taslaklar web arayüzünde tek tek onaylanır, gönderim ayrıca başlatılır.
+- **Spam gibi görünmez.** Günlük limit, mesai saati, 2–6 dakika rastgele bekleme ve aynı şirkete 14 gün kuralı vardır. Kara listedeki ya da süreci kapanmış şirketlere asla mail gitmez.
+- **Ulaşmayan mailler ayıklanır.** Bounce gelen adreslere hatırlatma gönderilmez.
+- **Toplayıcılar saygılıdır.** `robots.txt`'e uyar, istekler arasında bekler ve kendini User-Agent ile tanıtır.
+- **Kişisel veri repoda yok.** `.env`, veritabanı, CV ve profil `.gitignore`'dadır.
+- **Son söz senin.** Cevap tahminleri yalnızca tahmindir. LLM paragrafını göndermeden önce her taslağı oku.
+
+---
+
+## Proje yapısı
+
+```
+stajbot/
+├── collectors/   # Ar-Ge, teknopark, YASAD/TÜBİSAD, Google Places, CSV + birleştirme
+├── enrich/       # site tarama, anahtar kelimeler, puanlama
+├── mail/         # şablonlar, taslak üretimi, LLM, SMTP gönderim, IMAP, cevap eşleştirme
+├── web/          # FastAPI + Jinja2 + HTMX arayüzü
+├── models.py     # SQLAlchemy modelleri
+├── enums.py      # durumlar ve izin verilen geçişler
+├── services.py   # iş kuralları
+└── cli.py        # Typer komutları
+tests/            # 686 test, ağ gerektirmeyen fikstürlerle
+```
+
+Modül sınırları ve veri modeli için [`MIMARI.md`](MIMARI.md) dosyasına bak.
 
 ## Geliştirme
 
 ```powershell
 .venv\Scripts\python -m pytest -q              # ağ gerektirmeyen testler
-.venv\Scripts\python -m pytest -q -m network   # canlı siteye çıkan testler
+.venv\Scripts\python -m pytest -q -m network   # canlı sitelere çıkan testler
 ```
 
-Mimari sözleşme ve modül sınırları için `MIMARI.md` dosyasına bakın.
+**Teknolojiler:** Python 3.13 · FastAPI · Jinja2 · HTMX · Pico.css · SQLAlchemy 2 · SQLite · httpx · selectolax · Typer · Anthropic SDK · pytest · respx
+
+Proje, yapay zekâ destekli bir kodlama aracıyla (Claude Code) birlikte geliştirildi.
