@@ -1,0 +1,19 @@
+{
+  "textQuery": "yazılım şirketi",
+  "languageCode": "tr",
+  "regionCode": "TR",
+  "pageSize": 20,
+  "rankPreference": "RELEVANCE",
+  "locationRestriction": {
+    "rectangle": {
+      "low": {
+        "latitude": 37.7,
+        "longitude": 32.2
+      },
+      "high": {
+        "latitude": 38.15,
+        "longitude": 32.85
+      }
+    }
+  }
+}

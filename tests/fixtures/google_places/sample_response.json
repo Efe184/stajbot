@@ -1,0 +1,161 @@
+{
+  "places": [
+    {
+      "name": "places/ChIJ0000000000000000000000A",
+      "id": "ChIJ0000000000000000000000A",
+      "types": [
+        "corporate_office",
+        "consultant",
+        "point_of_interest",
+        "establishment"
+      ],
+      "nationalPhoneNumber": "(0332) 000 00 00",
+      "internationalPhoneNumber": "+90 332 000 00 00",
+      "formattedAddress": "Konya Teknokent, Akademi Mah. Yeni İstanbul Cad. No:12, 42130 Selçuklu/Konya, Türkiye",
+      "shortFormattedAddress": "Akademi, Yeni İstanbul Cd. No:12, Selçuklu",
+      "addressComponents": [
+        {
+          "longText": "12",
+          "shortText": "12",
+          "types": [
+            "street_number"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "Yeni İstanbul Caddesi",
+          "shortText": "Yeni İstanbul Cd.",
+          "types": [
+            "route"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "Akademi Mahallesi",
+          "shortText": "Akademi Mah.",
+          "types": [
+            "administrative_area_level_4",
+            "political"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "Selçuklu",
+          "shortText": "Selçuklu",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "Konya",
+          "shortText": "Konya",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "Türkiye",
+          "shortText": "TR",
+          "types": [
+            "country",
+            "political"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "42130",
+          "shortText": "42130",
+          "types": [
+            "postal_code"
+          ],
+          "languageCode": "tr"
+        }
+      ],
+      "location": {
+        "latitude": 38.0298,
+        "longitude": 32.5102
+      },
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=1234567890123456789",
+      "websiteUri": "https://www.ornekyazilim.com.tr/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 27,
+      "displayName": {
+        "text": "Örnek Yazılım ve Bilişim Teknolojileri A.Ş.",
+        "languageCode": "tr"
+      },
+      "primaryType": "corporate_office",
+      "primaryTypeDisplayName": {
+        "text": "Şirket Ofisi",
+        "languageCode": "tr"
+      }
+    },
+    {
+      "name": "places/ChIJ0000000000000000000000B",
+      "id": "ChIJ0000000000000000000000B",
+      "types": [
+        "corporate_office",
+        "point_of_interest",
+        "establishment"
+      ],
+      "formattedAddress": "Fevzi Çakmak Mah. 10562. Sk. No:5, 42050 Karatay/Konya, Türkiye",
+      "addressComponents": [
+        {
+          "longText": "Karatay",
+          "shortText": "Karatay",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "Konya",
+          "shortText": "Konya",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "Türkiye",
+          "shortText": "TR",
+          "types": [
+            "country",
+            "political"
+          ],
+          "languageCode": "tr"
+        },
+        {
+          "longText": "42050",
+          "shortText": "42050",
+          "types": [
+            "postal_code"
+          ],
+          "languageCode": "tr"
+        }
+      ],
+      "location": {
+        "latitude": 37.9312,
+        "longitude": 32.5501
+      },
+      "googleMapsUri": "https://maps.google.com/?cid=9876543210987654321",
+      "businessStatus": "CLOSED_TEMPORARILY",
+      "displayName": {
+        "text": "Deneme Ar-Ge Mühendislik Ltd. Şti.",
+        "languageCode": "tr"
+      },
+      "primaryType": "corporate_office",
+      "primaryTypeDisplayName": {
+        "text": "Şirket Ofisi",
+        "languageCode": "tr"
+      }
+    }
+  ],
+  "nextPageToken": "AeCrKXvPd6uUy-oj96W2OaqEe2pUD8QTxOM8-sKfUcFsC9t2Wey5qivrKGoGSxcZnyc7RPmaFfAktslrKbUh31ZDTkL0upRmaxA7c_c"
+}

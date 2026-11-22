@@ -1,0 +1,17 @@
+{
+  "places": [
+    {
+      "id": "ChIJp1-VoKWJplQRMz8g-7Wa3Do",
+      "businessStatus": "FUTURE_OPENING",
+      "displayName": {
+        "text": "Roberts Greenhouse and Tree Farm",
+        "languageCode": "en"
+      },
+      "openingDate": {
+        "year": 2026,
+        "month": 4,
+        "day": 15
+      }
+    }
+  ]
+}
